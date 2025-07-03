@@ -1,0 +1,7 @@
+
+<Styles id="BuR_Theme_ABB_Dark_UserList" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.UserList" fontName="Arial" fontSize="16px" headerFontSize="18px" bold="false" cellPadding="5px" borderStyle="none" textColor="rgba(255, 255, 255, 1)" backColor="transparent" backColorEvenRow="rgba(152, 152, 152, 1)" backColorOddRow="rgba(92, 92, 92, 1)" cellBorderStyle="solid" cellBorderWidth="0px 0px 1px 1px" cellBorderColor="rgba(31, 31, 31, 1)" headerBackColor="rgba(31, 31, 31, 1)" headerTextColor="rgba(255, 255, 255, 1)" sortingButtonColor="rgba(255, 255, 255, 1)" sortingButtonActiveColor="rgba(255, 136, 0, 1)" disabledBackColorEvenRow="rgba(190, 190, 190, 1)" disabledBackColorOddRow="rgba(150, 150, 150, 1)" disabledHeaderBackColor="rgba(110, 110, 110, 1)" disabledHeaderTextColor="rgba(210, 210, 210, 1)" disabledTextColor="rgba(90, 90, 90, 1)" />
+
+</Styles>

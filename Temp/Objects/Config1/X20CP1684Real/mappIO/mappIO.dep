@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpIO/MpIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpIO/MpIOError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpIO/MpIO.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1684/mappServices/Config_2.mpio
+$(AS_PROJECT_PATH)/Logical/mappIO/Variables.var

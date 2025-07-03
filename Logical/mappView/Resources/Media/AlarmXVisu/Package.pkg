@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">nact_nack.svg</Object>
+    <Object Type="File">act_ack.svg</Object>
+    <Object Type="File">act_nack.svg</Object>
+    <Object Type="File">nact_ack.svg</Object>
+    <Object Type="File">SugarLevel.mp4</Object>
+    <Object Type="File">Alarm_ENG.pdf</Object>
+    <Object Type="File">Alarm_GER.pdf</Object>
+    <Object Type="File">filter.png</Object>
+  </Objects>
+</Package>

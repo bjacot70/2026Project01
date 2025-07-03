@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="LoginDialogEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="eventbinding_0">
+      <Source xsi:type="widgets.brease.Image.Event" contentRefId="ContentTop" widgetRefId="LoginImage" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="LoginDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_2">
+      <Source xsi:type="widgets.brease.Label.Event" contentRefId="ContentTop" widgetRefId="LabelLogin" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="LoginDialog" headerText="User management" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_3">
+      <Source xsi:type="widgets.brease.Login.Event" contentRefId="ContentLogin" widgetRefId="Login1" event="LoginSuccess" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="LoginDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSettings" widgetRefId="ChangePassword" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenChangePasswordDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_5">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSettings" widgetRefId="AddUser" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.UserList.Action" contentRefId="ContentSettings" widgetRefId="UserList1">
+            <Method xsi:type="widgets.brease.UserList.Action.OpenAddUserDialog" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+                  <Method xsi:type="session.VariableAction.SetValueNumber" value="=result" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_6">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSettings" widgetRefId="EditUser" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.UserList.Action" contentRefId="ContentSettings" widgetRefId="UserList1">
+            <Method xsi:type="widgets.brease.UserList.Action.OpenModifyUserDialog" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+                  <Method xsi:type="session.VariableAction.SetValueNumber" value="=result" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_7">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSettings" widgetRefId="DeleteUser" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.UserList.Action" contentRefId="ContentSettings" widgetRefId="UserList1">
+            <Method xsi:type="widgets.brease.UserList.Action.DeleteUser" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+                  <Method xsi:type="session.VariableAction.SetValueNumber" value="=result" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="widgets.brease.UserList.Event" contentRefId="ContentSettings" widgetRefId="UserList1" event="OnError" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="=result" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="widgets.brease.UserList.Event" contentRefId="ContentSettings" widgetRefId="UserList1" event="UserAdded" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="=Code" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_6">
+      <Source xsi:type="session.Event" refId="UserListErrorCode" event="ValueChanged" />
+      <EventHandler condition="newValue &gt; 1">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="UserErrorDialog" headerText="User management" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 0">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="UserErrorDialog" headerText="User management" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_7">
+      <Source xsi:type="widgets.brease.UserList.Event" contentRefId="ContentSettings" widgetRefId="UserList1" event="UserModified" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="=Code" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_8">
+      <Source xsi:type="clientSystem.Event" event="DialogClosed" />
+      <EventHandler condition="dialogId=&quot;UserErrorDialog&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="UserListErrorCode">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

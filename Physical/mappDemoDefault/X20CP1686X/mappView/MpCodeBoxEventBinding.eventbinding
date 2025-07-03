@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MpCodeBoxEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    
+    <!--Start Powerflow-->
+    <EventBinding>
+      <Source xsi:type="widgets.brease.Button.Event" event="Click" contentRefId="ContentMpCodeBox" widgetRefId="StartPowerflow" />
+      <EventHandler>
+        <Action>
+			<Target xsi:type="widgets.brease.LadderEditor.Action" contentRefId="ContentMpCodeBox" widgetRefId="MyLadderEditor">
+				<Method xsi:type="widgets.brease.LadderEditor.Action.SetPowerflow" value="true" />
+			</Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+	
+	<!--Stop Powerflow	-->
+	<EventBinding>
+		<Source xsi:type="widgets.brease.Button.Event" event="Click" contentRefId="ContentMpCodeBox" widgetRefId="StopPowerflow" />
+		<EventHandler>
+			<Action>
+				<Target xsi:type="widgets.brease.LadderEditor.Action" contentRefId="ContentMpCodeBox" widgetRefId="MyLadderEditor">
+					<Method xsi:type="widgets.brease.LadderEditor.Action.SetPowerflow" value="false" />
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+
+  </Bindings>
+</EventBindingSet>

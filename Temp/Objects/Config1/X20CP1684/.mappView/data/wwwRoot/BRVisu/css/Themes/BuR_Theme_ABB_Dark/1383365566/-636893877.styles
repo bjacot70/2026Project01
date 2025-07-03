@@ -1,0 +1,10 @@
+
+<Styles id="BuR_Theme_ABB_Dark_Button" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.Button" fontName="Arial" fontSize="16px" textAlign="center" bold="true" borderStyle="none" cornerRadius="1000px" backColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" imageColor="rgba(255, 255, 255, 1)" disabledBackColor="rgba(152, 152, 152, 1)" disabledTextColor="rgba(210, 210, 210, 1)" disabledImageColor="rgba(210, 210, 210, 1)" mouseDownBackColor="rgba(92, 92, 92, 1)" mouseDownTextColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" mouseDownBorderColor="rgba(255, 136, 0, 1)" />
+	
+	<Style id="defaultSmall" xsi:type="widgets.brease.Button" fontName="Arial" fontSize="14px" textAlign="center" bold="true" borderStyle="none" cornerRadius="1000px" backColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" imageColor="rgba(255, 255, 255, 1)" disabledBackColor="rgba(152, 152, 152, 1)" disabledTextColor="rgba(210, 210, 210, 1)" disabledImageColor="rgba(210, 210, 210, 1)" mouseDownBackColor="rgba(92, 92, 92, 1)" mouseDownTextColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" mouseDownBorderColor="rgba(255, 136, 0, 1)" />
+
+	<Style id="transparent" xsi:type="widgets.brease.Button" backColor="transparent" mouseDownBackColor="transparent" disabledBackColor="transparent" borderStyle="none" imageColor="rgba(255, 255, 255, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" disabledImageColor="rgba(210, 210, 210, 1)" />
+	</Styles>

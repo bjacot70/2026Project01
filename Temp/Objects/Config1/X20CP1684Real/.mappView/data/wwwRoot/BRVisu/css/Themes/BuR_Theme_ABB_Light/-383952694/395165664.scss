@@ -1,0 +1,84 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmList/meta/AlarmList_base";
+.widgets_brease_AlarmList_style_default {
+@include widgets_brease_AlarmList_base; 
+&.breaseTableWidget .breaseTableColumnWidget {
+	font-family: Arial;
+}
+&.breaseTableWidget .dataTable>tbody>tr>td {
+	font-family: Arial;
+}
+&.breaseTableWidget .dataTable>tbody>tr>td {
+	font-size: 16px;
+}
+&.breaseTableWidget .breaseTableColumnWidget .headerText {
+	font-size: 18px;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+@include font-weight-bold(false);
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	padding: 5px;
+}
+&.breaseTableWidget {
+	border-style: none;
+}
+&.breaseTableWidget .dataTable>tbody>tr:not(.selected):not(.disabled)>td {
+	color: rgba(0, 0, 0, 1);
+}
+&.breaseTableWidget {
+	background-color: transparent;
+}
+&.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(even) {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(odd) {
+	background-color: rgba(240, 240, 240, 1);
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-bottom-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-right-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-top-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-left-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-width: 0px 0px 1px 1px;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+	background-color: rgba(210, 210, 210, 1);
+}
+&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+	color: rgba(0, 0, 0, 1);
+}
+svg > g > path.unselected {
+	fill: rgba(0, 0, 0, 1);
+}
+svg > g > path.selected {
+	fill: rgba(255, 136, 0, 1);
+}
+&.breaseTableWidget .dataTable tr:nth-of-type(even).disabled {
+	background-color: rgba(245, 245, 245, 1);
+}
+&.breaseTableWidget .dataTable tr:nth-of-type(odd).disabled {
+	background-color: rgba(235, 235, 235, 1);
+}
+.breaseTableColumnWidget.disabled {
+	background-color: rgba(210, 210, 210, 1);
+}
+.breaseTableColumnWidget.disabled > .headerText {
+	color: rgba(110, 110, 110, 1);
+}
+&.breaseTableWidget .dataTable>tbody>tr.disabled>td {
+	color: rgba(210, 210, 210, 1);
+}
+
+}

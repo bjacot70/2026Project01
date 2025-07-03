@@ -1,0 +1,69 @@
+
+<vdef:Visualization id="HD_LS1" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="HD_LS1_Main" />
+  <Pages>
+    <Page refId="HD_LS1_Main" />
+    <Page refId="HD_LS1_Alarm" />
+    <Page refId="HD_LS1_SDM" />
+    <Page refId="HD_LS1_Production" />
+    <Page refId="HD_LS1_Service" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="2134810117" />
+    <BindingsSet refId="888297365" />
+    <BindingsSet refId="1434953946" />
+    <BindingsSet refId="-1127290624" />
+    <BindingsSet refId="1712597672" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="-1127290624" />
+    <EventBindingsSet refId="-845366405" />
+    <EventBindingsSet refId="888297365" />
+    <EventBindingsSet refId="1434953946" />
+    <EventBindingsSet refId="2134810114" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="LoginDialog" />
+  </Dialogs>
+  <Contents>
+    <Content refId="HD_LS1_contentHeader" />
+    <Content refId="HD_LS1_contentNavigation" />
+    <Content refId="HD_LS1_contentMain" />
+    <Content refId="HD_LS1_contentAlarmMgt" />
+    <Content refId="HD_LS1_contentAlarmList" />
+    <Content refId="HD_LS1_contentAlarmHistory" />
+    <Content refId="HD_LS1_contentSDM" />
+    <Content refId="HD_LS1_contentProductionMgt" />
+    <Content refId="HD_LS1_contentServiceMgt" />
+    <Content refId="HD_LS1_contentProduction1" />
+    <Content refId="HD_LS1_contentProduction2" />
+    <Content refId="HD_LS1_contentProduction3" />
+    <Content refId="HD_LS1_contentService1" />
+    <Content refId="HD_LS1_contentService2" />
+    <Content refId="HD_LS1_contentService3" />
+    <Content refId="ContentLogin" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets>
+    <VariablesSet refId="HD_LS1" />
+  </VariablesSets>
+  <ExpressionsSets />
+  <StartTheme themeRefId="BuR_Theme_ABB_Dark" />
+  <Themes>
+    <Theme refId="BuR_Theme_ABB_Dark" />
+    <Theme refId="BuR_Theme_ABB_Light" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Configuration key="zoom" value="true" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

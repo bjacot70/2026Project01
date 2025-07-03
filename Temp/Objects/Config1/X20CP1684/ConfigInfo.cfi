@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.3.1.32"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1" />
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="HMI"
+      Disable="false"
+      Source="HMI"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\HMI\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\HMI\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\HMI\Variables.var" />
+    </Task>
+    <Task
+      Name="Safety"
+      Disable="false"
+      Source="Safety"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\Safety\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Safety\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Safety\Variables.var" />
+    </Task>
+    <Task
+      Name="motion"
+      Disable="false"
+      Source="motion"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\motion\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\motion\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\motion\Variables.var" />
+    </Task>
+    <Task
+      Name="mappIO"
+      Disable="false"
+      Source="mappIO"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappIO\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappIO\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappIO\Variables.var" />
+    </Task>
+    <Task
+      Name="mappAlarmX"
+      Disable="false"
+      Source="mappAlarmX"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappAlarmX\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappAlarmX\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappAlarmX\Variables.var" />
+    </Task>
+    <Task
+      Name="mappRecipe"
+      Disable="false"
+      Source="mappRecipe"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappRecipe\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappRecipe\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappRecipe\Variables.var" />
+    </Task>
+    <Task
+      Name="EventLog"
+      Disable="false"
+      Source="EventLog"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\EventLog\EventLog.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.fun" />
+    </Task>
+    <Task
+      Name="Robot"
+      Disable="false"
+      Source="Robot"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\Robot\Main.st.var" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Robot\Types.typ" />
+      <File
+        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Robot\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

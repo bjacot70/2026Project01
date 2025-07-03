@@ -1,0 +1,7 @@
+VAR
+	MpRecipeRegPar_0 : MpRecipeRegPar;
+	MpRecipeXML_0 : MpRecipeXml;
+	recipeXML : INT;
+	loadSettings : BOOL;
+	saveSettings : BOOL;
+END_VAR

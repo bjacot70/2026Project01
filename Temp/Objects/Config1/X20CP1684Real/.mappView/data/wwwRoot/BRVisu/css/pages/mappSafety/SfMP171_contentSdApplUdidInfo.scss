@@ -1,0 +1,23 @@
+@import "mixins.scss";
+#SfMP171_contentSdApplUdidInfo_SfMP171_imageSearchingBrowseGIF {	@include elemTop(10);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_imageSearchingBrowseGIF {	@include elemLeft(10);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_imageSearchingBrowseGIF {	@include elemAutoWidth(40);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_imageSearchingBrowseGIF {	@include elemAutoHeight(40);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_imageSearchingBrowseGIF {	z-index: 0;
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	@include elemTop(12);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	@include elemLeft(60);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	@include elemAutoWidth(340);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	@include elemAutoHeight(60);
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	z-index: 1;
+}
+#SfMP171_contentSdApplUdidInfo_SfMP171_labelSdApplUdid {	font-size: 12px;
+}

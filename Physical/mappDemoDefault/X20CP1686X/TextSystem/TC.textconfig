@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="en" />
+      <Property ID="UserFallbackLanguage" Value="en" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="de" />
+        <Property ID="TargetLanguage[2]" Value="en" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="Infrastructure.ReportTexts.tmx" />
+      <Property ID="TargetFile[2]" Value="Infrastructure.AuditText.tmx" />
+      <Property ID="TargetFile[3]" Value="Infrastructure.Sequencer.tmx" />
+      <Property ID="TargetFile[4]" Value="Infrastructure.ValueText.tmx" />
+      <Property ID="TargetFile[5]" Value="Infrastructure.AuditDisplayText.tmx" />
+      <Property ID="TargetFile[6]" Value="Infrastructure.SkylineText.tmx" />
+      <Property ID="TargetFile[7]" Value="mappView.Visualization.Resources.Texts.MainPageTexts.tmx" />
+      <Property ID="TargetFile[8]" Value="mappView.Visualization.Resources.Texts.AreaTopTexts.tmx" />
+      <Property ID="TargetFile[9]" Value="mappView.Visualization.Resources.Texts.LoginDialogTexts.tmx" />
+      <Property ID="TargetFile[10]" Value="mappView.Visualization.Resources.Texts.MpCoffeeTexts.tmx" />
+      <Property ID="TargetFile[11]" Value="mappView.Visualization.Resources.Texts.MpAlarmXTexts.tmx" />
+      <Property ID="TargetFile[12]" Value="mappView.Visualization.Resources.Texts.MpRecipeTexts.tmx" />
+      <Property ID="TargetFile[13]" Value="mappView.Visualization.Resources.Texts.MpComTexts.tmx" />
+      <Property ID="TargetFile[14]" Value="mappView.Visualization.Resources.Texts.MpAuditTexts.tmx" />
+      <Property ID="TargetFile[15]" Value="mappView.Visualization.Resources.Texts.MpEnergyTexts.tmx" />
+      <Property ID="TargetFile[16]" Value="mappView.Visualization.Resources.Texts.MpFileTexts.tmx" />
+      <Property ID="TargetFile[17]" Value="mappView.Visualization.Resources.Texts.MpPackMLTexts.tmx" />
+      <Property ID="TargetFile[18]" Value="mappView.Visualization.Resources.Texts.MpUserXTexts.tmx" />
+      <Property ID="TargetFile[19]" Value="mappView.Visualization.Resources.Texts.MpReportTexts.tmx" />
+      <Property ID="TargetFile[20]" Value="mappView.Visualization.Resources.Texts.MpIOTexts.tmx" />
+      <Property ID="TargetFile[21]" Value="mappView.Visualization.Resources.Texts.MpSequenceTexts.tmx" />
+      <Property ID="TargetFile[22]" Value="mappView.Visualization.Resources.Texts.Components.tmx" />
+      <Property ID="TargetFile[23]" Value="mappView.Visualization.Resources.Texts.MpCodeBoxTexts.tmx" />
+      <Property ID="TargetFile[24]" Value="mappView.Visualization.Resources.Texts.MpSkylineTexts.tmx" />
+      <Property ID="TargetFile[25]" Value="mappView.Visualization.Resources.Texts.MpPackMLStyle.tmx" />
+      <Property ID="TargetFile[26]" Value="mappView.Visualization.Resources.Texts.UserList.tmx" />
+      <Property ID="TargetFile[27]" Value="mappView.Visualization.Resources.Texts.ChangePasswordTexts.tmx" />
+    </Group>
+  </Element>
+</Configuration>

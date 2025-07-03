@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOAcc/AsIOAcc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIOAcc/AsIOAcc.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/SfDomain/SfDomain.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/SfDomain/SfDomain.typ
+$(AS_PROJECT_PATH)/Logical/Safety/Types.typ
+$(AS_PROJECT_PATH)/Logical/Safety/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1684/mappSafety/Config.sfdomain

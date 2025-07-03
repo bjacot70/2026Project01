@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="PackMLStyleBinding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Idle" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlIdle" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlIdle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblIdle" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Starting" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlStarting" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlStarting" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblStarting" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Execute" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlExecute" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlExecute" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblExecute" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Completing" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlCompleting" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlCompleting" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblCompleting" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Complete" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlComplete" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlComplete" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblComplete" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Holding" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlHolding" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlHolding" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblHolding" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Held" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlHeld" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlHeld" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblHeld" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Unholding" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlUnholding" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlUnholding" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblUnholding" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Resetting" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlResetting" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlResetting" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblResetting" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Unsuspending" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlUnsuspending" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlUnsuspending" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblUnsuspending" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Suspended" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlSuspended" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlSuspended" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblSuspended" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Suspending" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlSuspending" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlSuspending" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblSuspending" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Stopped" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlStopped" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlStopped" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblStopped" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Stopping" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlStopping" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlStopping" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblStopping" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Clearing" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlClearing" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlClearing" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblClearing" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Aborted" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlAborted" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlAborted" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblAborted" attribute="style" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::PackML:MpPackMLBasicUIConnect.StateControl.ColorIndex.Aborting" attribute="value" />
+			<Target xsi:type="snippet" refId="pmlAborting" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="pmlAborting" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentPackML" widgetRefId="lblAborting" attribute="style" />
+		</Binding>
+		
+		
+  </Bindings>
+</BindingsSet>

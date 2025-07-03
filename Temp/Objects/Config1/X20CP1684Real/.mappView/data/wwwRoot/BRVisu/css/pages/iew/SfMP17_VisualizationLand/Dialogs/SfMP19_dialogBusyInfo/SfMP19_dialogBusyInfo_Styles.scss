@@ -1,0 +1,11 @@
+﻿@import "mixins.scss";
+div[data-brease-dialogId='SfMP193_dialogBusyInfo'] {
+	.breaseDialogWindowHeader div.innerHeader{
+@include text-alignment(left);
+	}
+}
+div[data-brease-dialogId='SfMP193_dialogBusyInfo'] {
+	.breaseWindowClose{
+@include display(false);
+	}
+}

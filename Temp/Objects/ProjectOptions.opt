@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.3.1.32"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Projects\BR\AS\6\Desk\baseProject\Logical\"
+  TempDirectory="C:\Projects\BR\AS\6\Desk\baseProject\Temp\"
+  AutomationStudioVersion="6.3.1.32"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

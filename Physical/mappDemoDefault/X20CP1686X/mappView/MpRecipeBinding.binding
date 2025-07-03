@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MpRecipeBinding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+  <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.List.Names" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="TableItem1" attribute="stringValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.List.Sizes" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="TableItem3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Milk" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentCreateNewRecipe" widgetRefId="NumericInput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Coffee" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentCreateNewRecipe" widgetRefId="NumericInput2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Water" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentCreateNewRecipe" widgetRefId="NumericInput1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Sugar" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentCreateNewRecipe" widgetRefId="NumericInput4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.New.FileName" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentCreateNewRecipe" widgetRefId="TextInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.NewFileName" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentRenameRecipe" widgetRefId="TextInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.List.SelectedIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="Table1" attribute="selectedRow" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.Filter" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="SearchText" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Recipe:LoadRecipe" attribute="value" />
+<Target xsi:type="session" refId="UpdateRecipe" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.List.SelectedIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="Table1" attribute="selectedRow" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:EditIngredients.Coffee" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentEditRecipe" widgetRefId="NumericInput2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:EditIngredients.Milk" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentEditRecipe" widgetRefId="NumericInput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:EditIngredients.Sugar" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentEditRecipe" widgetRefId="NumericInput4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:EditIngredients.Water" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentEditRecipe" widgetRefId="NumericInput1" attribute="node" />
+		</Binding>
+		
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:LoadRecipeSimple" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

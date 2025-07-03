@@ -1,0 +1,21 @@
+.traceControlStateImage {
+        background-image: url(../images/inactive.svg);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        background-size: 20px 20px;
+}
+
+.traceConfigurationText {
+        background-color: var(--main-grey-dark2) !important;
+        color: rgb(255, 255, 255);
+        padding:1px 5px;
+        margin-top: 6px;
+        
+        border: 0px !important; 
+        font-size: 12px !important;
+        font-family: var(--main-font) !important;
+        font-weight: Normal;
+        cursor : default;
+        display: none;
+}

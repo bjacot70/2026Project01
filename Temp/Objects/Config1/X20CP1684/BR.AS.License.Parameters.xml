@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /AM=* /SDT=5 /IP=192.168.50.160 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Projects\BR\AS\6\Desk\baseProject\baseProject.apj</ApjFullFileName>
+    <ProjectName>baseProject</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

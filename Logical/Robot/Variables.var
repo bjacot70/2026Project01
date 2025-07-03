@@ -1,0 +1,9 @@
+VAR
+	Sensor2 : BOOL;
+	Sensor3 : BOOL;
+	Sensor1 : BOOL;
+	ConveyorSpeed : REAL;
+	ActivateConveyor : BOOL;
+	RobotOutput : ARRAY[0..1] OF USINT;
+	RobotInput : ARRAY[0..1] OF USINT;
+END_VAR

@@ -1,0 +1,4 @@
+VAR
+	ActivePowerCupFeeder : INT := 0;
+	ActivePowerTakeout : INT := 0;
+END_VAR

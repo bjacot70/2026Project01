@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Visualization>
+    <EventBinding id="HD_LS1_System_isValid">
+      <Source type="session.Event" refId="::SYSTEM:clientInfo.isValid" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <ReadTarget type="session.VariableAction.Read" refId="HD_LS1_Theme">
+            <Method type="session.VariableAction.GetValue" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler condition="result">
+              <Action>
+                <Target type="clientSystem.Action">
+                  <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuR_Theme_ABB_Light" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                </Target>
+              </Action>
+            </ResultHandler>
+            <ResultHandler condition="NOT result">
+              <Action>
+                <Target type="clientSystem.Action">
+                  <Method type="clientSystem.Action.ChangeTheme"><Parameter name="theme" xsi:type="ANY_STRING" value="BuR_Theme_ABB_Dark" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Visualization>
+</EventBindingDefinition>

@@ -1,0 +1,233 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "ManifestSchemaTypeV1",
+    "type": "object",
+    "properties": {
+        "$schema": true,
+        "version": {
+            "type": "integer",
+            "description": "Version of the package definition.",
+            "default": 1
+        },
+        "packageDefinition": {
+            "type": "object",
+            "description": "Package definition",
+            "properties": {
+                "placeHolders": {
+                    "type": "object",
+                    "description": "Place holder variables that can be used inside endpoints. The list of default variables (${mcoPackageRoot}, ${origin}, ${protocol}, ${hostname}, ${port}) can be overwritten here.",
+                    "patternProperties": {
+                        ".*": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "views": {
+                    "type": "array",
+                    "description": "Requires an array of views that are added inside mapp Cockpit",
+                    "items": {
+                        "$ref": "#/definitions/view"
+                    },
+                    "minItems": 1,
+                    "additionalItems": false
+                },
+                "links": {
+                    "type": "array",
+                    "description": "Requires an array of links that are added inside mapp Cockpit",
+                    "items": {
+                        "$ref": "#/definitions/link"
+                    },
+                    "minItems": 1,
+                    "additionalItems": false
+                },
+                "tools": {
+                    "type": "array",
+                    "description": "Requires an array of tools that are added inside mapp Cockpit.",
+                    "items": {
+                        "$ref": "#/definitions/tool"
+                    },
+                    "minItems": 1,
+                    "additionalItems": false
+                },
+                "services": {
+                    "type": "array",
+                    "description": "Requires an array of services that can be called from mapp Cockpit.",
+                    "items": {
+                        "$ref": "#/definitions/service"
+                    },
+                    "minItems": 1,
+                    "additionalItems": false
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": ["version", "packageDefinition"],
+    "definitions": {
+        "svgIconSmall": {
+            "type": "object",
+            "properties": {
+                "16": {
+                    "type": "string",
+                    "pattern": "\\.svg$"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["16"]
+        },
+        "svgIcon": {
+            "type": "object",
+            "properties": {
+                "48": {
+                    "type": "string",
+                    "pattern": "\\.svg$"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["48"]
+        },
+        "displayName": {
+            "type": "object",
+            "properties": {
+                "defaultText": {
+                    "type": "string",
+                    "description": "The defaultText is the english text that is displayed inside mapp Cockpit."
+                }
+            },
+            "additionalProperties": false,
+            "required": ["defaultText"]
+        },
+        "matchToToolCategories": {
+            "type": "array",
+            "description": "Match the item to corresponding tool categories, where it should be displayed. Hint: New tool categories need also be created inside the manifest.",
+            "items": {
+                "type": "string"
+            },
+            "additionalItems": false,
+            "minItems": 1
+        },
+        "view": {
+            "type": "object",
+            "properties": {
+                "viewID": {
+                    "type": "string",
+                    "description": "Unique identifier of the view inside the package."
+                },
+                "endpoint": {
+                    "type": "string",
+                    "default": "${mcoPackageRoot}",
+                    "description": "Endpoint (URL) that is used to open the view inside an iframe. ${mcoPackageRoot} can be used as origin template equivalent to mapp Cockpit."
+                },
+                "title": {
+                    "$ref": "#/definitions/displayName"
+                },
+                "openViewAction": {
+                    "$ref": "#/definitions/displayName"
+                },
+                "matchToToolCategories": {
+                    "$ref": "#/definitions/matchToToolCategories" 
+                },
+                "icons": {
+                    "type": "object",
+                    "description": "Icons that are used inside the navigation to describe the view.",
+                    "properties": {
+                        "default": {
+                            "$ref": "#/definitions/svgIcon"
+                        },
+                        "active": {
+                            "$ref": "#/definitions/svgIcon"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["default", "active"]
+                },
+                "frameAttributes": {
+                    "type": "object",
+                    "description": "Frame attributes (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) that are directly set to the iframe with setAttribute (https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute). ATTENTION: Not all attributes are allowed to be set.",
+                    "patternProperties": {
+                        ".*": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false,
+            "required": ["viewID", "endpoint", "title", "openViewAction", "icons"]
+        },
+        "link": {
+            "type": "object",
+            "properties": {
+                "linkID": {
+                    "type": "string",
+                    "description": "Unique identifier of the link inside the package."
+                },
+                "endpoint": {
+                    "type": "string",
+                    "default": "${mcoPackageRoot}",
+                    "description": "Endpoint (URL) that is used to open the link inside a new tab. ${mcoPackageRoot} can be used as origin template equivalent to mapp Cockpit."
+                },
+                "openLinkAction": {
+                    "$ref": "#/definitions/displayName"
+                },
+                "matchToToolCategories": {
+                    "$ref": "#/definitions/matchToToolCategories" 
+                },
+                "icons": {
+                    "type": "object",
+                    "description": "Icons that are used inside the navigation to describe the link.",
+                    "properties": {
+                        "default": {
+                            "$ref": "#/definitions/svgIconSmall"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["default"]
+                }
+            },
+            "additionalProperties": false,
+            "required": ["linkID", "endpoint", "openLinkAction", "icons"]
+        },
+        "tool": {
+            "type": "object",
+            "description": "A tool is added in the tools area of mapp Cockpit. A tool can not be integrated on its own, since it requires at least one item that is matched by the category.",
+            "properties": {
+                "toolName": {
+                    "$ref": "#/definitions/displayName"
+                },
+                "category": {
+                    "type": "string",
+                    "description": "Category that is used to map logically matching tool item."
+                }
+            },
+            "additionalProperties": false,
+            "required": ["toolName", "category"]
+        },
+        "service": {
+            "type": "object",
+            "description": "A service is a extension code that is called at runtime as hook triggered from a specific extension point. The execution of the service is inside the worker.",
+            "properties": {
+                "extensionPointId": {
+                    "type": "string",
+                    "description": "The extensionPointId needs to match the id of the extensionPoint defined in core"
+                },
+                "serviceID": {
+                    "type": "string",
+                    "description": "The serviceID is used as identifier."
+                },
+                "endpoint": {
+                    "type": "string",
+                    "description": "The endpoint defines the path to the executed service code. The mcoPackageRoot can be used for creating the path."
+                },
+                "methodName": {
+                    "type": "string",
+                    "description": "The methodName name of the service that is called for execution."
+                }
+            },
+            "additionalProperties": false,
+            "required": ["extensionPointId", "serviceID", "endpoint", "methodName"]
+        }
+    }
+}

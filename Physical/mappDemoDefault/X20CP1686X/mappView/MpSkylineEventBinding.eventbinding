@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MpSkylineEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+		
+		<!--Open Skyline-Dialog-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Skyline.Event" contentRefId="ContentMpSkyline" widgetRefId="Skyline1" event="ModuleClick" />
+			<EventHandler>
+				<Parallel>
+					<Action>
+						<Target xsi:type="session.VariableAction" refId="ModuleName">
+							<Method xsi:type="session.VariableAction.SetValueString" value="=id" />
+						</Target>
+					</Action>
+					<Action>
+						<Target xsi:type="clientSystem.Action">
+							<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="SkylineDialog" mode="modeless" />
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>	
+		
+		<!--CloseDialog event-->
+		<EventBinding>
+			<Source xsi:type="clientSystem.Event" event="DialogClosed" />
+			<EventHandler condition="dialogId=&quot;SkylineDialog&quot;">
+				<Action>
+					<Target xsi:type="widgets.brease.Skyline.Action" contentRefId="ContentMpSkyline" widgetRefId="Skyline1">
+						<Method xsi:type="widgets.brease.Skyline.Action.SetSelectedModule" id="" next="false" previous="false" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Activate Option Dialog-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSkyline" widgetRefId="ActivateOption" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="SkylineOptionDialog" mode="modal" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+
+		<!--Set Machine options-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentSkylineOption" widgetRefId="SetMachineOptions" event="Click" />
+			<EventHandler>
+				<Parallel>
+					<Action>
+						<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.ActivateOption">
+							<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+						</Target>
+					</Action>
+					<Action>
+						<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Module.ShowOption">
+							<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+						</Target>
+					</Action>
+					<Action>
+						<Target xsi:type="clientSystem.Action">
+							<Method xsi:type="clientSystem.Action.CloseDialog" dialogId="SkylineOptionDialog" />
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Deactivate Option-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSkyline" widgetRefId="DeactivateOption" event="Click" />
+			<EventHandler>
+				<Parallel>
+					<Action>
+						<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.DeactivateOption">
+							<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+						</Target>
+					</Action>
+					<Action>
+						<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Module.ShowOption">
+							<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+						</Target>
+					</Action>
+					</Parallel>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Activate Skyline-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSkyline" widgetRefId="ActivateSkyline" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Activate">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Deactivate Skyline-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSkyline" widgetRefId="DeactivateSkyline" event="Click" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Deactivate">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Check Value change of SliderWater-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.BasicSlider.Event" contentRefId="ContentMpSkyline" widgetRefId="SliderWater" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Check Value change of SliderSugar-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.BasicSlider.Event" contentRefId="ContentMpSkyline" widgetRefId="SliderSugar" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Check Value change of SliderCoffee-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.BasicSlider.Event" contentRefId="ContentMpSkyline" widgetRefId="SliderCoffee" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!--Check Value change of SliderMilk-->
+		<EventBinding>
+			<Source xsi:type="widgets.brease.BasicSlider.Event" contentRefId="ContentMpSkyline" widgetRefId="SliderMilk" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Bindings>
+</EventBindingSet>

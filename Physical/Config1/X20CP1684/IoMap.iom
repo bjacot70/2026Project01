@@ -1,0 +1,5 @@
+VAR_CONFIG
+	::doTestOutput01 AT %QX."X20DO9322".DigitalOutput01;
+	::diTestInput01 AT %IX."X20DI9371".DigitalInput01;
+	::diTestInput02 AT %IX."X20DI9371a".DigitalInput01;
+END_VAR

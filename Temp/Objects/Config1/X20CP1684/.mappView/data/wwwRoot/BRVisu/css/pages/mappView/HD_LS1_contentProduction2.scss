@@ -1,0 +1,31 @@
+@import "mixins.scss";
+#HD_LS1_contentProduction2_TextPad1 {	@include elemWidth(400);
+}
+#HD_LS1_contentProduction2_TextPad1 {	@include elemHeight(300);
+}
+#HD_LS1_contentProduction2_TextPad1 {	@include elemTop(60);
+}
+#HD_LS1_contentProduction2_TextPad1 {	@include elemLeft(720);
+}
+#HD_LS1_contentProduction2_TextPad1 {	z-index: 0;
+}
+#HD_LS1_contentProduction2_OpenExplorer {	@include elemAutoHeight(30);
+}
+#HD_LS1_contentProduction2_OpenExplorer {	@include elemTop(400);
+}
+#HD_LS1_contentProduction2_OpenExplorer {	@include elemLeft(680);
+}
+#HD_LS1_contentProduction2_OpenExplorer {	@include elemAutoWidth(180);
+}
+#HD_LS1_contentProduction2_OpenExplorer {	z-index: 1;
+}
+#HD_LS1_contentProduction2_SaveAs {	@include elemAutoWidth(100);
+}
+#HD_LS1_contentProduction2_SaveAs {	@include elemAutoHeight(30);
+}
+#HD_LS1_contentProduction2_SaveAs {	@include elemTop(400);
+}
+#HD_LS1_contentProduction2_SaveAs {	@include elemLeft(920);
+}
+#HD_LS1_contentProduction2_SaveAs {	z-index: 2;
+}

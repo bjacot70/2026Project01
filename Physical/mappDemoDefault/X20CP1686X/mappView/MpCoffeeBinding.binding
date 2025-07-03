@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MpCoffeeBinding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:MpRecipeUIConnect.Recipe.List.Names" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="TableItem1" attribute="stringValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:MainCoffeeUIConnect.visStartCoffee" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:ChangeStyleAlarmButton" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="PushButton1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:ChangeStyleAlarmButton" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="Table1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Sequence:SequenceStart" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSequence" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gCoffeeMainLogic.IdleState" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="GroupBox1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Sequence:EditSequence" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAuditTrail" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentMpAudit" widgetRefId="AuditList1" attribute="mpLink" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXHistory" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="AlarmHistory1" attribute="mpLink" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="CurrentAlarms" attribute="mpLink" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:AlarmInfo" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="AdditionalInformation" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:AlarmVideo" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentAlarm" widgetRefId="VideoPlayer1" attribute="src" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::PackML:MpPackMLMode_0.Info.StateCurrent" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentTop" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Alarm:AlarmButton" attribute="value" />
+<Target xsi:type="expression" refId="myExprResult" attribute="State1" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="expression" refId="myExprResult" attribute="result" />
+<Target xsi:type="brease" contentRefId="ContentTop" widgetRefId="FlyOut2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gSequenceCore" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentMpSequenceMonitor" widgetRefId="Sequencer2" attribute="mpLink" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Sequence:SequenceStart" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSequenceMonitor" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:FilterConfiguration" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="CurrentAlarms" attribute="filterConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:SortConfiguration" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="CurrentAlarms" attribute="sortConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:MainCoffeeUIConnect.visStartCoffee" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCodeBox" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:ChangeStyleAlarmButton" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpCodeBox" widgetRefId="PushButton1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Audit:SortConfiguraiton" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAudit" widgetRefId="AuditList1" attribute="sortConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Audit:FilterConfiguration" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAudit" widgetRefId="AuditList1" attribute="filterConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:HistoryFilter" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="AlarmHistory1" attribute="filterConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:HistorySort" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="AlarmHistory1" attribute="sortConfiguration" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Alarm:MpAlarmXHistory_0.Export" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpAlarmX" widgetRefId="MpAlarmXHistoryExport" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:BlockActivate" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="ActivateSkyline" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:BlockDeactivate" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="DeactivateSkyline" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:BlockFunctions" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="GroupBox1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="ModuleName" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkyline" widgetRefId="OutputModuleName" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:SkylineNotification" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkyline" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Deactive" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="DeactivateOption" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Deactive" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="ActivateOption" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="GrinderOption" attribute="selectedIndex" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="ImageList4" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="FilterOption" attribute="selectedIndex" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="ImageList3" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Coffee" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="NumericOutput4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Milk" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="NumericOutput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Sugar" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="NumericOutput2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:CoffeeIngredients.Water" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="NumericOutput1" attribute="node" />
+</Binding>
+	
+		<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Module.ShowOption" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="Skyline1" attribute="showModuleOption" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Transform" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentPaper" widgetRefId="Paper1" attribute="transform" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::CodeBox:CodeBoxTransform" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentPaper" widgetRefId="Paper3" attribute="transform" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentTop" widgetRefId="AlarmLine1" attribute="mpLink" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[3]" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="BasicSlider1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[0]" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="BasicSlider3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[1]" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="BasicSlider2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[2]" attribute="node" />
+<Target xsi:type="brease" contentRefId="ContentMpCoffee" widgetRefId="BasicSlider4" attribute="node" />
+</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="UserListErrorCode" attribute="value" />
+			<Target xsi:type="snippet" refId="SnippetStatus" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="SnippetStatus" attribute="value" />
+			<Target xsi:type="brease" widgetRefId="UserErrorTextOutput" contentRefId="ContentUserError" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Recipe:TableConfiguration" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpRecipe" widgetRefId="Table1" attribute="tableConfiguration" />
+</Binding>
+</Bindings>
+</BindingsSet>

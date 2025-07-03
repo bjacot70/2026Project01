@@ -1,0 +1,4 @@
+VAR
+	MpIOImport_0 : MpIOImport;
+	configTemplateName : STRING[80];
+END_VAR

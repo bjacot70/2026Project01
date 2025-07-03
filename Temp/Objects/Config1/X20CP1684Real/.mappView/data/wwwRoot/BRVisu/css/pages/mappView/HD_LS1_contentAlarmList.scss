@@ -1,0 +1,83 @@
+@import "mixins.scss";
+#HD_LS1_contentAlarmList_AlarmList1 {	@include elemTop(0);
+}
+#HD_LS1_contentAlarmList_AlarmList1 {	@include elemLeft(0);
+}
+#HD_LS1_contentAlarmList_AlarmList1 {	@include elemWidth(1248);
+}
+#HD_LS1_contentAlarmList_AlarmList1 {	@include elemHeight(600);
+}
+#HD_LS1_contentAlarmList_AlarmList1 {	z-index: 0;
+}
+#HD_LS1_contentAlarmList_AlarmListItem1 {	@include elemWidth(300);
+}
+#HD_LS1_contentAlarmList_AlarmListItem1 {	z-index: 0;
+}
+#HD_LS1_contentAlarmList_AlarmListItem2 {	@include elemWidth(858);
+}
+#HD_LS1_contentAlarmList_AlarmListItem2 {	z-index: 1;
+}
+#HD_LS1_contentAlarmList_AlarmListItem3 {	@include elemWidth(90);
+}
+#HD_LS1_contentAlarmList_AlarmListItem3 {	z-index: 2;
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	@include elemAutoWidth(100);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	@include elemTop(610);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	@include elemLeft(16);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	@include elemAutoHeight(50);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	z-index: 1;
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	img {
+		@include imageHeight(50);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	svg {
+		@include imageHeight(50);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	img {
+		@include imageWidth(50);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	svg {
+		@include imageWidth(50);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledge {	&:not(.active):not(.disabled):not(.checked) svg {
+		fill: rgba(0, 192, 0, 1);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	@include elemAutoWidth(100);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	@include elemTop(610);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	@include elemLeft(122);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	@include elemAutoHeight(50);
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	z-index: 2;
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	img {
+		@include imageHeight(60);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	svg {
+		@include imageHeight(60);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	img {
+		@include imageWidth(60);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	svg {
+		@include imageWidth(60);
+	}
+}
+#HD_LS1_contentAlarmList_ButtonAcknowledgeAll {	&:not(.active):not(.disabled):not(.checked) svg {
+		fill: rgba(255, 0, 0, 1);
+	}
+}

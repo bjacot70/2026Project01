@@ -1,0 +1,19 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Image/meta/Image_base";
+.widgets_brease_Image_style_default {
+@include widgets_brease_Image_base; 
+	background-color: transparent;
+& > .ImageView > svg {
+	fill: rgba(255, 255, 255, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Image/meta/Image_base";
+.widgets_brease_Image_style_header {
+@include widgets_brease_Image_base; 
+	background-color: transparent;
+& > .ImageView > svg {
+	fill: rgba(255, 255, 255, 1);
+}
+
+}

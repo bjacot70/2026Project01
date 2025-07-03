@@ -1,0 +1,183 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/OnlineChartHDA_base";
+.widgets_brease_OnlineChartHDA_style_default {
+@include widgets_brease_OnlineChartHDA_base; 
+	border-color: rgba(240, 240, 240, 1);
+	border-style: none;
+	border-width: 2px;
+& .chartColor {
+	color: rgba(255, 255, 255, 1);
+}
+& .disabledChartColor {
+	color: rgba(240, 240, 240, 1);
+}
+	background-color: transparent;
+& .chartColor {
+	background-color: transparent;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_default {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(255, 136, 0, 1);
+}
+& .disabledLineColor {
+	color: rgba(255, 196, 128, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/YAxis/YAxis_base";
+.widgets_brease_OnlineChartHDA_YAxis_style_default {
+@include widgets_brease_OnlineChartHDA_YAxis_base; 
+& .yAxisFontName {
+	font-family: Arial;
+}
+& .titleFontName {
+	font-family: Arial;
+}
+& .yAxisColor {
+	color: rgba(169, 169, 169, 1);
+}
+& .yAxisTextColor {
+	color: rgba(169, 169, 169, 1);
+}
+& .titleTextColor {
+	color: rgba(0, 0, 0, 1);
+}
+& .disabledyAxisTextColor {
+	color: rgba(210, 210, 210, 1);
+}
+& .gridYAxisColor {
+	color: rgba(245, 245, 245, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/XAxis/XAxis_base";
+.widgets_brease_OnlineChartHDA_XAxis_style_default {
+@include widgets_brease_OnlineChartHDA_XAxis_base; 
+& .xAxisFontName {
+	font-family: Arial;
+}
+& .xAxisTickColor {
+	color: rgba(169, 169, 169, 1);
+}
+& .xAxisTextColor {
+	color: rgba(169, 169, 169, 1);
+}
+& .disabledxAxisTextColor {
+	color: rgba(210, 210, 210, 1);
+}
+& .gridXAxisColor {
+	color: rgba(245, 245, 245, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Cursor/Cursor_base";
+.widgets_brease_OnlineChartHDA_Cursor_style_default {
+@include widgets_brease_OnlineChartHDA_Cursor_base; 
+.trackballLabel {
+	font-family: Arial;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_blue {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(0, 172, 236, 1);
+}
+& .disabledLineColor {
+	color: rgba(108, 213, 255, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_purple {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(204, 80, 204, 1);
+}
+& .disabledLineColor {
+	color: rgba(242, 145, 242, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_magenta {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(230, 73, 151, 1);
+}
+& .disabledLineColor {
+	color: rgba(255, 148, 201, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_teal {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(61, 161, 144, 1);
+}
+& .disabledLineColor {
+	color: rgba(61, 161, 144, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_green {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(81, 163, 75, 1);
+}
+& .disabledLineColor {
+	color: rgba(152, 214, 148, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_yellow {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(150, 141, 11, 1);
+}
+& .disabledLineColor {
+	color: rgba(214, 201, 24, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_gold {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(182, 69, 6, 1);
+}
+& .disabledLineColor {
+	color: rgba(242, 172, 102, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_orange {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(255, 136, 0, 1);
+}
+& .disabledLineColor {
+	color: rgba(255, 159, 140, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_red {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: rgba(255, 71, 84, 1);
+}
+& .disabledLineColor {
+	color: rgba(255, 153, 160, 1);
+}
+
+}

@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "packageDefinition": {
+        "views": [
+            {
+                "viewID": "commissioning",
+                "endpoint": "${mcoPackageRoot}/app/index.html",
+                "title": {
+                    "textID": "commissioningViewTitle",
+                    "defaultText": "Commissioning"
+                },
+                "openViewAction": {
+                    "textID": "commissioningViewOpenViewAction",
+                    "defaultText": "Commissioning"
+                },
+                "types": {
+                    "componentView": {
+                        "matchComponents": ["component"]
+                    }
+                },
+                "icons": {
+                    "default": {
+                        "48": "wiring-mounting.svg"
+                    },
+                    "active": {
+                        "48": "wiring-mounting-active.svg"
+                    }
+                },
+                "options": {
+                    "session": true,
+                    "framePermissions": {
+                        "download": true,
+                        "forms": false,
+                        "modals": true,
+                        "popup": true
+                    }
+                }
+            }
+        ],
+        "services": [
+            {
+                "extensionPointId": "ComponentOverviewItems",
+                "serviceID": "motion_service",
+                "endpoint": "${mcoPackageRoot}/services/componentMatcher",
+                "methodName": "matchComponent"
+            }
+        ]
+    }
+}

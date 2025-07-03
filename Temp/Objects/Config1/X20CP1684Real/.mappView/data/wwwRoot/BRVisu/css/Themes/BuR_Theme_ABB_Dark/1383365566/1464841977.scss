@@ -1,0 +1,80 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TabControl/meta/TabControl_base";
+.widgets_brease_TabControl_style_default {
+@include widgets_brease_TabControl_base; 
+> .tabbar {
+	background-color: transparent;
+}
+> .tabItemContainer {
+	background-color: rgba(51, 51, 51, 1);
+}
+> .tabItemContainer {
+	border-width: 2px;
+}
+> .tabItemContainer {
+	border-style: solid;
+}
+> .tabItemContainer {
+@include border-radius(0px 0px 5px 5px);
+}
+> .tabItemContainer {
+	border-color: rgba(31, 31, 31, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TabItem/meta/TabItem_base";
+.widgets_brease_TabItem_style_default {
+@include widgets_brease_TabItem_base; 
+&.tabItem span {
+	font-family: Arial;
+}
+&.tabItem span {
+	font-size: 16px;
+}
+&.tabItem {
+@include text-alignment(center);
+}
+&.tabItem span {
+@include font-weight-bold(true);
+}
+&.tabItem:not(.active) {
+	border-style: solid;
+}
+&.tabItem:not(.active) {
+	border-width: 2px 2px 0px 2px;
+}
+&.tabItem.active {
+	border-width: 2px 2px 0px 2px;
+}
+&.tabItem:not(.active) {
+@include border-radius(20px 20px 0px 0px);
+}
+&.tabItem.active {
+@include border-radius(20px 20px 0px 0px);
+}
+&.tabItem:not(.active) {
+	background-color: rgba(31, 31, 31, 1);
+}
+&.tabItem:not(.active) {
+	border-color: rgba(31, 31, 31, 1);
+}
+&.tabItem:not(.active) span {
+	color: rgba(255, 255, 255, 1);
+}
+&:not(.active):not(.disabled) > svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&.active > svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&.tabItem.active {
+	background-color: rgba(51, 51, 51, 1);
+}
+&.tabItem.active span {
+	color: rgba(255, 255, 255, 1);
+}
+&.tabItem.active {
+	border-color: rgba(255, 136, 0, 1);
+}
+
+}

@@ -1,0 +1,28 @@
+
+<Styles id="BuR_Theme_ABB_Light_PieChart" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.PieChart" borderWidth="0px" borderColor="rgba(240, 240, 240, 1)" fontName="Arial" fontSize="14px" backColor="transparent" textColor="rgba(110, 110, 110, 1)" backColorInfoBox="rgba(169, 169, 169, 1)" />
+	
+	<Style id="default" xsi:type="widgets.brease.PieChartItem" backColor="rgba(255, 136, 0, 1)" />
+
+	<Style id="blue" xsi:type="widgets.brease.PieChartItem" backColor="rgba(0, 172, 236, 1)" opacity="1" />
+	
+	<Style id="purple" xsi:type="widgets.brease.PieChartItem" backColor="rgba(204, 80, 204, 1)" opacity="1" />
+	
+	<Style id="magenta" xsi:type="widgets.brease.PieChartItem" backColor="rgba(230, 73, 151, 1)" opacity="1" />
+	
+	<Style id="teal" xsi:type="widgets.brease.PieChartItem" backColor="rgba(61, 161, 144, 1)" opacity="1" />
+	
+	<Style id="green" xsi:type="widgets.brease.PieChartItem" backColor="rgba(81, 163, 75, 1)" opacity="1" />
+	
+	<Style id="yellow" xsi:type="widgets.brease.PieChartItem" backColor="rgba(150, 141, 11, 1)" opacity="1" />
+	
+	<Style id="gold" xsi:type="widgets.brease.PieChartItem" backColor="rgba(182, 69, 6, 1)" opacity="1" />
+	
+	<Style id="orange" xsi:type="widgets.brease.PieChartItem" backColor="rgba(255, 136, 0, 1)" opacity="1" />
+	
+	<Style id="red" xsi:type="widgets.brease.PieChartItem" backColor="rgba(255, 71, 84, 1)" opacity="1" />
+
+</Styles>

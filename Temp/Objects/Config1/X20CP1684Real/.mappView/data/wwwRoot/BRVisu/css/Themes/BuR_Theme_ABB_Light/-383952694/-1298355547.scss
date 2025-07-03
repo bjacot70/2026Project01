@@ -1,0 +1,15 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DateTimeOutput/meta/DateTimeOutput_base";
+.widgets_brease_DateTimeOutput_style_default {
+@include widgets_brease_DateTimeOutput_base; 
+	font-family: Arial;
+	font-size: 16px;
+@include font-weight-bold(false);
+@include text-alignment(right);
+& span {
+	color: rgba(110, 110, 110, 1);
+}
+	background-color: transparent;
+	border-style: none;
+
+}

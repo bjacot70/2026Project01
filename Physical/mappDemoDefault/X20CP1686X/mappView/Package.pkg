@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">Visualizat.vis</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">LoginDialogEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpCoffeeBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpRecipeBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpAlarmXEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpRecipeEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpAuditBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpCoffeeEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpAuditEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpReportBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpReportEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpSequenceBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpSequenceEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpCodeBoxBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpCodeBoxEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">PackMLStyleBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpSkylineEventBinding.eventbinding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">MpSkylineBinding.binding</Object>
+    <Object Type="File" TransferedForTargetSourceCompare="true">ContentPaperSequencerBinding.binding</Object>
+  </Objects>
+</Package>

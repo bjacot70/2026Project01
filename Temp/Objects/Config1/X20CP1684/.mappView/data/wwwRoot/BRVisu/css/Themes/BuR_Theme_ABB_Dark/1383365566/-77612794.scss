@@ -1,0 +1,59 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Password/meta/Password_base";
+.widgets_brease_Password_style_default {
+@include widgets_brease_Password_base; 
+input {
+	font-family: Arial;
+}
+input {
+	font-size: 16px;
+}
+input {
+@include font-weight-bold(false);
+}
+input {
+@include text-alignment(center);
+}
+&:not(.disabled):not(.active) input {
+	color: rgba(31, 31, 31, 1);
+}
+&:not(.disabled):not(.active) {
+	background-color: rgba(255, 255, 255, 1);
+}
+	border-style: solid;
+&:not(.active):not(.disabled) {
+	border-width: 2px 6px 2px 2px;
+}
+&:not(.disabled):not(.active) {
+	border-color: rgba(255, 136, 0, 1);
+}
+@include border-radius(5px);
+&.disabled {
+	background-color: rgba(210, 210, 210, 1);
+}
+&.disabled input {
+	color: rgba(110, 110, 110, 1);
+}
+&.disabled span.breaseNumericInput_unit {
+	color: rgba(110, 110, 110, 1);
+}
+&.disabled {
+	border-width: 2px;
+}
+&.disabled {
+	border-color: rgba(210, 210, 210, 1);
+}
+&:not(.disabled).active input {
+	color: rgba(31, 31, 31, 1);
+}
+&:not(.disabled).active {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.active:not(.disabled) {
+	border-width: 2px 6px 2px 2px;
+}
+&:not(.disabled).active {
+	border-color: rgba(31, 31, 31, 1);
+}
+
+}

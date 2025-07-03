@@ -1,0 +1,6 @@
+VAR
+	speed : INT;
+	temperature : REAL;
+	start : BOOL;
+	ArEventLogCreate_0 : ArEventLogCreate;
+END_VAR

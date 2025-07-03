@@ -1,0 +1,74 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=mappAlarmX 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=19 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          MpAlarmXCore_0                             MpAlarmXCore    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                       154249448"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                          AcknowledgeAll                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                            ActiveAlarms                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                           PendingAlarms                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                    UnacknowledgedAlarms                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                       UnconfirmedAlarms                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                     MpAlarmXCoreInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                                    Diag                         MpAlarmXDiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                     MpAlarmXStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpAL
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                             Temperature                                      INT    0 "                                                             100"    0    3    1   10    1    0         
+                       MpAlarmXHistory_0                          MpAlarmXHistory    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                       154249456"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              DeviceName                                    UDINT    0 "                                                       161607843"    1    7    1   10    0    0         
+                                FileName                                    UDINT    0 "                                                       161607803"    1    7    1   10    0    0         
+                               Overwrite                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Language                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                       MeasurementSystem                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,mpAL
+
+                                  Export                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Clear                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          HistoryEntries                                    UDINT    0 "                                                               3"    1    7    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                  MpAlarmXHistoryInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                       GeneratedFileName                              STRING[255]    0 "                                                              ''"    2    9  256    1    0    0         
+                                    Diag                         MpAlarmXDiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                     MpAlarmXStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpAL
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                           InternalState                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                            InternalData                             UDINT[0..20]    0 "                                                               *"    1    7   21    0    0    0         
+                         InternalData[0]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[1]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[2]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[3]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[4]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[5]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[6]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[7]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[8]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         InternalData[9]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[10]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[11]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[12]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[13]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[14]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[15]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[16]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[17]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[18]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[19]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        InternalData[20]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         

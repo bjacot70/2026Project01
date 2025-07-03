@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/HMI/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/ArEventLog/ArEventLog.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/ArEventLog/ArEventLog.fun

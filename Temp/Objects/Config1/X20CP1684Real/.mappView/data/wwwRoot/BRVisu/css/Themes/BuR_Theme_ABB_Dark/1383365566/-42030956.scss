@@ -1,0 +1,105 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LanguageSelector/meta/LanguageSelector_base";
+.widgets_brease_LanguageSelector_style_default {
+@include widgets_brease_LanguageSelector_base; 
+& .TextView {
+	font-family: Arial;
+}
+& .TextView {
+	font-family: Arial;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include font-weight-bold(true);
+}
+& .TextView {
+@include text-alignment(left);
+}
+& .TextView {
+@include text-alignment(left);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: rgba(31, 31, 31, 1);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: rgba(255, 255, 255, 1);
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 2px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: rgba(210, 210, 210, 1);
+}
+& > .ListView.Container {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.DropDownBoxView {
+@include border-radius(5px);
+}
+& > .ItemView {
+@include border-radius(5px);
+}
+& > .ListView.Container {
+@include border-radius(5px);
+}
+& > .ItemView > .ImageView.ImageIndicator {
+@include display(true, 'flex');
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .ImageView.ImageIndicator svg {
+	fill: rgba(92, 92, 92, 1);
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: rgba(255, 255, 255, 1);
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: rgba(31, 31, 31, 1);
+}
+& > .ItemView.itemSelected {
+	border-width: 2px;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: rgba(92, 92, 92, 1);
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
+	fill: rgba(92, 92, 92, 1);
+}
+& > .ItemView.itemDisabled {
+	background-color: rgba(210, 210, 210, 1);
+}
+& > .ItemView.itemDisabled > .TextView {
+	color: rgba(110, 110, 110, 1);
+}
+& > .ItemView.itemDisabled {
+	border-color: transparent;
+}
+& > .ItemView.itemDisabled > .ImageView.ImageIndicator svg {
+	fill: rgba(152, 152, 152, 1);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: rgba(255, 255, 255, 1);
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: rgba(31, 31, 31, 1);
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: rgba(255, 255, 255, 1);
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: rgba(255, 136, 0, 1);
+}
+& > .ListView.Container {
+	border-width: 2px;
+}
+& > .ListView.Container > .ListView.List > .ItemView {
+	border-bottom-color: transparent;
+}
+
+}

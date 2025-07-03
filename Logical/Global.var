@@ -1,0 +1,16 @@
+VAR
+	doTestOutput01 : BOOL;
+	diTestInput02 : BOOL;
+	diTestInput01 : BOOL;
+END_VAR
+VAR RETAIN
+	Machine_Settings : Machine_Settings_typ; (*Machine Parameters that are Remanent*)
+END_VAR
+(*Definitions for main components of the coffee machine*)
+VAR
+	gUnit : STRING[80] := 'metric'; (*Get unit from visualization*)
+	gSetUnit : INT := 1; (*Set the current unit*)
+	gClearAlarm : BOOL := FALSE; (*Check if Alarm can be cleared*)
+	gCoffeeMainLogic : CoffeeMainLogicType; (*Control structure of main logic*)
+	gSetLanguage : STRING[80] := 'en'; (*Set the current language*)
+END_VAR

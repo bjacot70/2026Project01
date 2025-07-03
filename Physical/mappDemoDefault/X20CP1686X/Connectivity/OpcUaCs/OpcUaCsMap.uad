@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases>
+      <EURangeViolation Id="1" AclInherit="0" />
+    </EURangeViolationAliases>
+    <EURangesAliases>
+      <EURanges Id="2">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">500</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="3" AclInherit="0">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">500</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="4" AclInherit="0" />
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="5065812" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millilitre" Symbol="ml" />
+      <EngineeringUnit Id="2" UnitId="4674125" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="gram" Symbol="g" />
+      <EngineeringUnit Id="3" UnitId="4674125" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="gram" Symbol="g" AclInherit="0" />
+      <EngineeringUnit Id="4" UnitId="5065812" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millilitre" Symbol="ml" AclInherit="0" />
+      <EngineeringUnit Id="5" UnitId="0" AclInherit="0" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <GlobalVariables Name="Global Variables">
+      <Variable Name="gCoffeeMainLogic">
+        <Variable Name="AxisCupFeeder">
+          <Variable Name="Position" />
+        </Variable>
+        <Variable Name="AxisTakeout">
+          <Variable Name="Position" />
+        </Variable>
+        <Variable Name="cmdAbort" />
+        <Variable Name="cmdStop" />
+        <Variable Name="cmdClear" />
+        <Variable Name="cmdStart" />
+        <Variable Name="IdleState" />
+      </Variable>
+      <Variable Name="gSetLanguage" />
+      <Variable Name="gSetUnit" />
+      <Variable Name="gUnit" />
+    </GlobalVariables>
+    <Task Name="Alarm">
+      <Variable Name="AlarmButton" />
+      <Variable Name="AlarmInfo" />
+      <Variable Name="AlarmVideo" />
+      <Variable Name="ChangeStyleAlarmButton" />
+      <Variable Name="FilterConfiguration" />
+      <Variable Name="HistoryFilter" />
+      <Variable Name="HistorySort" />
+      <Variable Name="MpAlarmXHistory_0">
+        <Variable Name="Export" />
+      </Variable>
+      <Variable Name="MpAlarmXListUIConnect">
+        <Variable Name="AlarmList">
+          <Variable Name="Message" />
+          <Variable Name="StateActive" />
+          <Variable Name="StateAcknowledged" />
+          <Variable Name="PageUp" />
+          <Variable Name="PageDown" />
+          <Variable Name="StepUp" />
+          <Variable Name="StepDown" />
+        </Variable>
+        <Variable Name="Acknowledge" />
+        <Variable Name="AcknowledgeAll" />
+      </Variable>
+      <Variable Name="SortConfiguration" />
+    </Task>
+    <Task Name="PackML">
+      <Variable Name="MpPackMLBasicUIConnect">
+        <Variable Name="StateControl">
+          <Variable Name="Start" />
+          <Variable Name="Stop" />
+          <Variable Name="Reset" />
+          <Variable Name="Hold" />
+          <Variable Name="Unhold" />
+          <Variable Name="Suspend" />
+          <Variable Name="Unsuspend" />
+          <Variable Name="Abort" />
+          <Variable Name="Clear" />
+          <Variable Name="StateComplete" />
+          <Variable Name="ColorIndex">
+            <Variable Name="Clearing" />
+            <Variable Name="Stopped" />
+            <Variable Name="Starting" />
+            <Variable Name="Idle" />
+            <Variable Name="Suspended" />
+            <Variable Name="Execute" />
+            <Variable Name="Stopping" />
+            <Variable Name="Aborting" />
+            <Variable Name="Aborted" />
+            <Variable Name="Holding" />
+            <Variable Name="Held" />
+            <Variable Name="Unholding" />
+            <Variable Name="Suspending" />
+            <Variable Name="Unsuspending" />
+            <Variable Name="Resetting" />
+            <Variable Name="Completing" />
+            <Variable Name="Complete" />
+          </Variable>
+        </Variable>
+        <Variable Name="ModeControl">
+          <Variable Name="SelectedIndex" />
+          <Variable Name="Activate" />
+        </Variable>
+        <Variable Name="ModeCurrent" />
+        <Variable Name="StateCurrent" />
+      </Variable>
+      <Variable Name="MpPackMLMode_0">
+        <Variable Name="Info">
+          <Variable Name="StateCurrent" />
+        </Variable>
+      </Variable>
+      <Variable Name="MpPackMLStatisticsUIConnect">
+        <Variable Name="States" RecursiveEnable="2" />
+        <Variable Name="Mode">
+          <Variable Name="CumulativeTime">
+            <Variable Name="Hours" />
+            <Variable Name="Minutes" />
+            <Variable Name="Seconds" />
+          </Variable>
+          <Variable Name="CumulativePercent" />
+        </Variable>
+      </Variable>
+    </Task>
+    <Task Name="MainContro">
+      <Variable Name="MainCoffeeUIConnect">
+        <Variable Name="visShowClearButton" />
+        <Variable Name="visStartCoffee" />
+      </Variable>
+      <Variable Name="Refill" RecursiveEnable="2" EURangeViolationId="1" EURangesId="4" EngineeringUnitId="5">
+        <Variable Name="Refill[0]" EURangeViolationId="1" EURangesId="3" EngineeringUnitId="3" />
+        <Variable Name="Refill[1]" EURangeViolationId="1" EURangesId="3" EngineeringUnitId="4" />
+        <Variable Name="Refill[3]" EURangeViolationId="1" EURangesId="3" EngineeringUnitId="4" />
+        <Variable Name="Refill[2]" EURangeViolationId="1" EURangesId="3" EngineeringUnitId="3" />
+      </Variable>
+      <Variable Name="Transform" />
+      <Variable Name="TransformTime" />
+      <Variable Name="TransitionTime" />
+    </Task>
+    <Task Name="ConveyorSi">
+      <Variable Name="ActivePowerCupFeeder" />
+      <Variable Name="ActivePowerTakeout" />
+    </Task>
+    <Task Name="Sequence">
+      <Variable Name="EditSequence" />
+      <Variable Name="SavePressed" />
+      <Variable Name="SequenceStart" />
+      <Variable Name="Transform" />
+    </Task>
+    <Task Name="IO">
+      <Variable Name="ActiveConfiguration" />
+      <Variable Name="FileName" />
+      <Variable Name="MpIOImport_0">
+        <Variable Name="Import" />
+      </Variable>
+    </Task>
+    <Task Name="Report">
+      <Variable Name="DeleteReport" />
+      <Variable Name="DisplayFileName" />
+      <Variable Name="DisplayFileNameIndex" />
+      <Variable Name="EnableDelete" />
+      <Variable Name="EnableGenerate" />
+      <Variable Name="MpFileManagerUIConnect">
+        <Variable Name="File">
+          <Variable Name="List">
+            <Variable Name="PageUp" />
+            <Variable Name="StepUp" />
+            <Variable Name="PageDown" />
+            <Variable Name="StepDown" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="MpReportCore_0">
+        <Variable Name="Generate" />
+      </Variable>
+      <Variable Name="StrSelectedFile" />
+    </Task>
+    <Task Name="File">
+      <Variable Name="MpFileManagerUIConnect">
+        <Variable Name="DeviceList">
+          <Variable Name="DeviceNames" RecursiveEnable="2" />
+          <Variable Name="SelectedIndex" />
+        </Variable>
+        <Variable Name="File">
+          <Variable Name="List">
+            <Variable Name="Items" />
+            <Variable Name="PageUp" />
+            <Variable Name="StepUp" />
+            <Variable Name="PageDown" />
+            <Variable Name="StepDown" />
+          </Variable>
+          <Variable Name="Filter" />
+          <Variable Name="SortOrder" />
+          <Variable Name="Refresh" />
+          <Variable Name="PathInfo">
+            <Variable Name="CurrentDir" />
+            <Variable Name="FileCount" />
+            <Variable Name="FolderCount" />
+          </Variable>
+          <Variable Name="EnterFolder" />
+          <Variable Name="FolderUp" />
+          <Variable Name="MultiSelect" />
+          <Variable Name="Delete" />
+          <Variable Name="Copy" />
+          <Variable Name="Cut" />
+          <Variable Name="Paste" />
+          <Variable Name="NewName" />
+          <Variable Name="Rename" />
+          <Variable Name="CreateFolder" />
+        </Variable>
+      </Variable>
+    </Task>
+    <Task Name="Audit">
+      <Variable Name="FilterConfiguration" />
+      <Variable Name="MpAuditTrailUIConnect">
+        <Variable Name="Output">
+          <Variable Name="EventID" RecursiveEnable="2" />
+          <Variable Name="EventText" RecursiveEnable="2" />
+          <Variable Name="PageUp" />
+          <Variable Name="StepUp" />
+          <Variable Name="StepDown" />
+          <Variable Name="PageDown" />
+        </Variable>
+        <Variable Name="Filter" RecursiveEnable="2">
+          <Variable Name="ShowDialog" />
+          <Variable Name="Dialog">
+            <Variable Name="LayerStatus" />
+            <Variable Name="From" />
+            <Variable Name="Until" />
+            <Variable Name="Event" />
+            <Variable Name="Operator" />
+            <Variable Name="Confirm" />
+            <Variable Name="Cancel" />
+            <Variable Name="Pattern" />
+            <Variable Name="Batch" />
+          </Variable>
+        </Variable>
+        <Variable Name="Export" />
+        <Variable Name="MessageBox">
+          <Variable Name="LayerStatus" />
+          <Variable Name="Type" />
+          <Variable Name="ErrorNumber" />
+          <Variable Name="StatusID" />
+          <Variable Name="Confirm" />
+          <Variable Name="Cancel" />
+        </Variable>
+      </Variable>
+      <Variable Name="SortConfiguraiton" />
+      <Variable Name="MpAuditTrail_0">
+        <Variable Name="Export" />
+      </Variable>
+    </Task>
+    <Task Name="Recipe">
+      <Variable Name="CoffeeIngredients" RecursiveEnable="2">
+        <Variable Name="Sugar" EURangesId="2" EngineeringUnitId="2" />
+        <Variable Name="Coffee" EURangesId="2" EngineeringUnitId="2" />
+        <Variable Name="Milk" EURangesId="2" EngineeringUnitId="1" />
+        <Variable Name="Water" EURangesId="2" EngineeringUnitId="1" />
+      </Variable>
+      <Variable Name="DialogOpen" />
+      <Variable Name="EditIngredients" RecursiveEnable="2">
+        <Variable Name="Milk" EURangesId="2" EngineeringUnitId="1" />
+        <Variable Name="Water" EURangesId="2" EngineeringUnitId="1" />
+        <Variable Name="Sugar" EURangesId="2" EngineeringUnitId="2" />
+        <Variable Name="Coffee" EURangesId="2" EngineeringUnitId="2" />
+      </Variable>
+      <Variable Name="LoadRecipe" />
+      <Variable Name="MpRecipeUIConnect" RecursiveEnable="2" />
+      <Variable Name="MpRecipeXml_0">
+        <Variable Name="Info">
+          <Variable Name="LastLoadedRecipe" />
+        </Variable>
+      </Variable>
+      <Variable Name="SaveRecipe" />
+      <Variable Name="TableConfiguration" />
+      <Variable Name="LoadRecipeSimple" />
+    </Task>
+    <Task Name="CodeBox">
+      <Variable Name="CodeBoxTransform" />
+      <Variable Name="Cup" RecursiveEnable="2" />
+      <Variable Name="Lamp" RecursiveEnable="2" />
+    </Task>
+    <Task Name="Skyline">
+      <Variable Name="BlockActivate" />
+      <Variable Name="BlockDeactivate" />
+      <Variable Name="BlockFunctions" />
+      <Variable Name="Cmd" RecursiveEnable="2" />
+      <Variable Name="Deactive" />
+      <Variable Name="i" />
+      <Variable Name="Module" RecursiveEnable="2">
+        <Variable Name="Option">
+          <Variable Name="StateOFF" RecursiveEnable="2" />
+          <Variable Name="StateON" RecursiveEnable="2" />
+          <Variable Name="Name" RecursiveEnable="2" />
+          <Variable Name="Activate" RecursiveEnable="2" />
+          <Variable Name="Modules" RecursiveEnable="2" />
+        </Variable>
+        <Variable Name="AcknowledgeFlag" RecursiveEnable="2" />
+      </Variable>
+      <Variable Name="SelectedModuleIndex" />
+      <Variable Name="SkylineNotification" />
+      <Variable Name="y" />
+    </Task>
+  </Module>
+</OpcUaSource>

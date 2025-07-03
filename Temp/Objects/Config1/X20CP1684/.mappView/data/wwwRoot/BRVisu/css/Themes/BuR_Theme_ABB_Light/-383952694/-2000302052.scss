@@ -1,0 +1,39 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FlyOut/meta/FlyOut_base";
+.widgets_brease_FlyOut_style_default {
+@include widgets_brease_FlyOut_base; 
+.breaseFlyOutWrapper > .container {
+	background-color: rgba(255, 255, 255, 1);
+}
+.breaseFlyOutWrapper > .container {
+	border-style: solid;
+}
+.breaseFlyOutWrapper > .container {
+	border-width: 2px;
+}
+.breaseFlyOutWrapper > .container {
+@include border-radius(5px);
+}
+.breaseFlyOutWrapper > .container {
+	border-color: rgba(0, 0, 0, 1);
+}
+.breaseFlyOutWrapper > .flyoutButton {
+	border-style: solid;
+}
+.breaseFlyOutWrapper > .flyoutButton {
+	border-width: 2px;
+}
+.breaseFlyOutWrapper > .flyoutButton {
+@include border-radius(20px);
+}
+:not(.disabled):not(.active):not(.checked).breaseFlyOutWrapper > .flyoutButton {
+	background-color: rgba(255, 255, 255, 1);
+}
+.breaseFlyOutWrapper > .flyoutButton {
+@include importantBorderColor(rgba(0, 0, 0, 1));
+}
+.breaseFlyOutWrapper > .flyoutButton svg {
+	fill: rgba(0, 0, 0, 1);
+}
+
+}

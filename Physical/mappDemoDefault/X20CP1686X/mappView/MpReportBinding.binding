@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MpReportBinding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Report:DisplayFileNameIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpReport" widgetRefId="Table1" attribute="selectedRow" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Report:DisplayFileName" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpReport" widgetRefId="TableItem1" attribute="stringValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Report:StrSelectedFile" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpReport" widgetRefId="PDFViewer1" attribute="src" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Report:EnableDelete" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpReport" widgetRefId="DeleteButton" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Report:EnableGenerate" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpReport" widgetRefId="GenerateButton" attribute="enable" />
+</Binding>
+		
+<Binding mode="oneWay">
+<Source xsi:type="session" refId="::SYSTEM:clientInfo.measurementSystemId" attribute="value" />
+<Target xsi:type="opcUa" refId="::AsGlobalPV:gUnit" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="session" refId="::SYSTEM:clientInfo.languageId" attribute="value" />
+<Target xsi:type="opcUa" refId="::AsGlobalPV:gSetLanguage" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

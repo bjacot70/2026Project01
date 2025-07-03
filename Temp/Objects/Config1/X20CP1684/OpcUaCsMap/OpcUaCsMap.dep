@@ -1,0 +1,9 @@
+$(AS_PROJECT_PATH)/Temp/Includes/AS_TempDecl/Config1/GlobalComponents/MpComponents.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/HMI/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1684/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/mappAlarmX/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.typ
+$(AS_PROJECT_PATH)/Logical/Robot/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1684/Connectivity/OpcUaCs/UaDvConfig.uadcfg

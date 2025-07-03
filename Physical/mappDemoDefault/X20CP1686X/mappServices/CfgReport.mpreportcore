@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gReport" Type="mpreportcore">
+    <Group ID="mapp.Gen">
+      <Property ID="Enable" Value="TRUE" />
+      <Property ID="EnableCockpit" Value="TRUE" />
+      <Property ID="Parent" />
+    </Group>
+    <Group ID="MpReport">
+      <Group ID="Settings">
+        <Property ID="ResourceDeviceName" Value="HD" />
+        <Group ID="LanguageDependent">
+          <Group ID="[0]">
+            <Property ID="Language" Value="de" />
+            <Property ID="Font" Value="1" />
+            <Property ID="DateTimePattern" Value="%Y-%m-%d %H:%M:%S" />
+            <Property ID="PrecisionDateTimePattern" Value="%Y-%m-%d %H:%M:%S,%L" />
+          </Group>
+          <Group ID="[1]">
+            <Property ID="Language" Value="en" />
+            <Property ID="Font" Value="1" />
+            <Property ID="DateTimePattern" Value="%Y-%m-%d %H:%M:%S" />
+            <Property ID="PrecisionDateTimePattern" Value="%Y-%m-%d %H:%M:%S,%L" />
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="PageLayouts">
+        <Group ID="[0]">
+          <Property ID="Name" Value="Default" />
+          <Property ID="PageFormat" Value="4" />
+          <Property ID="Orientation" Value="1" />
+          <Property ID="Margins" Value="1" />
+        </Group>
+      </Group>
+      <Group ID="Styles">
+        <Group ID="Text">
+          <Group ID="[0]">
+            <Property ID="Name" Value="Default" />
+            <Property ID="Style" Value="0" />
+            <Property ID="Size" Value="12" />
+            <Property ID="Color" Value="000000" />
+            <Property ID="Precision" Value="6" />
+          </Group>
+          <Group ID="[1]">
+            <Property ID="Name" Value="Header" />
+            <Property ID="Style" Value="1" />
+            <Property ID="Size" Value="20" />
+            <Property ID="Color" Value="FF9900" />
+            <Property ID="Precision" Value="6" />
+          </Group>
+          <Group ID="[2]">
+            <Property ID="Name" Value="Subheader" />
+            <Property ID="Style" Value="0" />
+            <Property ID="Size" Value="16" />
+            <Property ID="Color" Value="FF9900" />
+            <Property ID="Precision" Value="6" />
+          </Group>
+        </Group>
+        <Group ID="Table">
+          <Group ID="[0]">
+            <Property ID="Name" Value="Default" />
+            <Property ID="BorderWidth" Value="1" />
+            <Property ID="Color" Value="000000" />
+            <Property ID="Padding" Value="10" />
+            <Property ID="HeadRowOnNewPage" Value="FALSE" />
+          </Group>
+        </Group>
+        <Group ID="Line">
+          <Group ID="[0]">
+            <Property ID="Name" Value="Default" />
+            <Property ID="Width" Value="1" />
+            <Property ID="Color" Value="FF9900" />
+          </Group>
+        </Group>
+        <Group ID="Chart">
+          <Group ID="PieChart">
+            <Group ID="[0]">
+              <Property ID="Name" Value="Default" />
+              <Property ID="BackColor" Value="FFFFFF" />
+              <Property ID="BorderWidth" Value="0" />
+              <Property ID="BorderColor" Value="000000" />
+              <Property ID="Padding" Value="1" />
+              <Property ID="ItemBorderWidth" Value="0" />
+              <Property ID="ItemBorderColor" Value="000000" />
+            </Group>
+          </Group>
+          <Group ID="LineChart">
+            <Group ID="[0]">
+              <Property ID="Name" />
+              <Property ID="BackColor" Value="FFFFFF" />
+              <Property ID="BorderWidth" Value="1" />
+              <Property ID="BorderColor" Value="000000" />
+              <Property ID="Padding" Value="1" />
+              <Property ID="GraphBackColor" Value="FFFFFF" />
+              <Property ID="GraphBorderWidth" Value="1" />
+              <Property ID="GraphBorderColor" Value="000000" />
+              <Property ID="GridLineWidth" Value="1" />
+              <Property ID="GridLineColor" Value="000000" />
+            </Group>
+          </Group>
+          <Group ID="BarChart">
+            <Group ID="[0]">
+              <Property ID="Name" />
+              <Property ID="BackColor" Value="FFFFFF" />
+              <Property ID="BorderWidth" Value="1" />
+              <Property ID="BorderColor" Value="000000" />
+              <Property ID="Padding" Value="1" />
+              <Property ID="ItemGapWidth" Value="1" />
+              <Property ID="GraphBackColor" Value="FFFFFF" />
+              <Property ID="GraphBorderWidth" Value="1" />
+              <Property ID="GraphBorderColor" Value="000000" />
+              <Property ID="GridLineWidth" Value="1" />
+              <Property ID="GridLineColor" Value="000000" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="Tables">
+        <Selector ID="[0]" Value="ColumnsByRow">
+          <Property ID="Name" Value="CoffeeInformation" />
+          <Property ID="TableStyle" Value="Default" />
+          <Property ID="TextStyle" Value="Default" />
+          <Group ID="[0]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportData}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportValue}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+          <Group ID="[1]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportCurrCoffee}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="ValueId">
+              <Selector ID="Value" Value="ProcessVariable">
+                <Property ID="ProcessVariable" Value="::Recipe:LoadRecipeSimple" />
+                <Property ID="UnitDisplay" Value="0" />
+              </Selector>
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+          <Group ID="[2]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportMilk}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="ValueId">
+              <Selector ID="Value" Value="ProcessVariable">
+                <Property ID="ProcessVariable" Value="::Recipe:CoffeeIngredients.Milk" />
+                <Property ID="UnitDisplay" Value="1" />
+              </Selector>
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+          <Group ID="[3]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportWater}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="ValueId">
+              <Selector ID="Value" Value="ProcessVariable">
+                <Property ID="ProcessVariable" Value="::Recipe:CoffeeIngredients.Water" />
+                <Property ID="UnitDisplay" Value="1" />
+              </Selector>
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+          <Group ID="[4]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportSugar}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="ValueId">
+              <Selector ID="Value" Value="ProcessVariable">
+                <Property ID="ProcessVariable" Value="::Recipe:CoffeeIngredients.Sugar" />
+                <Property ID="UnitDisplay" Value="1" />
+              </Selector>
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+          <Group ID="[5]">
+            <Property ID="MinimumHeight" Value="10" />
+            <Selector ID="[0]" Value="TextId">
+              <Property ID="Source" Value="{$Report/ReportCoffee}" />
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+            <Selector ID="[1]" Value="ValueId">
+              <Selector ID="Value" Value="ProcessVariable">
+                <Property ID="ProcessVariable" Value="::Recipe:CoffeeIngredients.Coffee" />
+                <Property ID="UnitDisplay" Value="1" />
+              </Selector>
+              <Property ID="Width" Value="50" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Selector ID="TextStyleReference" Value="InheritedTextStyle" />
+            </Selector>
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="Contents">
+        <Group ID="[0]">
+          <Property ID="Name" Value="Discription" />
+          <Selector ID="[0]" Value="Text">
+            <Property ID="Text" Value="{$Report/ReportDescription}" />
+            <Property ID="HorizontalAlign" Value="0" />
+            <Property ID="NewLine" Value="TRUE" />
+            <Property ID="TextStyle" Value="Default" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="Table" />
+          <Selector ID="[0]" Value="Table">
+            <Property ID="Table" Value="CoffeeInformation" />
+            <Property ID="HorizontalAlign" Value="1" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="Underline" />
+          <Selector ID="[0]" Value="Line">
+            <Property ID="LineStyle" Value="Default" />
+          </Selector>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Name" Value="Header" />
+          <Selector ID="[0]" Value="Text">
+            <Property ID="Text" Value="{$Report/ReportHeader}" />
+            <Property ID="HorizontalAlign" Value="1" />
+            <Property ID="NewLine" Value="TRUE" />
+            <Property ID="TextStyle" Value="Header" />
+          </Selector>
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Name" Value="EmptyLine" />
+          <Selector ID="[0]" Value="EmptyLine">
+            <Property ID="Size" Value="10" />
+          </Selector>
+        </Group>
+      </Group>
+      <Group ID="Reports">
+        <Group ID="[0]">
+          <Property ID="Name" Value="ReportCoffee" />
+          <Group ID="Settings">
+            <Property ID="OwnerPassword" />
+            <Property ID="UserPassword" />
+            <Property ID="AllowPrint" Value="TRUE" />
+            <Property ID="AllowCopy" Value="FALSE" />
+            <Property ID="AllowEdit" Value="FALSE" />
+          </Group>
+          <Property ID="PageLayout" Value="Default" />
+          <Property ID="Header" Value="Header" />
+          <Property ID="Footer" />
+          <Group ID="[0]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="Underline" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+          <Group ID="[1]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="EmptyLine" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+          <Group ID="[2]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" Value="{$Report/ReportDescriptionHeader}" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" Value="Subheader" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="Discription" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+          <Group ID="[3]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="EmptyLine" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+          <Group ID="[4]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" Value="{$Report/ReportHeaderTable}" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" Value="Subheader" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="Table" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+          <Group ID="[5]">
+            <Property ID="StartOnNewPage" Value="FALSE" />
+            <Group ID="Heading">
+              <Property ID="Text" />
+              <Property ID="HorizontalAlign" Value="0" />
+              <Property ID="TextStyle" />
+            </Group>
+            <Group ID="[0]">
+              <Property ID="Content" Value="EmptyLine" />
+              <Property ID="Width" Value="100" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX">
+      <Group ID="mapp.AlarmX.Core.Configuration">
+        <Group ID="[0]">
+          <Property ID="Name" Value="GenerateFailed" />
+          <Property ID="Message" Value="{$BR/mapp/MpReportCore/Alarms/GenerateFailed}" />
+          <Property ID="Code" Value="0" />
+          <Property ID="Severity" Value="1" />
+          <Selector ID="Behavior" Value="EdgeAlarm">
+            <Property ID="AutoReset" Value="TRUE" />
+            <Property ID="Acknowledge" Value="1" />
+            <Property ID="Confirm" Value="0" />
+            <Property ID="MultipleInstances" Value="TRUE" />
+            <Property ID="ReactionWhilePending" Value="TRUE" />
+            <Property ID="Async" Value="FALSE" />
+            <Group ID="Recording">
+              <Property ID="InactiveToActive" Value="TRUE" />
+              <Property ID="ActiveToInactive" Value="FALSE" />
+              <Property ID="UnacknowledgedToAcknowledged" Value="TRUE" />
+              <Property ID="UnconfirmedToConfirmed" Value="TRUE" />
+            </Group>
+          </Selector>
+          <Property ID="Disable" Value="FALSE" />
+          <Property ID="AdditionalInformation1" />
+          <Property ID="AdditionalInformation2" />
+        </Group>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

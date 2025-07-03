@@ -1,0 +1,7 @@
+
+<Styles id="BuR_Theme_ABB_Light_RadialGauge" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.RadialGauge" borderWidth="2px" borderColor="rgba(0, 0, 0, 1)" fontName="Arial" fontSize="14px" textColor="rgba(0, 0, 0, 1)" pointerBackColor="rgba(255, 136, 0, 1)" pointerPathColor="rgba(240, 240, 240, 1)" backColor="rgba(240, 240, 240, 1)" backColorScaleArea1="rgba(169, 169, 169, 1)" backColorScaleArea2="rgba(169, 169, 169, 1)" backColorScaleArea3="rgba(169, 169, 169, 1)" backColorScaleArea4="rgba(169, 169, 169, 1)" backColorScaleArea5="rgba(255, 136, 0, 1)" />
+
+</Styles>

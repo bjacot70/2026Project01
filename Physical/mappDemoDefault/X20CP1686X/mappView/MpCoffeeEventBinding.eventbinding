@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MpCoffeeEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="eventbinding_21">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentMpAlarmX" widgetRefId="AcknButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.AlarmList.Action" contentRefId="ContentMpAlarmX" widgetRefId="CurrentAlarms">
+                <Method xsi:type="widgets.brease.AlarmList.Action.Acknowledge" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_22">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentMpAlarmX" widgetRefId="AcknAllButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.AlarmList.Action" contentRefId="ContentMpAlarmX" widgetRefId="CurrentAlarms">
+                <Method xsi:type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Skyline:Cmd.Notification">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_23">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ContentMpAlarmX" widgetRefId="MpAlarmXHistoryExport" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Alarm:MpAlarmXHistory_0.Export">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_24">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpCoffee" widgetRefId="OpenPackMLDialog" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="MpPackMLDialog" mode="modeless" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_27">
+      <Source xsi:type="widgets.brease.Image.Event" contentRefId="ContentSettings" widgetRefId="X20CP1586" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="ImportDialog" mode="modal" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::IO:FileName">
+              <Method xsi:type="opcUa.NodeAction.SetValueString" value="Configuration_2.xml" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_28">
+      <Source xsi:type="widgets.brease.Image.Event" contentRefId="ContentSettings" widgetRefId="X20CP1586_1" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="ImportDialog" mode="modal" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::IO:FileName">
+              <Method xsi:type="opcUa.NodeAction.SetValueString" value="Configuration_1.xml" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_29">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentImport" widgetRefId="ImportConfig" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::IO:MpIOImport_0.Import">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="ImportDialog" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::IO:ActiveConfiguration">
+              <Method xsi:type="opcUa.NodeAction.SetValueString" value="Configuration 1" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_30">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentImport" widgetRefId="NoImportConfig" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="ImportDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_10">
+      <Source xsi:type="widgets.brease.NavigationButton.Event" contentRefId="ContentTop" widgetRefId="NavigationButton1" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="AlarmTabControl">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="2" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="MpPackMLDialog" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+      <Operand datatype="ANY_INT" name="AlarmTabControlValue">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="AlarmTabControl">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="contentId=&quot;ContentMpAlarmX&quot; AND AlarmTabControlValue=2">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.TabControl.Action" contentRefId="ContentMpAlarmX" widgetRefId="TabControl1">
+                <Method xsi:type="widgets.brease.TabControl.Action.SetSelectedIndex" value="0" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="AlarmTabControl">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

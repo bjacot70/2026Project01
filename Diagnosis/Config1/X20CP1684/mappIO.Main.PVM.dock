@@ -1,0 +1,50 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=mappIO 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            MpIOImport_0                               MpIOImport    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                       154249440"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              DeviceName                                    UDINT    0 "                                                       161587279"    1    7    1   10    0    0         
+                                FileName                                    UDINT    0 "                                                       161592572"    1    7    1   10    0    0         
+                                  Import                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                       MpIOImportInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                        ImportFileActive                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                    Diag                             MpIODiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                         MpIOStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpIO
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                           InternalState                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                            InternalData                             UDINT[0..20]    0 "                                                               *"    1    7   21    0    0    1         
+                         InternalData[0]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[1]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[2]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[3]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[4]                                    UDINT    0 "                                                       145744232"    2    7    1   10    0    0         
+                         InternalData[5]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[6]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[7]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[8]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                         InternalData[9]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[10]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[11]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[12]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[13]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[14]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[15]                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                        InternalData[16]                                    UDINT    0 "                                                       183558392"    2    7    1   10    0    0         
+                        InternalData[17]                                    UDINT    0 "                                                       183602464"    2    7    1   10    0    0         
+                        InternalData[18]                                    UDINT    0 "                                                       161592448"    2    7    1   10    0    0         
+                        InternalData[19]                                    UDINT    0 "                                                             256"    2    7    1   10    0    0         
+                        InternalData[20]                                    UDINT    0 "                                                       183609288"    2    7    1   10    0    0         
+                      configTemplateName                               STRING[80]    0 "                                                     'NewConfig'"    0    9   81    1    1    0         
+                           diTestInput01                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
+                           diTestInput02                                     BOOL    1 "                                                           FALSE"    0    1    1    2    0    0         
+                          doTestOutput01                                     BOOL    3 "                                                           FALSE"    0    1    1    2    0    0         

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="MpSkylineBinding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gSkyline" attribute="link" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="Skyline1" attribute="mpLink" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:SelectedModuleIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="Skyline1" attribute="selectedModuleIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="WaterTankOptionCool" attribute="selectedIndex" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="ImageList2" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="WaterTankOptionHeat" attribute="selectedIndex" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="ImageList1" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Module.Option.Activate[0]" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="WaterTankOptionCool" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Module.Option.Activate[1]" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="WaterTankOptionHeat" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Module.Option.Activate[3]" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="GrinderOption" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Skyline:Module.Option.Activate[2]" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentSkylineOption" widgetRefId="FilterOption" attribute="selectedIndex" />
+</Binding>
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[3]" attribute="node" samplingRate="fast" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="SliderWater" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[0]" attribute="node" samplingRate="fast" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="SliderCoffee" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[1]" attribute="node" samplingRate="fast" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="SliderMilk" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainContro:Refill[2]" attribute="node" samplingRate="fast" />
+<Target xsi:type="brease" contentRefId="ContentMpSkyline" widgetRefId="SliderSugar" attribute="node" />
+</Binding>
+</Bindings>
+</BindingsSet>

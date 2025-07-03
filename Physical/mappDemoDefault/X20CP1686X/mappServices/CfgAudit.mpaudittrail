@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAuditTrail" Type="mpaudittrail">
+    <Group ID="mapp.Gen">
+      <Property ID="Enable" Value="TRUE" />
+      <Property ID="TaskClass" Value="8" />
+    </Group>
+    <Group ID="Audit">
+      <Group ID="Events">
+        <Property ID="[0]" Value="600" />
+        <Property ID="[1]" Value="400" />
+        <Property ID="[2]" Value="1000" />
+        <Property ID="[3]" Value="1001" />
+        <Property ID="[4]" Value="1002" />
+        <Property ID="[5]" Value="1003" />
+        <Property ID="[6]" Value="700" />
+        <Property ID="[7]" Value="701" />
+        <Property ID="[8]" Value="702" />
+        <Property ID="[9]" Value="703" />
+        <Property ID="[10]" Value="704" />
+        <Property ID="[11]" Value="100" />
+        <Property ID="[12]" Value="101" />
+        <Property ID="[13]" Value="102" />
+        <Property ID="[14]" Value="103" />
+        <Property ID="[15]" Value="104" />
+        <Property ID="[16]" Value="105" />
+        <Property ID="[17]" Value="106" />
+        <Property ID="[18]" Value="107" />
+        <Property ID="[19]" Value="108" />
+        <Property ID="[20]" Value="150" />
+        <Property ID="[21]" Value="151" />
+        <Property ID="[22]" Value="152" />
+        <Property ID="[23]" Value="153" />
+        <Property ID="[24]" Value="154" />
+        <Property ID="[25]" Value="155" />
+        <Property ID="[26]" Value="156" />
+        <Property ID="[27]" Value="157" />
+        <Property ID="[28]" Value="158" />
+        <Property ID="[29]" Value="159" />
+        <Property ID="[30]" Value="160" />
+        <Property ID="[31]" Value="161" />
+        <Property ID="[32]" Value="162" />
+        <Property ID="[33]" Value="163" />
+        <Property ID="[34]" Value="164" />
+        <Property ID="[35]" Value="165" />
+        <Property ID="[36]" Value="166" />
+        <Property ID="[37]" Value="167" />
+        <Property ID="[38]" Value="168" />
+        <Property ID="[39]" Value="169" />
+        <Property ID="[40]" Value="170" />
+        <Property ID="[41]" Value="171" />
+        <Property ID="[42]" Value="300" />
+        <Property ID="[43]" Value="301" />
+        <Property ID="[44]" Value="302" />
+        <Property ID="[45]" Value="303" />
+        <Property ID="[46]" Value="350" />
+        <Property ID="[47]" Value="351" />
+        <Property ID="[48]" Value="352" />
+        <Property ID="[49]" Value="353" />
+      </Group>
+      <Property ID="RecordMemory" Value="1" />
+      <Property ID="RecordingSize" Value="200" />
+      <Property ID="SramBufferSize" Value="4" />
+      <Group ID="TextSource">
+        <Property ID="DisplayFormat" Value="{$AuditDisplay/Root}" />
+        <Property ID="ExportFormat" Value="{$AuditExport/Root}" />
+      </Group>
+      <Selector ID="Archive" Value="On">
+        <Property ID="Mode" Value="0" />
+        <Property ID="Time" Value="0" />
+        <Property ID="MaxSize" Value="100" />
+      </Selector>
+      <Group ID="Export">
+        <Property ID="RawData" Value="FALSE" />
+        <Property ID="FileType" Value="0" />
+        <Property ID="Encrypt" Value="FALSE" />
+        <Property ID="PassPhrase" Value="Insert your passphrase here..." />
+      </Group>
+    </Group>
+    <Group ID="Monitor">
+      <Group ID="0">
+        <Property ID="pv" Value="::Recipe:CoffeeIngredients.Milk" />
+        <Property ID="id" Value="Milk" />
+      </Group>
+      <Group ID="1">
+        <Property ID="pv" Value="::Recipe:CoffeeIngredients.Water" />
+        <Property ID="id" Value="Water" />
+      </Group>
+      <Group ID="2">
+        <Property ID="pv" Value="::Recipe:CoffeeIngredients.Sugar" />
+        <Property ID="id" Value="Sugar" />
+      </Group>
+      <Group ID="3">
+        <Property ID="pv" Value="::Recipe:CoffeeIngredients.Coffee" />
+        <Property ID="id" Value="Coffee" />
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX">
+      <Group ID="mapp.AlarmX.Core.Configuration">
+        <Group ID="[0]">
+          <Property ID="Name" Value="ArchiveAvailable" />
+          <Property ID="Message" Value="{$BR/mapp/MpAuditTrail/Alarms/ArchiveAvailable}" />
+          <Property ID="Code" Value="0" />
+          <Property ID="Severity" Value="1" />
+          <Selector ID="Behavior" Value="PersistentAlarm">
+            <Property ID="AutoReset" Value="FALSE" />
+            <Property ID="Acknowledge" Value="1" />
+            <Property ID="Confirm" Value="0" />
+            <Property ID="MultipleInstances" Value="FALSE" />
+            <Property ID="ReactionWhilePending" Value="TRUE" />
+            <Property ID="Async" Value="FALSE" />
+            <Group ID="DataUpdate">
+              <Group ID="Activation">
+                <Property ID="TimeStamp" Value="FALSE" />
+                <Property ID="Snippets" Value="FALSE" />
+              </Group>
+            </Group>
+            <Group ID="Recording">
+              <Property ID="InactiveToActive" Value="TRUE" />
+              <Property ID="ActiveToInactive" Value="FALSE" />
+              <Property ID="UnacknowledgedToAcknowledged" Value="TRUE" />
+              <Property ID="AcknowledgedToUnacknowledged" Value="TRUE" />
+              <Property ID="UnconfirmedToConfirmed" Value="TRUE" />
+              <Property ID="ConfirmedToUnconfirmed" Value="TRUE" />
+              <Property ID="Update" Value="FALSE" />
+            </Group>
+          </Selector>
+          <Property ID="Disable" Value="FALSE" />
+          <Property ID="AdditionalInformation1" />
+          <Property ID="AdditionalInformation2" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="MaxArchives" />
+          <Property ID="Message" Value="{$BR/mapp/MpAuditTrail/Alarms/MaxArchives}" />
+          <Property ID="Code" Value="0" />
+          <Property ID="Severity" Value="1" />
+          <Selector ID="Behavior" Value="EdgeAlarm">
+            <Property ID="AutoReset" Value="TRUE" />
+            <Property ID="Acknowledge" Value="1" />
+            <Property ID="Confirm" Value="0" />
+            <Property ID="MultipleInstances" Value="TRUE" />
+            <Property ID="ReactionWhilePending" Value="TRUE" />
+            <Property ID="Async" Value="FALSE" />
+            <Group ID="Recording">
+              <Property ID="InactiveToActive" Value="TRUE" />
+              <Property ID="ActiveToInactive" Value="FALSE" />
+              <Property ID="UnacknowledgedToAcknowledged" Value="TRUE" />
+              <Property ID="UnconfirmedToConfirmed" Value="TRUE" />
+            </Group>
+          </Selector>
+          <Property ID="Disable" Value="FALSE" />
+          <Property ID="AdditionalInformation1" />
+          <Property ID="AdditionalInformation2" />
+        </Group>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

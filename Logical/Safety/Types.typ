@@ -1,0 +1,13 @@
+
+TYPE
+	StepEnum : 
+		(
+		WAIT,
+		CONNECT,
+		TRANSFER,
+		COMP_READ_INFO,
+		COMP_WAIT_ACK,
+		COMPLETION,
+		DISCONNECT
+		);
+END_TYPE

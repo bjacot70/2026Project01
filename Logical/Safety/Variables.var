@@ -1,0 +1,12 @@
+VAR
+	SfDomainCompletion_0 : SfDomainCompletion;
+	SfDomainInfo_0 : SfDomainInfo;
+	SfDomainTransfer_0 : SfDomainTransfer;
+	SfDomainConnect_0 : SfDomainConnect;
+	Step : StepEnum;
+	bCmdStart : BOOL;
+	bDataCorrect : BOOL;
+	Station : STRING[80];
+	AsIOAccRead_0 : AsIOAccRead;
+	bootState : UDINT;
+END_VAR

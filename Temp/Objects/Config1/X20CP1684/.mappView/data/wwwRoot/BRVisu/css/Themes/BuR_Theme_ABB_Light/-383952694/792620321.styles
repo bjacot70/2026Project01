@@ -1,0 +1,25 @@
+
+<Styles id="BuR_Theme_ABB_Light_Line" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.Line" lineColor="rgba(169, 169, 169, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="blue" xsi:type="widgets.brease.Line" lineColor="rgba(0, 172, 236, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="purple" xsi:type="widgets.brease.Line" lineColor="rgba(204, 80, 204, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="magenta" xsi:type="widgets.brease.Line" lineColor="rgba(230, 73, 151, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="teal" xsi:type="widgets.brease.Line" lineColor="rgba(61, 161, 144, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="green" xsi:type="widgets.brease.Line" lineColor="rgba(81, 163, 75, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="yellow" xsi:type="widgets.brease.Line" lineColor="rgba(150, 141, 11, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="gold" xsi:type="widgets.brease.Line" lineColor="rgba(182, 69, 6, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="orange" xsi:type="widgets.brease.Line" lineColor="rgba(255, 136, 0, 1)" lineWidth="1px" opacity="1" />
+
+	<Style id="red" xsi:type="widgets.brease.Line" lineColor="rgba(255, 71, 84, 1)" lineWidth="1px" opacity="1" />
+
+</Styles>

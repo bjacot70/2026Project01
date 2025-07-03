@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <GlobalVariables Name="Global Variables">
+      <Variable Name="gAlarmXCore" RecursiveEnable="2" />
+      <Variable Name="gAlarmXHistory" RecursiveEnable="2" />
+      <Variable Name="gAlarmXList" RecursiveEnable="2" />
+    </GlobalVariables>
+    <Task Name="HMI">
+      <Variable Name="speed" />
+      <Variable Name="temperature" />
+      <Variable Name="start" />
+    </Task>
+    <Task Name="mappAlarmX">
+      <Variable Name="MpAlarmXCore_0" RecursiveEnable="2" />
+      <Variable Name="MpAlarmXHistory_0" RecursiveEnable="2" />
+    </Task>
+    <Task Name="Robot">
+      <Variable Name="ActivateConveyor" />
+      <Variable Name="ConveyorSpeed" />
+      <Variable Name="RobotInput" />
+      <Variable Name="RobotOutput" />
+      <Variable Name="Sensor1" />
+      <Variable Name="Sensor2" />
+      <Variable Name="Sensor3" />
+    </Task>
+  </Module>
+</OpcUaSource>

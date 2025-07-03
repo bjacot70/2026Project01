@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="mappServicesHighlights" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="MainPage" />
+  <Pages>
+    <Page refId="MainPage" />
+	<Page refId="MpCoffeePage" />
+	<Page refId="MpAlarmXPage" />
+	<Page refId="MpAuditPage" />
+	<Page refId="MpRecipePage" />
+	<Page refId="MpReportPage" />
+	<Page refId="MpSequencePage" />
+	<Page refId="MpSequenceMonitorPage" />
+	<Page refId="MpCodeBoxPage" />
+	<Page refId="MpSkylinePage" />
+	<Page refId="SettingsPage" />
+	<Page refId="DiagnosePage" />
+  </Pages>
+  <Navigations>
+    
+  </Navigations>  
+  <BindingsSets>
+    <BindingsSet refId="MpCoffeeBinding" />
+	<BindingsSet refId="MpRecipeBinding" />
+	<BindingsSet refId="MpAuditBinding" />
+	<BindingsSet refId="MpReportBinding" />
+	<BindingsSet refId="MpSequenceBinding" />
+	<BindingsSet refId="MpCodeBoxBinding" />
+	<BindingsSet refId="PackMLStyleBinding" />
+	<BindingsSet refId="MpSkylineBinding" />
+	<BindingsSet refId="ContentPaperSequencerBinding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="LoginDialogEventBinding" />
+	<EventBindingsSet refId="MpCoffeeEventBinding" />
+	<EventBindingsSet refId="MpRecipeEventBinding" />
+	<EventBindingsSet refId="MpAuditEventBinding" />
+	<EventBindingsSet refId="MpReportEventBinding" />
+	<EventBindingsSet refId="MpSequenceEventBinding" />
+	<EventBindingsSet refId="MpCodeBoxEventBinding" />
+	<EventBindingsSet refId="MpAlarmXEventBinding" />
+	<EventBindingsSet refId="MpSkylineEventBinding" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="LoginDialog" />
+	<Dialog refId="CreateNewRecipeDialog" />
+	<Dialog refId="RenameRecipeDialog" />
+	<Dialog refId="EditRecipeDialog" />
+	<Dialog refId="AuditFilterSettingsDialog" />
+	<Dialog refId="MpPackMLDialog" />	
+	<Dialog refId="ImportDialog" />	
+	<Dialog refId="AlarmDialog" />	
+	<Dialog refId="SkylineDialog" />
+	<Dialog refId="SkylineOptionDialog" />
+	<Dialog refId="UserErrorDialog" />
+	<Dialog refId="DeleteRecipeDialog" />
+  </Dialogs>
+  <Contents>
+    <Content refId="ContentPaperSequencer" />
+  </Contents>
+  <SnippetsSets>
+		<SnippetsSet refId="ErrorNumberSnippets" />
+	<SnippetsSet refId="MpPackMLStyleSnippets" />
+  </SnippetsSets>
+  <ExpressionsSets>
+    <ExpressionsSet refId="MyExpressionSet" />
+  </ExpressionsSets>
+  <VariablesSets>
+    <VariablesSet refId="SessionVariables" />
+  </VariablesSets>
+  <StartTheme themeRefId="BuRTheme1" />
+  <Themes>
+    <Theme refId="BuRTheme1" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="true" />
+	<Configuration key="zoom" value="true" />
+  </Configurations>
+</vdef:Visualization>

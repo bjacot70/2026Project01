@@ -1,0 +1,25 @@
+VAR
+	FillCoffeeWait : TON := (0);
+	ProducedCoffee : ProducedCoffeeType := (0);
+	MainCoffeeUIConnect : MainCoffeeUIConnectType; (*Control structure of main logic*)
+END_VAR
+VAR CONSTANT
+	YES : BOOL := FALSE; (*Display an element on the visualization screen*)
+	NO : BOOL := TRUE; (*Hide an element on the visualization screen*)
+END_VAR
+VAR
+	i : INT := 0;
+END_VAR
+VAR CONSTANT
+	MAX_INGREDIENTS : INT := 3;
+END_VAR
+VAR
+	Refill : ARRAY[0..3] OF INT := [4(500)];
+	Transform : STRING[1000000] := ''; (*transforms the svg image in the coffee Visualization*)
+	TransformTime : TIME := T#3S;
+	TransformWait : TON := (0);
+	TransitionTime : UINT := 3000;
+	ExecuteWait : TON;
+	CupHideWait : TON := (0);
+	TransformHide : TON;
+END_VAR

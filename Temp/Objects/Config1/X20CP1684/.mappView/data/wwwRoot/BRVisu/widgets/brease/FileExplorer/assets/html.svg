@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30"
+   height="31.999998"
+   viewBox="0 0 7.9375002 8.4666662"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="html.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_z="210.00001 : 148.5 : 1"
+       inkscape:persp3d-origin="105.00001 : 98.999998 : 1"
+       id="perspective3741" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="53.610293"
+     inkscape:cy="34.082118"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-others="true"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.74942492,-288.11658)">
+    <g
+       id="g3730"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.1104709,288.11658)">
+      <g
+         id="File">
+        <g
+           id="g3715">
+          <path
+             id="path3713"
+             d="m 22.101,5.995 v -5.96 l 6.526,6.578 h -5.959 c -0.365,0 -0.567,-0.253 -0.567,-0.618 z M 21.203,8 C 20.835,8 20.75,7.775 20.75,7.408 V 0 H 3.958 C 3.593,0 3.25,0.42 3.25,0.788 V 31.283 C 3.25,31.65 3.593,32 3.958,32 h 23.865 c 0.368,0 0.927,-0.35 0.927,-0.717 V 8 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="Ebene_1_1_" />
+    </g>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect3757"
+       width="7.4248643"
+       height="2.5631511"
+       x="1.1037767"
+       y="292.24362"
+       ry="0.20079985"
+       rx="0.20079985" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.5015769px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18761915"
+       x="1.3573579"
+       y="264.81479"
+       id="text3739"
+       transform="scale(0.89905834,1.1122749)"><tspan
+         sodipodi:role="line"
+         id="tspan3737"
+         x="1.3573579"
+         y="264.81479"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.5015769px;line-height:45.65399933px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.01313335px;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.18761915">HTML</tspan></text>
+  </g>
+</svg>

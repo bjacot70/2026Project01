@@ -1,0 +1,8 @@
+PROCESS STARTED: 01-07-2025, 13:19:15
+1: @START@ "c:\Projects\BR\AS\6\Desk\baseProject\Binaries\Config1\X20CP1684\RUCPackage\Transfer.pil"
+2: Connection "/IF=tcpip", "/COMT=2500 /ANSL=1 /AM=* /IP=127.0.0.1 /PT=11169"
+Connection "/IF=tcpip", "/COMT=2500 /ANSL=1 /AM=* /IP=127.0.0.1 /PT=11169" SUCCESSFUL
+3: Transfer "RUCPackage.zip", "KeepPvValues=0 ExecuteInitExit=1 InstallMode=Consistent InstallRestriction=AllowInitialInstallation IgnoreVersion=1"
+Transfer "RUCPackage.zip", "KeepPvValues=0 ExecuteInitExit=1 InstallMode=Consistent InstallRestriction=AllowInitialInstallation IgnoreVersion=1" SUCCESSFUL
+4: @END@ "c:\Projects\BR\AS\6\Desk\baseProject\Binaries\Config1\X20CP1684\RUCPackage\Transfer.pil"
+PROCESS FINISHED (SUCCESS): 01-07-2025, 13:20:04

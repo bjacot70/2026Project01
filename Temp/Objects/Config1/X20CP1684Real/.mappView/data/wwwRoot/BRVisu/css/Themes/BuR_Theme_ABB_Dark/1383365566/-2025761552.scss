@@ -1,0 +1,11 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Login/meta/Login_base";
+.widgets_brease_Login_style_default {
+@include widgets_brease_Login_base; 
+	background-color: transparent;
+	border-width: 0px;
+	border-style: none;
+@include border-radius(0px);
+	border-color: transparent;
+
+}

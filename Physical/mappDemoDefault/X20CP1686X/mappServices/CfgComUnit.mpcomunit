@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gGroup" Type="mpcomunit">
+    <Group ID="Display">
+      <Group ID="Groups">
+        <Group ID="0">
+          <Property ID="Id" Value="Fluid" />
+          <Group ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="OZA" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="OZA" />
+            </Group>
+          </Group>
+        </Group>
+        <Group ID="1">
+          <Property ID="Id" Value="Gram" />
+          <Group ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="GRM" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="Datapoints">
+        <Group ID="0">
+          <Property ID="Id" Value="::Recipe:CoffeeIngredients.Milk" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Fluid" />
+          </Selector>
+        </Group>
+        <Group ID="1">
+          <Property ID="Id" Value="::Recipe:CoffeeIngredients.Water" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Fluid" />
+          </Selector>
+        </Group>
+        <Group ID="2">
+          <Property ID="Id" Value="::Recipe:CoffeeIngredients.Sugar" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Gram" />
+          </Selector>
+        </Group>
+        <Group ID="3">
+          <Property ID="Id" Value="::Recipe:CoffeeIngredients.Coffee" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Gram" />
+          </Selector>
+        </Group>
+        <Group ID="4">
+          <Property ID="Id" Value="::MainContro:Refill[1]" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Fluid" />
+          </Selector>
+        </Group>
+        <Group ID="5">
+          <Property ID="Id" Value="::MainContro:Refill[2]" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Gram" />
+          </Selector>
+        </Group>
+        <Group ID="6">
+          <Property ID="Id" Value="::MainContro:Refill[0]" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Gram" />
+          </Selector>
+        </Group>
+        <Group ID="7">
+          <Property ID="Id" Value="::MainContro:Refill[3]" />
+          <Selector ID="DisplayUnits" Value="UnitGroup">
+            <Property ID="Unitgroup" Value="Fluid" />
+          </Selector>
+        </Group>
+      </Group>
+      <Group ID="Units">
+        <Group ID="0">
+          <Group ID="EngineeringUnit">
+            <Property ID="Code" Value="MLT" />
+          </Group>
+          <Selector ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+          </Selector>
+        </Group>
+        <Group ID="1">
+          <Group ID="EngineeringUnit">
+            <Property ID="Code" Value="MLT" />
+          </Group>
+          <Selector ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="MLT" />
+            </Group>
+          </Selector>
+        </Group>
+        <Group ID="2">
+          <Group ID="EngineeringUnit">
+            <Property ID="Code" Value="GRM" />
+          </Group>
+          <Selector ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="GRM" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+          </Selector>
+        </Group>
+        <Group ID="3">
+          <Group ID="EngineeringUnit">
+            <Property ID="Code" Value="GRM" />
+          </Group>
+          <Selector ID="DisplayUnits">
+            <Group ID="Metric">
+              <Property ID="Code" Value="GRM" />
+            </Group>
+            <Group ID="Imperial">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+            <Group ID="ImperialUS">
+              <Property ID="Code" Value="ONZ" />
+            </Group>
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

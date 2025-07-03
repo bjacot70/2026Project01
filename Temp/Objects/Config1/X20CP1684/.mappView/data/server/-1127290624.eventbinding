@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="HD_LS1_contentAlarmList">
+    <EventBinding id="HD_LS1_contentAlarmList.ButtonAcknowledge.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="HD_LS1_contentAlarmList_ButtonAcknowledge" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.AlarmList.Action" refId="HD_LS1_contentAlarmList_AlarmList1">
+            <Method type="widgets.brease.AlarmList.Action.Acknowledge" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="HD_LS1_contentAlarmList">
+    <EventBinding id="HD_LS1_contentAlarmList.ButtonAcknowledgeAll.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="HD_LS1_contentAlarmList_ButtonAcknowledgeAll" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.AlarmList.Action" refId="HD_LS1_contentAlarmList_AlarmList1">
+            <Method type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

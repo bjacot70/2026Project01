@@ -1,0 +1,7 @@
+
+<Styles id="BuR_Theme_ABB_Light_TextPad" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.TextPad" fontName="Arial" fontSize="12px" borderColor="rgba(240, 240, 240, 1)" borderStyle="solid" borderWidth="2px" textColor="rgba(31, 31, 31, 1)" backColor="rgba(255, 255, 255, 1)" gutterTextColor="rgba(0, 0, 0, 1)" gutterBackColor="rgba(240, 240, 240, 1)" selectionBackColor="rgba(255, 136, 0, 1)" activeLineBackColor="rgba(210, 210, 210, 1)" activeGutterBackColor="rgba(210, 210, 210, 1)" />
+
+</Styles>

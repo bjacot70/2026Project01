@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gPackMLStandaloneUnit" Type="mppackmlstandaloneunit">
+    <Group ID="mapp.Gen">
+      <Property ID="Enable" Value="TRUE" />
+      <Property ID="TaskClass" Value="1" />
+      <Property ID="Audit" Value="TRUE" />
+    </Group>
+    <Group ID="Settings">
+      <Property ID="StartupActiveMode" Value="1" />
+      <Property ID="WarningStateTransNotAllowed" Value="FALSE" />
+      <Property ID="WarningModeTransNotAllowed" Value="FALSE" />
+      <Property ID="ModeActivationCmdLevel" Value="FALSE" />
+      <Property ID="StartupActiveState" Value="4" />
+      <Selector ID="PackTags" Value="0" />
+    </Group>
+    <Group ID="Modes">
+      <Group ID="Mode[1]">
+        <Property ID="ModeID" Value="1" />
+        <Property ID="Name" Value="Production" />
+        <Selector ID="State[0]" Value="0" />
+        <Selector ID="State[1]" Value="0" />
+        <Selector ID="State[2]" Value="1">
+          <Property ID="AllowIn" Value="TRUE" />
+          <Property ID="AllowOut" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[3]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[4]" Value="1">
+          <Property ID="AllowIn" Value="TRUE" />
+          <Property ID="AllowOut" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[5]" Value="0" />
+        <Selector ID="State[6]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[7]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[8]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[9]" Value="1">
+          <Property ID="AllowIn" Value="TRUE" />
+          <Property ID="AllowOut" Value="TRUE" />
+        </Selector>
+        <Selector ID="State[10]" Value="0" />
+        <Selector ID="State[11]" Value="0" />
+        <Selector ID="State[12]" Value="0" />
+        <Selector ID="State[13]" Value="0" />
+        <Selector ID="State[14]" Value="0" />
+        <Selector ID="State[15]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[16]" Value="1">
+          <Property ID="AllowIn" Value="FALSE" />
+          <Property ID="AllowOut" Value="FALSE" />
+        </Selector>
+        <Selector ID="State[17]" Value="0" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

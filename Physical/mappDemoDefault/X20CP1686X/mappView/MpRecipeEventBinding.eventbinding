@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MpRecipeEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="eventbinding_9">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="ButtonDelete" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DeleteRecipeDialog" headerText="$IAT/RecipeDeleteRecipeHeader" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_10">
+      <Source xsi:type="widgets.brease.TextInput.Event" contentRefId="ContentMpRecipe" widgetRefId="SearchText" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.Refresh">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_11">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="CreateButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="CreateNewRecipeDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_12">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentCreateNewRecipe" widgetRefId="NoButton" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="CreateNewRecipeDialog" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.MessageBox.Cancel">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_13">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentCreateNewRecipe" widgetRefId="YesButton" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="CreateNewRecipeDialog" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.MessageBox.Confirm">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.New.Create">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_14">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="EditButton" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="EditRecipeDialog" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:DialogOpen">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_15">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentEditRecipe" widgetRefId="CancelButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="EditRecipeDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_16">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentEditRecipe" widgetRefId="SaveButton" event="Click" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="EditRecipeDialog" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.Save">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:SaveRecipe">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_17">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="SaveButton" event="Click" />
+      <Operand datatype="ANY_STRING" name="Recipe">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::Recipe:LoadRecipe">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.TextPad.Action" contentRefId="ContentMpRecipe" widgetRefId="RecipeTextPad">
+                <Method xsi:type="widgets.brease.TextPad.Action.Save" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.Load">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.TextPad.Action" contentRefId="ContentMpRecipe" widgetRefId="RecipeTextPad">
+                <Method xsi:type="widgets.brease.TextPad.Action.Open" filePath="=Recipe" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_18">
+      <Source xsi:type="session.Event" refId="UpdateRecipe" event="ValueChanged" />
+      <Operand datatype="ANY_STRING" name="Recipe">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::Recipe:LoadRecipe">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.TextPad.Action" contentRefId="ContentMpRecipe" widgetRefId="RecipeTextPad">
+            <Method xsi:type="widgets.brease.TextPad.Action.Open" filePath="=Recipe" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_19">
+      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+      <Operand datatype="ANY_STRING" name="Recipe">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::Recipe:LoadRecipe">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="contentId=&quot;ContentMpRecipe&quot;">
+        <Action>
+          <Target xsi:type="widgets.brease.TextPad.Action" contentRefId="ContentMpRecipe" widgetRefId="RecipeTextPad">
+            <Method xsi:type="widgets.brease.TextPad.Action.Open" filePath="=Recipe" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_20">
+      <Source xsi:type="opcUa.Event" refId="::Recipe:SaveRecipe" event="ValueChanged" />
+      <Operand datatype="ANY_STRING" name="Recipe">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::Recipe:LoadRecipe">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="newValue = true">
+        <Parallel>
+          <Action>
+            <Target xsi:type="widgets.brease.TextPad.Action" contentRefId="ContentMpRecipe" widgetRefId="RecipeTextPad">
+              <Method xsi:type="widgets.brease.TextPad.Action.Open" filePath="=Recipe" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="opcUa.NodeAction" refId="::Recipe:SaveRecipe">
+              <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_2">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentDeleteRecipe" widgetRefId="BtnDeleteRecipeYes" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.MessageBox.Confirm">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.Delete">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="DeleteRecipeDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="BtnRecipeStepUp" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.List.PageUp">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpRecipe" widgetRefId="BtnRecipeStepDown" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.Recipe.List.PageDown">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentDeleteRecipe" widgetRefId="BtnDeleteRecipeNo" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="DeleteRecipeDialog" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::Recipe:MpRecipeUIConnect.MessageBox.Cancel">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

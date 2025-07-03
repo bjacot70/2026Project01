@@ -1,0 +1,276 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_default {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 16px;
+@include font-weight-bold(false);
+@include text-alignment-all('left');
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+	background-color: transparent;
+span {
+	padding: 5px;
+}
+	border-style: none;
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline1 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 50px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline2 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 32px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline3 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 24px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline4 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 20px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline5 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 18px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Headline6 {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 16px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+@include font-weight-bold(true);
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 0px 15px 0px 15px;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Body1_Bold {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 14px;
+& span {
+	color: rgba(110, 110, 110, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(true);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Body1_Regular {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 14px;
+& span {
+	color: rgba(110, 110, 110, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Body2_Regular {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 16px;
+& span {
+	color: rgba(110, 110, 110, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Body2_Bold {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 16px;
+& span {
+	color: rgba(110, 110, 110, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(true);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Description {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 12px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Floating-TextOutput {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 10px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+	background-color: transparent;
+	border-style: none;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_Information {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 16px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+	background-color: transparent;
+	border-color: rgba(255, 136, 0, 1);
+	border-width: 3px;
+	border-style: solid;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput/meta/TextOutput_base";
+.widgets_brease_TextOutput_style_InformationHighlight {
+@include widgets_brease_TextOutput_base; 
+span {
+	font-family: Arial;
+}
+	font-size: 20px;
+& span {
+	color: rgba(31, 31, 31, 1);
+}
+	background-color: rgba(255, 255, 255, 1);
+	border-color: rgba(210, 210, 210, 1);
+	border-width: 3px;
+	border-style: solid;
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}

@@ -1,0 +1,7 @@
+03-07-2025 08:04:21 - COPYRIGHT (C) B&R Industrial Automation GmbH
+03-07-2025 08:04:21 - No ARsim registration found!
+03-07-2025 08:04:21 - InstanceName: 00000229472dc53b
+03-07-2025 08:04:21 - WorkingDirectory: C:\Projects\BR\AS\6\Desk\baseProject\Temp\Simulation\Config1\X20CP1684\
+03-07-2025 08:04:21 - COMMAND_COLDSTART
+03-07-2025 08:04:23 - Version: 6.0.2
+03-07-2025 08:22:12 - COMMAND_TERMINATE

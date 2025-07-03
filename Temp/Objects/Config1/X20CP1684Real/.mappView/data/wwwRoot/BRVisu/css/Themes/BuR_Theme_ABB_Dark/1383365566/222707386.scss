@@ -1,0 +1,114 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/CheckBox/meta/CheckBox_base";
+.widgets_brease_CheckBox_style_default {
+@include widgets_brease_CheckBox_base; 
+span {
+	font-family: Arial;
+}
+span {
+	font-size: 16px;
+}
+span {
+	text-align: left;
+}
+span {
+@include font-weight-bold(true);
+}
+	border-style: none;
+	border-width: 2px;
+@include border-radius(0px);
+&:not(.disabled):not(.active) .checkbox {
+	background-color: rgba(255, 255, 255, 1);
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: transparent;
+}
+&:not(.disabled) span {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) svg {
+	fill: rgba(0, 0, 0, 1);
+}
+&:not(.disabled):not(.checked) svg {
+	fill: rgba(0, 0, 0, 1);
+}
+&.disabled {
+	background-color: transparent;
+}
+&.disabled span {
+	color: rgba(210, 210, 210, 1);
+}
+&.disabled.checked span {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.disabled.active span {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.disabled .checkbox {
+	background-color: rgba(210, 210, 210, 1);
+}
+&.disabled.checked .checkbox {
+	background-color: rgba(210, 210, 210, 1);
+}
+&.disabled.active .checkbox {
+	background-color: rgba(210, 210, 210, 1);
+}
+&.disabled {
+	border-color: transparent;
+}
+&.disabled.checked {
+	border-color: transparent;
+}
+&.disabled.active {
+	border-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.disabled) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: rgba(255, 136, 0, 1);
+}
+&.checked:not(.disabled) span {
+	color: rgba(255, 136, 0, 1);
+}
+&.active:not(.disabled):not(.editMode) .checkbox {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) .checkbox {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 2px;
+}
+&.checked:not(.disabled) {
+	border-width: 2px;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: transparent;
+}
+&.checked:not(.disabled) {
+	border-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) .checkbox {
+	border-color: rgba(255, 136, 0, 1);
+}
+&.checked:not(.disabled):not(.active) span {
+	color: rgba(255, 255, 255, 1);
+}
+&.disabled.checked:not(.active) span {
+	color: rgba(210, 210, 210, 1);
+}
+&.checked.disabled svg {
+	fill: rgba(0, 0, 0, 1);
+}
+&.disabled:not(.checked) svg {
+	fill: rgba(0, 0, 0, 1);
+}
+
+}

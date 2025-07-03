@@ -1,0 +1,24 @@
+VAR CONSTANT
+	LEVEL_LIMIT : USINT := 250;
+	ON : INT := 1;
+	ACTIVATION : INT := 50;
+	MAX_MODULES : USINT := 7;
+	MAX_OPTIONS : USINT := 3;
+END_VAR
+VAR
+	x : INT := 0;
+	y : USINT := 0;
+	i : USINT := 0;
+	Cmd : SkylineCmd_Type := (0);
+	Step : SkylineStateEnum := WAIT;
+	Module : Module_Type;
+	BlockDeactivate : BOOL := TRUE;
+	State : STRING[50] := 'Off';
+	BlockActivate : BOOL := TRUE;
+	SelectedModuleIndex : INT := 0;
+	BlockFunctions : BOOL := FALSE;
+	Active : BOOL := 0;
+	SkylineNotification : STRING[80] := '';
+	Deactive : BOOL := TRUE;
+	z : INT := 0;
+END_VAR

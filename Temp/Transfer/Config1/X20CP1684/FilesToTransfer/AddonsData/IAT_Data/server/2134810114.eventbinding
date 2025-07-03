@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="HD_LS1_contentProduction2">
+    <EventBinding id="HD_LS1_contentProduction2.OpenExplorer.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="HD_LS1_contentProduction2_OpenExplorer" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.TextPad.Action" refId="HD_LS1_contentProduction2_TextPad1">
+            <Method type="widgets.brease.TextPad.Action.OpenFileExplorer" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="admin" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$e/aaUpEDkpSO$D2CNLo60b3nH8wo/wPtnzVhEWdTfiLYXhKM79bA+MDk" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrators" />
+      <Property ID="Role[2]" Value="BR_Engineer" />
+      <Property ID="Role[3]" Value="BR_SecurityAdmin" />
+      <Property ID="Role[4]" Value="BR_SafetyAdmin" />
+      <Property ID="Role[5]" Value="BR_Observer" />
+    </Group>
+  </Element>
+  <Element ID="Anonymous" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$ikIs2SXkl8Vj$UghS3z94d27MODOWCfoKcc36gHn/RUwPftFrjUL2vRQ" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Everyone" />
+      <Property ID="Role[2]" Value="BR_Engineer" />
+    </Group>
+  </Element>
+</Configuration>

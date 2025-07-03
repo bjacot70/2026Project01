@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MpSequenceEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="eventbinding_32">
+      <Source xsi:type="session.Event" refId="::SYSTEM:clientInfo.currentPageId" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequence" widgetRefId="Sequencer1">
+            <Method xsi:type="widgets.brease.Sequencer.Action.LoadSequence" name="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_33">
+      <Source xsi:type="widgets.brease.SequencerEditArea.Event" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1" event="SelectedStepItemChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerStepItemPopup.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerStepItemPopup1">
+            <Method xsi:type="widgets.brease.SequencerStepItemPopup.Action.SetVisible" value="=stepSelected" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_34">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="CloseButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerStepItemPopup.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerStepItemPopup1">
+            <Method xsi:type="widgets.brease.SequencerStepItemPopup.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_35">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="RemoveButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerEditArea.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1">
+            <Method xsi:type="widgets.brease.SequencerEditArea.Action.RemoveSelected" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_36">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="ReplaceButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerEditArea.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1">
+            <Method xsi:type="widgets.brease.SequencerEditArea.Action.ReplaceSelected" type="New" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_37">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="InsertBButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerEditArea.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1">
+            <Method xsi:type="widgets.brease.SequencerEditArea.Action.InsertBeforeSelected" type="New" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_38">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="InsertAButton" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerEditArea.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerEditArea1">
+            <Method xsi:type="widgets.brease.SequencerEditArea.Action.InsertAfterSelected" type="New" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_39">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMpSequence" widgetRefId="SaveButton" event="Click" />
+      <EventHandler condition="">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequence" widgetRefId="Sequencer1">
+                <Method xsi:type="widgets.brease.Sequencer.Action.SaveSequence" name="CoffeeSequence.xml" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::Sequence:SavePressed">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_40">
+      <Source xsi:type="widgets.brease.Sequencer.Event" contentRefId="ContentMpSequence" widgetRefId="Sequencer1" event="ImageListChanged" />
+      <EventHandler condition="level = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList1">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetImageList" imageList="=imageList" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="level = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList2">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetImageList" imageList="=imageList" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_41">
+      <Source xsi:type="widgets.brease.Sequencer.Event" contentRefId="ContentMpSequence" widgetRefId="Sequencer1" event="SelectedIndexChanged" />
+      <EventHandler condition="level = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList1">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetSelectedIndex">
+              <Arguments>
+                <selectedIndex>
+                  <types:Expression>selectedIndex</types:Expression>
+                </selectedIndex>
+              </Arguments>
+            </Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="level = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList2">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetSelectedIndex">
+              <Arguments>
+                <selectedIndex>
+                  <types:Expression>selectedIndex</types:Expression>
+                </selectedIndex>
+              </Arguments>
+            </Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_42">
+      <Source xsi:type="widgets.brease.SequencerTableItemImageList.Event" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList1" event="SelectedImageIndexChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequence" widgetRefId="Sequencer1">
+            <Method xsi:type="widgets.brease.Sequencer.Action.SetSelectedImageIndex" level="0" selectedImageIndex="=imageIndex" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_43">
+      <Source xsi:type="widgets.brease.SequencerTableItemImageList.Event" contentRefId="ContentMpSequence" widgetRefId="SequencerTableItemImageList2" event="SelectedImageIndexChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequence" widgetRefId="Sequencer1">
+            <Method xsi:type="widgets.brease.Sequencer.Action.SetSelectedImageIndex" level="1" selectedImageIndex="=imageIndex" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_44">
+      <Source xsi:type="widgets.brease.Sequencer.Event" contentRefId="ContentMpSequenceMonitor" widgetRefId="Sequencer2" event="ImageListChanged" />
+      <EventHandler condition="level = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList1">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetImageList" imageList="=imageList" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="level = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList2">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetImageList" imageList="=imageList" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_45">
+      <Source xsi:type="widgets.brease.Sequencer.Event" contentRefId="ContentMpSequenceMonitor" widgetRefId="Sequencer2" event="SelectedIndexChanged" />
+      <EventHandler condition="level = 0">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList1">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetSelectedIndex">
+              <Arguments>
+                <selectedIndex>
+                  <types:Expression>selectedIndex</types:Expression>
+                </selectedIndex>
+              </Arguments>
+            </Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="level = 1">
+        <Action>
+          <Target xsi:type="widgets.brease.SequencerTableItemImageList.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList2">
+            <Method xsi:type="widgets.brease.SequencerTableItemImageList.Action.SetSelectedIndex">
+              <Arguments>
+                <selectedIndex>
+                  <types:Expression>selectedIndex</types:Expression>
+                </selectedIndex>
+              </Arguments>
+            </Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_46">
+      <Source xsi:type="widgets.brease.SequencerTableItemImageList.Event" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList1" event="SelectedImageIndexChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="Sequencer2">
+            <Method xsi:type="widgets.brease.Sequencer.Action.SetSelectedImageIndex" level="0" selectedImageIndex="=imageIndex" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_47">
+      <Source xsi:type="widgets.brease.SequencerTableItemImageList.Event" contentRefId="ContentMpSequenceMonitor" widgetRefId="SequencerTableItemImageList2" event="SelectedImageIndexChanged" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.Sequencer.Action" contentRefId="ContentMpSequenceMonitor" widgetRefId="Sequencer2">
+            <Method xsi:type="widgets.brease.Sequencer.Action.SetSelectedImageIndex" level="1" selectedImageIndex="=imageIndex" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

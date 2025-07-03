@@ -1,0 +1,96 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LogoutButton/meta/LogoutButton_base";
+.widgets_brease_LogoutButton_style_default {
+@include widgets_brease_LogoutButton_base; 
+span {
+	font-family: Arial;
+}
+span {
+	font-size: 16px;
+}
+@include text-alignment(center);
+span {
+@include font-weight-bold(true);
+}
+	border-style: solid;
+&.active {
+	border-style: solid;
+}
+&.checked {
+	border-style: solid;
+}
+&.disabled {
+	border-style: solid;
+}
+&:not(.active):not(.checked) {
+	border-width: 2px;
+}
+&.disabled {
+	border-width: 2px;
+}
+@include border-radius(1000px);
+&:not(.disabled):not(.active):not(.checked) {
+	border-color: rgba(0, 0, 0, 1);
+}
+&.disabled {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.disabled.active {
+	border-color: rgba(210, 210, 210, 1);
+}
+&.disabled.checked {
+	border-color: rgba(210, 210, 210, 1);
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: rgba(255, 255, 255, 1);
+}
+&:not(.disabled):not(.active):not(.checked) span {
+	color: rgba(0, 0, 0, 1);
+}
+&:not(.active):not(.disabled):not(.checked) svg {
+	fill: rgba(0, 0, 0, 1);
+}
+&.disabled {
+	background-color: rgba(240, 240, 240, 1);
+}
+&.disabled.active {
+	background-color: rgba(240, 240, 240, 1);
+}
+&.disabled.checked {
+	background-color: rgba(240, 240, 240, 1);
+}
+&.disabled span {
+	color: rgba(110, 110, 110, 1);
+}
+&.disabled.active span {
+	color: rgba(110, 110, 110, 1);
+}
+&.disabled:checked span {
+	color: rgba(110, 110, 110, 1);
+}
+&.disabled svg {
+	fill: rgba(110, 110, 110, 1);
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) {
+	background-color: rgba(255, 255, 255, 1);
+}
+&.active:not(.disabled):not(.editMode) span {
+	color: rgba(255, 136, 0, 1);
+}
+&.active.checked:not(.disabled) span {
+	color: rgba(255, 136, 0, 1);
+}
+&.active svg {
+	fill: rgba(255, 136, 0, 1);
+}
+&.active:not(.disabled):not(.editMode) {
+	border-color: rgba(255, 136, 0, 1);
+}
+&.checked:not(.disabled) {
+	border-color: rgba(255, 136, 0, 1);
+}
+
+}

@@ -1,0 +1,7 @@
+{
+    "opcUaPort": "4840",
+    "useAnonymousLogin": false,
+    "opcUaSecurityPolicy": "BestAvailable",
+    "opcUaMessageSecurityMode": "BestAvailable",
+    "opcUaSslConfiguration": ""
+}

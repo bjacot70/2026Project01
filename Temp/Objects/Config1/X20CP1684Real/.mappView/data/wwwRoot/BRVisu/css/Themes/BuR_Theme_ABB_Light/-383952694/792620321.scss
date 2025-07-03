@@ -1,0 +1,141 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_default {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(169, 169, 169, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_blue {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(0, 172, 236, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_purple {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(204, 80, 204, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_magenta {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(230, 73, 151, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_teal {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(61, 161, 144, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_green {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(81, 163, 75, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_yellow {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(150, 141, 11, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_gold {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(182, 69, 6, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_orange {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(255, 136, 0, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line/meta/Line_base";
+.widgets_brease_Line_style_red {
+@include widgets_brease_Line_base; 
+line {
+	stroke: rgba(255, 71, 84, 1);
+}
+line {
+	stroke-width: 1px;
+}
+line {
+	opacity: 1;
+}
+
+}

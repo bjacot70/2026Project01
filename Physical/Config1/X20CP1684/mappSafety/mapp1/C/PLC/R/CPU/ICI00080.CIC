@@ -1,0 +1,19 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 80
+QSL: 8
+QJM: 0
+QJ: 0
+QR: 0
+*)
+		@NETWORK_BEGIN	
+@BPV 1 3 0		@FUORG 0	@26 2 VAR
+@BPV 1 4 0		@FUPAR 0	@RV 1
+@BPV 1 0 0			
+@BPV 1 5 0		@FUPAR 0	@RV 2
+@BPV 1 1 0			
+@BPV 1 2 0		@FURET 0	@RV 3
+@BPV 1 6 0			
+@BPV 1 3 0		@FUCA 0	
+		@NETWORK_END	

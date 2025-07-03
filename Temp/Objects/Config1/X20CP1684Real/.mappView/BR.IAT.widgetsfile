@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.br-automation.com/iat2015/widgetListDefinition/v2">
+  <widget name="widgets.brease.AlarmHistory" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmHistory" />
+  <widget name="widgets.brease.AlarmHistoryItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmHistoryItem" />
+  <widget name="widgets.brease.AlarmHistoryStyle" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmHistoryStyle" />
+  <widget name="widgets.brease.AlarmList" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmList" />
+  <widget name="widgets.brease.AlarmListItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmListItem" />
+  <widget name="widgets.brease.AlarmListStyle" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/AlarmListStyle" />
+  <widget name="widgets.brease.BarChart" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BarChart" />
+  <widget name="widgets.brease.BarChartItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BarChartItem" />
+  <widget name="widgets.brease.BasicSlider" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BasicSlider" />
+  <widget name="widgets.brease.BusyIndicator" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BusyIndicator" />
+  <widget name="widgets.brease.Button" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Button" />
+  <widget name="widgets.brease.ButtonBar" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ButtonBar" />
+  <widget name="widgets.brease.CheckBox" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/CheckBox" />
+  <widget name="widgets.brease.ContentControl" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ContentControl" />
+  <widget name="widgets.brease.DataHandlerWidget" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DataHandlerWidget" />
+  <widget name="widgets.brease.DateTimeInput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DateTimeInput" />
+  <widget name="widgets.brease.DateTimeOutput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DateTimeOutput" />
+  <widget name="widgets.brease.DateTimePicker" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DateTimePicker" />
+  <widget name="widgets.brease.DialogWindow" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DialogWindow" />
+  <widget name="widgets.brease.DonutChart" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DonutChart" />
+  <widget name="widgets.brease.DonutChartItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DonutChartItem" />
+  <widget name="widgets.brease.DropDownBox" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/DropDownBox" />
+  <widget name="widgets.brease.FileExplorer" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FileExplorer" />
+  <widget name="widgets.brease.FileExplorerItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FileExplorerItem" />
+  <widget name="widgets.brease.FileExplorerStyle" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FileExplorerStyle" />
+  <widget name="widgets.brease.FileExplorerSystem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FileExplorerSystem" />
+  <widget name="widgets.brease.FileManager" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FileManager" />
+  <widget name="widgets.brease.FlyOut" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/FlyOut" />
+  <widget name="widgets.brease.GenericDialog" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/GenericDialog" />
+  <widget name="widgets.brease.GroupBox" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/GroupBox" />
+  <widget name="widgets.brease.Image" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Image" />
+  <widget name="widgets.brease.KeyBoard" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/KeyBoard" />
+  <widget name="widgets.brease.Label" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Label" />
+  <widget name="widgets.brease.LanguageSelector" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LanguageSelector" />
+  <widget name="widgets.brease.Line" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Line" />
+  <widget name="widgets.brease.Login" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Login" />
+  <widget name="widgets.brease.LoginButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LoginButton" />
+  <widget name="widgets.brease.LoginInfo" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LoginInfo" />
+  <widget name="widgets.brease.LogoutButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/LogoutButton" />
+  <widget name="widgets.brease.MeasurementSystemSelector" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/MeasurementSystemSelector" />
+  <widget name="widgets.brease.MessageBox" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/MessageBox" />
+  <widget name="widgets.brease.MomentaryPushButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/MomentaryPushButton" />
+  <widget name="widgets.brease.MotionKeyPad" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/MotionKeyPad" />
+  <widget name="widgets.brease.NavigationBar" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/NavigationBar" />
+  <widget name="widgets.brease.NavigationButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/NavigationButton" />
+  <widget name="widgets.brease.NumericInput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/NumericInput" />
+  <widget name="widgets.brease.NumericOutput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/NumericOutput" />
+  <widget name="widgets.brease.NumPad" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/NumPad" />
+  <widget name="widgets.brease.OnlineChartHDA" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/OnlineChartHDA">
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.Cursor" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.Graph" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.XAxis" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.YAxis" widget="widgets.brease.OnlineChartHDA" />
+  </widget>
+  <widget name="widgets.brease.Paper" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Paper" />
+  <widget name="widgets.brease.Password" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Password" />
+  <widget name="widgets.brease.PieChart" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChart" />
+  <widget name="widgets.brease.PieChartItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem" />
+  <widget name="widgets.brease.ProgressBar" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ProgressBar" />
+  <widget name="widgets.brease.PushButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PushButton" />
+  <widget name="widgets.brease.Rectangle" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Rectangle" />
+  <widget name="widgets.brease.SystemLogin" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/SystemLogin" />
+  <widget name="widgets.brease.TabControl" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TabControl" />
+  <widget name="widgets.brease.TabItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TabItem" />
+  <widget name="widgets.brease.Table" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/Table" />
+  <widget name="widgets.brease.TableColumnWidget" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableColumnWidget" />
+  <widget name="widgets.brease.TableItem" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableItem" />
+  <widget name="widgets.brease.TableItemImageList" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableItemImageList" />
+  <widget name="widgets.brease.TableItemWidget" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableItemWidget" />
+  <widget name="widgets.brease.TableWidget" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableWidget" />
+  <widget name="widgets.brease.TableWidgetStyle" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TableWidgetStyle" />
+  <widget name="widgets.brease.TextEditorWidget" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextEditorWidget" />
+  <widget name="widgets.brease.TextInput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextInput" />
+  <widget name="widgets.brease.TextKeyPad" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextKeyPad" />
+  <widget name="widgets.brease.TextOutput" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextOutput" />
+  <widget name="widgets.brease.TextPad" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/TextPad" />
+  <widget name="widgets.brease.ToggleButton" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ToggleButton" />
+  <widget name="widgets.brease.ToggleSwitch" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ToggleSwitch" />
+  <widget name="widgets.brease.WebViewer" path="C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/WebViewer" />
+</widgets>

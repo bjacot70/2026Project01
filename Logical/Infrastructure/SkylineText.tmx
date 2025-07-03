@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">SkylineText</prop>
+  </header>
+  <body>
+    <tu tuid="SkylineInfoOk">
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Information: Modul ok!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Information: Module ok!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SkylineInfoLimit">
+      <tuv xml:lang="de">
+        <seg>Information: Füll-Level ist unter dem Limit!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Information: Fill level below limit!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SkylineAlarm">
+      <tuv xml:lang="de">
+        <seg>Alarm: Füll-Level ist zu niedrig!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm: Fill level too low!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

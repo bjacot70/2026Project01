@@ -1,0 +1,2 @@
+SafeDigitalInput01,POE\Main\Code.GB,1,IN,4,46,Read,,SAFEBOOL,SIX8.0,,VAR_GLOBAL,GLOBAL,,
+SafeDigitalInput02,POE\Main\Code.GB,1,IN,5,46,Read,,SAFEBOOL,SIX8.1,,VAR_GLOBAL,GLOBAL,,

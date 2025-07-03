@@ -1,0 +1,231 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ToggleSwitch/meta/ToggleSwitch_base";
+.widgets_brease_ToggleSwitch_style_default {
+@include widgets_brease_ToggleSwitch_base; 
+.wrapper .before {
+	font-family: Arial;
+}
+.wrapper .after {
+	font-family: Arial;
+}
+.wrapper .before {
+	font-size: 16px;
+}
+.wrapper .after {
+	font-size: 16px;
+}
+.wrapper {
+@include text-alignment(center);
+}
+.wrapper .before {
+@include font-weight-bold(true);
+}
+.wrapper .after {
+@include font-weight-bold(true);
+}
+	border-style: none;
+&.active {
+	border-style: none;
+}
+&.checked {
+	border-style: none;
+}
+&.disabled {
+	border-style: none;
+}
+&:not(.active):not(.checked) {
+	border-width: 2px;
+}
+&.disabled {
+	border-width: 2px;
+}
+.contentWrapper {
+	padding: 5px;
+}
+@include border-radius(20px);
+.breaseToggleSwitch_toggle {
+@include border-radius(20px - 2px);
+}
+&:not(.checked):not(.disabled) {
+background-color: rgba(0, 0, 0, 1);
+}
+&.active:not(.disabled) {
+background-color: rgba(0, 0, 0, 1);
+}
+&:not(.disabled):not(.checked) {
+	border-color: rgba(0, 0, 0, 1);
+}
+&:not(.disabled):not(.checked) .wrapper .before {
+	color: rgba(255, 255, 255, 1);
+}
+&:not(.disabled):not(.checked) .wrapper .after {
+	color: rgba(255, 255, 255, 1);
+}
+&:not(.checked):not(.disabled) svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&:not(.disabled) .breaseToggleSwitch_toggle {
+background-color: rgba(255, 255, 255, 1);
+}
+&.disabled:not(.checked) {
+	background-color: rgba(152, 152, 152, 1);
+}
+&.disabled:not(.checked) span {
+	color: rgba(210, 210, 210, 1);
+}
+&.disabled:not(.checked).active span {
+	color: rgba(210, 210, 210, 1);
+}
+&.disabled svg {
+	fill: rgba(210, 210, 210, 1);
+}
+&.disabled {
+	border-color: rgba(152, 152, 152, 1);
+}
+&.disabled .breaseToggleSwitch_toggle {
+background-color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) {
+background-color: rgba(255, 136, 0, 1);
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) .wrapper .before {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) .wrapper .after {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 2px;
+}
+&.checked:not(.disabled) {
+	border-width: 2px;
+}
+&.checked:not(.disabled) {
+	border-color: rgba(92, 92, 92, 1);
+}
+&.disabled.checked {
+	background-color: rgba(255, 196, 128, 1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/ToggleSwitch/meta/ToggleSwitch_base";
+.widgets_brease_ToggleSwitch_style_defaultSmall {
+@include widgets_brease_ToggleSwitch_base; 
+.wrapper .before {
+	font-family: Arial;
+}
+.wrapper .after {
+	font-family: Arial;
+}
+.wrapper .before {
+	font-size: 14px;
+}
+.wrapper .after {
+	font-size: 14px;
+}
+.wrapper {
+@include text-alignment(center);
+}
+.wrapper .before {
+@include font-weight-bold(true);
+}
+.wrapper .after {
+@include font-weight-bold(true);
+}
+	border-style: none;
+&.active {
+	border-style: none;
+}
+&.checked {
+	border-style: none;
+}
+&.disabled {
+	border-style: none;
+}
+&:not(.active):not(.checked) {
+	border-width: 2px;
+}
+&.disabled {
+	border-width: 2px;
+}
+.contentWrapper {
+	padding: 5px;
+}
+@include border-radius(20px);
+.breaseToggleSwitch_toggle {
+@include border-radius(20px - 2px);
+}
+&:not(.checked):not(.disabled) {
+background-color: rgba(0, 0, 0, 1);
+}
+&.active:not(.disabled) {
+background-color: rgba(0, 0, 0, 1);
+}
+&:not(.disabled):not(.checked) {
+	border-color: rgba(0, 0, 0, 1);
+}
+&:not(.disabled):not(.checked) .wrapper .before {
+	color: rgba(255, 255, 255, 1);
+}
+&:not(.disabled):not(.checked) .wrapper .after {
+	color: rgba(255, 255, 255, 1);
+}
+&:not(.checked):not(.disabled) svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&:not(.disabled) .breaseToggleSwitch_toggle {
+background-color: rgba(255, 255, 255, 1);
+}
+&.disabled:not(.checked) {
+	background-color: rgba(152, 152, 152, 1);
+}
+&.disabled:not(.checked) span {
+	color: rgba(210, 210, 210, 1);
+}
+&.disabled:not(.checked).active span {
+	color: rgba(210, 210, 210, 1);
+}
+&.disabled svg {
+	fill: rgba(210, 210, 210, 1);
+}
+&.disabled {
+	border-color: rgba(152, 152, 152, 1);
+}
+&.disabled .breaseToggleSwitch_toggle {
+background-color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) {
+background-color: rgba(255, 136, 0, 1);
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) .wrapper .before {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) .wrapper .after {
+	color: rgba(255, 255, 255, 1);
+}
+&.checked:not(.disabled) svg {
+	fill: rgba(255, 255, 255, 1);
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 2px;
+}
+&.checked:not(.disabled) {
+	border-width: 2px;
+}
+&.checked:not(.disabled) {
+	border-color: rgba(92, 92, 92, 1);
+}
+&.disabled.checked {
+	background-color: rgba(255, 196, 128, 1);
+}
+
+}

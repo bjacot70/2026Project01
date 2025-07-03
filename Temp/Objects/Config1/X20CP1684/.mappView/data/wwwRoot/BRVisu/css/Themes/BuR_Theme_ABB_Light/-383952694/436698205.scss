@@ -1,0 +1,36 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/WebViewer/meta/WebViewer_base";
+.widgets_brease_WebViewer_style_default {
+@include widgets_brease_WebViewer_base; 
+& iframe {
+	background-color: transparent;
+}
+& div.editorImage {
+	background-color: transparent;
+}
+& iframe {
+	border-color: rgba(240, 240, 240, 1);
+}
+& div.editorImage {
+	border-color: rgba(240, 240, 240, 1);
+}
+& iframe {
+	border-width: 2px;
+}
+& div.editorImage {
+	border-width: 2px;
+}
+& iframe {
+	border-style: solid;
+}
+& div.editorImage {
+	border-style: solid;
+}
+& iframe {
+@include border-radius(5px);
+}
+& div.editorImage {
+@include border-radius(5px);
+}
+
+}

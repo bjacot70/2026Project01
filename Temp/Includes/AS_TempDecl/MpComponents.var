@@ -1,0 +1,8 @@
+VAR
+	FileManagement : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_7.mpfilemanager" #2"1" #3"1"*)
+	gAlarmXCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_3.mpalarmxcore" #2"1" #3"1"*)
+	gAlarmXHistory : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_5.mpalarmxhistory" #2"1" #3"1"*)
+	gAlarmXList : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_4.mpalarmxlist" #2"1" #3"1"*)
+	gIoConfig : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_2.mpio" #2"1" #3"1"*)
+	gRecipeXml : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\BR\AS\6\Desk\baseProject\Physical\Config1\X20CP1684\mappServices\Config_6.mprecipexml" #2"1" #3"1"*)
+END_VAR

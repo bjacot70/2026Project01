@@ -1,0 +1,83 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_Red {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #FF0000;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_GrayBlu {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #3399ff;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_Black {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #000000;
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem/meta/PieChartItem_base";
+.widgets_brease_PieChartItem_style_ItemOrange75 {
+@include widgets_brease_PieChartItem_base; 
+path {
+	fill: rgba(255, 136, 0, 0.75);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem/meta/PieChartItem_base";
+.widgets_brease_PieChartItem_style_ItemOrange50 {
+@include widgets_brease_PieChartItem_base; 
+path {
+	fill: rgba(255, 136, 0, 0.5);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem/meta/PieChartItem_base";
+.widgets_brease_PieChartItem_style_ItemGrayBlue {
+@include widgets_brease_PieChartItem_base; 
+path {
+	fill: rgba(51,153,255,1);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem/meta/PieChartItem_base";
+.widgets_brease_PieChartItem_style_ItemGrayBlue75 {
+@include widgets_brease_PieChartItem_base; 
+path {
+	fill: rgba(51,153,255,0.75);
+}
+
+}
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/PieChartItem/meta/PieChartItem_base";
+.widgets_brease_PieChartItem_style_ItemGrayBlue50 {
+@include widgets_brease_PieChartItem_base; 
+path {
+	fill: rgba(51,153,255,0.5);
+}
+
+}

@@ -1,0 +1,126 @@
+﻿@import "mixins.scss";
+@import "C:/Program Files (x86)/BrAutomation/AS6/AS/TechnologyPackages/mappView/6.3.1/Widgets/brease/KeyBoard/meta/KeyBoard_base";
+.widgets_brease_KeyBoard_style_default {
+@include widgets_brease_KeyBoard_base; 
+	font-family: Arial;
+.dropdown {
+	font-family: Arial;
+}
+button {
+	font-family: Arial;
+}
+button sub {
+	font-family: Arial;
+}
+input {
+	font-family: Arial;
+}
+div {
+	font-family: Arial;
+}
+	border-color: rgba(110, 110, 110, 1);
+header {
+	background-color: rgba(110, 110, 110, 1);
+}
+.keyBoardHeader {
+@include backGroundGradient('linear-gradient(to bottom,rgba(110, 110, 110, 1) 0%,rgba(110, 110, 110, 1) 100%)');
+}
+.keyBoardBody {
+@include backGroundGradient('linear-gradient(to bottom,rgba(51, 51, 51, 1) 0%,rgba(51, 51, 51, 1) 100%)');
+}
+.dropdown .dropdownlist div.selected {
+	color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.active {
+	color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.selected {
+	color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.active sub {
+	color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.selected sub {
+	color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.active svg {
+	fill: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.selected svg {
+	fill: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.active .icon-shift {
+	background-color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.selected .icon-shift {
+	background-color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.active .icon-shift:after {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+.keyBoardBody button.selected .icon-shift:after {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+.dropdown .button.active {
+	background-color: rgba(255, 136, 0, 1);
+}
+.dropdown .button.selected {
+	background-color: rgba(255, 136, 0, 1);
+}
+.keyBoardBody button.active {
+	background-color: rgba(255, 136, 0, 1);
+}
+.keyBoardBody button.selected {
+	background-color: rgba(255, 136, 0, 1);
+}
+.keyBoardBody button.active .icon-delete {
+	color: rgba(255, 136, 0, 1);
+}
+.keyBoardBody button.selected .icon-delete {
+	color: rgba(255, 136, 0, 1);
+}
+.dropdown {
+	color: rgba(0, 0, 0, 1);
+}
+.keyBoardButtons button {
+	color: rgba(0, 0, 0, 1);
+}
+.keyBoardButtons button sub {
+	color: rgba(0, 0, 0, 1);
+}
+.keyBoardButtons button svg {
+	fill: rgba(0, 0, 0, 1);
+}
+.keyBoardBody button .icon-shift {
+	background-color: rgba(0, 0, 0, 1);
+}
+.keyBoardBody button .icon-shift:after {
+	border-bottom-color: rgba(0, 0, 0, 1);
+}
+@include border-radius(5px);
+.keyBoardHeader {
+@include border-top-left-radius(5px);
+}
+.keyBoardHeader {
+@include border-top-right-radius(5px);
+}
+.keyBoardBody {
+@include border-bottom-left-radius(5px);
+}
+.keyBoardBody {
+@include border-bottom-right-radius(5px);
+}
+.pluginList {
+	background-color: rgba(240, 240, 240, 1);
+}
+.pluginList {
+	border-color: rgba(110, 110, 110, 1);
+}
+.pluginList div {
+	border-left-color: rgba(110, 110, 110, 1);
+}
+.pluginList div {
+	color: rgba(0, 0, 0, 1);
+}
+
+}

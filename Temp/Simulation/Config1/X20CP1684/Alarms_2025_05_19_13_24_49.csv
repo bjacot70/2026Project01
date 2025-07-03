@@ -1,0 +1,4 @@
+sep=,
+Time,Instance,Name,Code,Severity,AdditionalInformation1,AdditionalInformation2,Change,Message
+2025-05-19 13:23:37:670,1,TemperatureHigh,100,10,,,Inactive -> Active,The Temperature is Too High
+2025-05-19 13:24:04:599,1,TemperatureHigh,100,10,,,Inactive -> Active,The Temperature is Too High

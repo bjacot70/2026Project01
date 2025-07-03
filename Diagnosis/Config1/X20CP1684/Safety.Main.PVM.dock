@@ -1,0 +1,1151 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Safety 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=156 Type=0 Scope=0 Force=0 Index=491 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    Step                                     DINT    0 "                                                               0"    0    4    1   10    1    0 e,0,WAIT
+
+                               bCmdStart                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                       SfDomainConnect_0                          SfDomainConnect    0 "                                                               *"    0   24    1    0    1    0         
+                                SfDomain                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                UserName                               STRING[80]    0 "                                                               *"    1    9   81    1    0    0         
+                                Password                               STRING[80]    0 "                                                               *"    1    9   81    1    0    0         
+                        UDID_Acknowledge                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Busy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                            SafeDomainID                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                             CurrentUser                               STRING[80]    0 "                                                               *"    1    9   81    1    0    0         
+                         PermissionLevel                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,sfDO
+
+                                UDID_low                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                               UDID_high                                     UINT    0 "                                                               *"    1    6    1   10    0    0         
+                                Internal                 SfDomainInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    Flag                    SfDomainInternalFlags    0 "                                                               *"    2   24    1    0    0    0         
+                                 Toggled                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         WaitForOneCycle                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                       ActiveDoneReached                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                        SfDomainInternal                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                           gSafeDomain_1                                SfDomType    0 "                                                               *"    0   24    1    0    0    1         
+                               controlIf                                    UDINT    0 "                                                      1525560608"    1    7    1   10    0    0         
+                      SfDomainTransfer_0                         SfDomainTransfer    0 "                                                               *"    0   24    1    0    1    1         
+                                SfDomain                                    UDINT    0 "                                                      1519411160"    1    7    1   10    0    0         
+                                 Execute                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                         SafeAppFilePath                              STRING[260]    0 "                                                   'mapp1.sfapp'"    1    9  261    1    0    0         
+                        SafeCommFilePath                              STRING[260]    0 "                                                              ''"    1    9  261    1    0    0         
+                                    Done                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Busy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                                Progress                                    USINT    0 "                                                               0"    1    5    1   10    0    0         
+                                Internal                 SfDomainInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
+                                 pObject                                    UDINT    0 "                                                      1471537120"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                    Flag                    SfDomainInternalFlags    0 "                                                               *"    2   24    1    0    0    1         
+                                 Toggled                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                         WaitForOneCycle                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                       ActiveDoneReached                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                        SfDomainInternal                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                          SfDomainInfo_0                             SfDomainInfo    0 "                                                               *"    0   24    1    0    1    0         
+                                SfDomain                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                 Execute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Done                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Busy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                                    Info                         SfDomainInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                            SafeDomainID                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                UDID_low                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                               UDID_high                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  Status                   SfDomainInfoStatusType    0 "                                                               *"    2   24    1    0    0    0         
+                             SafeOSState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                          SafeNodesState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                             SystemState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                    OperationalModeState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                 SafeCommissioningUnused                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                             FWExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NumberOfFWExchanged                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             SNExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NumberOfSNExchanged                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                       NumberOfSafeNODEs                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             SKExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         SetupModeActive                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         SafeApplication                     SfDomainInfoFileType    0 "                                                               *"    2   24    1    0    0    0         
+                        ExistOnSafeLogic                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Name                              STRING[260]    0 "                                                               *"    3    9  261    1    0    0         
+                                UserName                              STRING[260]    0 "                                                               *"    3    9  261    1    0    0         
+                               TimeStamp                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                                     CRC                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                            Acknowledged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                       SafeCommissioning               SfDomainInfoFileType[0..0]    0 "                                                               *"    2   24    1    0    0    0        a
+                    SafeCommissioning[0]                     SfDomainInfoFileType    0 "                                                               *"    3   24    1    0    0    0         
+                        ExistOnSafeLogic                                     BOOL    0 "                                                               *"    4    1    1    2    0    0         
+                                    Name                              STRING[260]    0 "                                                               *"    4    9  261    1    0    0         
+                                UserName                              STRING[260]    0 "                                                               *"    4    9  261    1    0    0         
+                               TimeStamp                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                                     CRC                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                            Acknowledged                                     BOOL    0 "                                                               *"    4    1    1    2    0    0         
+                              SafeTables                    SfDomainTableInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                    NumberOfRemoteTables                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                    TableInfoStatusArray       SfDomainTableInfoStatusType[0..98]    0 "                                                               *"    3   24   99    0    0    0         
+                 TableInfoStatusArray[0]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[1]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[2]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[3]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[4]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[5]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[6]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[7]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[8]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[9]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[10]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[11]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[12]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[13]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[14]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[15]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[16]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[17]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[18]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[19]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[20]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[21]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[22]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[23]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[24]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[25]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[26]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[27]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[28]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[29]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[30]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[31]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[32]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[33]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[34]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[35]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[36]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[37]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[38]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[39]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[40]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[41]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[42]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[43]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[44]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[45]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[46]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[47]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[48]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[49]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[50]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[51]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[52]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[53]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[54]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[55]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[56]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[57]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[58]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[59]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[60]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[61]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[62]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[63]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[64]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[65]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[66]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[67]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[68]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[69]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[70]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[71]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[72]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[73]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[74]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[75]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[76]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[77]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[78]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[79]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[80]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[81]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[82]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[83]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[84]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[85]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[86]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[87]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[88]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[89]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[90]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[91]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[92]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[93]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[94]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[95]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[96]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[97]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[98]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                Internal                 SfDomainInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    Flag                    SfDomainInternalFlags    0 "                                                               *"    2   24    1    0    0    0         
+                                 Toggled                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         WaitForOneCycle                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                       ActiveDoneReached                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                        SfDomainInternal                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            bDataCorrect                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                    SfDomainCompletion_0                       SfDomainCompletion    0 "                                                               *"    0   24    1    0    1    0         
+                                SfDomain                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                 Execute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Info                         SfDomainInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                            SafeDomainID                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                UDID_low                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                               UDID_high                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  Status                   SfDomainInfoStatusType    0 "                                                               *"    2   24    1    0    0    0         
+                             SafeOSState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                          SafeNodesState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                             SystemState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                    OperationalModeState                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                 SafeCommissioningUnused                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,sfDO
+
+                             FWExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NumberOfFWExchanged                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             SNExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NumberOfSNExchanged                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                       NumberOfSafeNODEs                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             SKExchanged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         SetupModeActive                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         SafeApplication                     SfDomainInfoFileType    0 "                                                               *"    2   24    1    0    0    0         
+                        ExistOnSafeLogic                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Name                              STRING[260]    0 "                                                               *"    3    9  261    1    0    0         
+                                UserName                              STRING[260]    0 "                                                               *"    3    9  261    1    0    0         
+                               TimeStamp                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                                     CRC                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                            Acknowledged                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                       SafeCommissioning               SfDomainInfoFileType[0..0]    0 "                                                               *"    2   24    1    0    0    0        a
+                    SafeCommissioning[0]                     SfDomainInfoFileType    0 "                                                               *"    3   24    1    0    0    0         
+                        ExistOnSafeLogic                                     BOOL    0 "                                                               *"    4    1    1    2    0    0         
+                                    Name                              STRING[260]    0 "                                                               *"    4    9  261    1    0    0         
+                                UserName                              STRING[260]    0 "                                                               *"    4    9  261    1    0    0         
+                               TimeStamp                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                                     CRC                                    UDINT    0 "                                                               *"    4    7    1   10    0    0         
+                            Acknowledged                                     BOOL    0 "                                                               *"    4    1    1    2    0    0         
+                              SafeTables                    SfDomainTableInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                    NumberOfRemoteTables                                    USINT    0 "                                                               *"    3    5    1   10    0    0         
+                    TableInfoStatusArray       SfDomainTableInfoStatusType[0..98]    0 "                                                               *"    3   24   99    0    0    0         
+                 TableInfoStatusArray[0]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[1]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[2]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[3]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[4]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[5]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[6]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[7]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[8]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                 TableInfoStatusArray[9]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[10]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[11]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[12]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[13]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[14]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[15]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[16]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[17]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[18]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[19]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[20]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[21]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[22]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[23]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[24]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[25]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[26]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[27]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[28]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[29]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[30]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[31]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[32]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[33]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[34]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[35]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[36]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[37]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[38]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[39]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[40]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[41]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[42]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[43]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[44]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[45]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[46]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[47]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[48]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[49]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[50]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[51]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[52]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[53]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[54]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[55]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[56]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[57]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[58]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[59]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[60]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[61]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[62]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[63]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[64]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[65]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[66]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[67]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[68]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[69]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[70]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[71]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[72]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[73]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[74]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[75]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[76]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[77]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[78]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[79]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[80]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[81]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[82]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[83]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[84]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[85]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[86]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[87]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[88]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[89]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[90]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[91]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[92]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[93]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[94]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[95]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[96]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[97]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                TableInfoStatusArray[98]              SfDomainTableInfoStatusType    0 "                                                               *"    4   24    1    0    0    0         
+                                 TableID                                     UINT    0 "                                                               *"    5    6    1   10    0    0         
+                               TableType                                     DINT    0 "                                                               *"    5    4    1   10    0    0 e,0,sfDO
+
+                            Acknowledged                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                    Done                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Busy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                                Internal                 SfDomainInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    Flag                    SfDomainInternalFlags    0 "                                                               *"    2   24    1    0    0    0         
+                                 Toggled                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         WaitForOneCycle                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                       ActiveDoneReached                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                        SfDomainInternal                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gSkyline" Type="mpskyline">
+    <Group ID="MpSkyline">
+      <Group ID="ModuleStateCollections">
+        <Group ID="[0]">
+          <Property ID="Name" Value="CoffeeMachineStates" />
+          <Group ID="States">
+            <Group ID="[0]" />
+            <Group ID="[1]">
+              <Property ID="Name" Value="Ready" />
+            </Group>
+            <Group ID="[2]">
+              <Property ID="Name" Value="Warning" />
+            </Group>
+            <Group ID="[3]">
+              <Property ID="Name" Value="Error" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="OptionStateCollections">
+        <Group ID="[0]">
+          <Property ID="Name" Value="CoolingStates" />
+          <Group ID="States">
+            <Group ID="[0]">
+              <Property ID="Name" Value="Off" />
+            </Group>
+            <Group ID="[1]">
+              <Property ID="Name" Value="Cooling" />
+            </Group>
+          </Group>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="HeatingStates" />
+          <Group ID="States">
+            <Group ID="[0]">
+              <Property ID="Name" Value="Off" />
+            </Group>
+            <Group ID="[1]">
+              <Property ID="Name" Value="Heating" />
+            </Group>
+          </Group>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="FilterStates" />
+          <Group ID="States">
+            <Group ID="[0]">
+              <Property ID="Name" Value="NormalFilter" />
+            </Group>
+            <Group ID="[1]">
+              <Property ID="Name" Value="PremiumFilter" />
+            </Group>
+          </Group>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Name" Value="GrinderStates" />
+          <Group ID="States">
+            <Group ID="[0]">
+              <Property ID="Name" Value="GrindRough" />
+            </Group>
+            <Group ID="[1]">
+              <Property ID="Name" Value="GrindFine" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="NotificationCollections">
+        <Group ID="[0]">
+          <Property ID="Name" Value="CoffeeNotifications" />
+          <Group ID="Notifications">
+            <Group ID="[0]">
+              <Property ID="Name" Value="Information" />
+            </Group>
+            <Group ID="[1]">
+              <Property ID="Name" Value="Alarm" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="Options">
+        <Group ID="[0]">
+          <Property ID="Name" Value="OptionCooling" />
+          <Property ID="OptionStateCollection" Value="CoolingStates" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="OptionHeating" />
+          <Property ID="OptionStateCollection" Value="HeatingStates" />
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="OptionFilter" />
+          <Property ID="OptionStateCollection" Value="FilterStates" />
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Name" Value="OptionGrinder" />
+          <Property ID="OptionStateCollection" Value="GrinderStates" />
+        </Group>
+      </Group>
+      <Group ID="ModuleTypes">
+        <Group ID="[0]">
+          <Property ID="Name" Value="Unit_Tank" />
+          <Property ID="Size" Value="L" />
+          <Property ID="StateCollection" Value="CoffeeMachineStates" />
+          <Property ID="NotificationCollection" Value="CoffeeNotifications" />
+          <Group ID="[0]">
+            <Property ID="Name" Value="OptionCooling" />
+          </Group>
+          <Group ID="[1]">
+            <Property ID="Name" Value="OptionHeating" />
+          </Group>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="Unit_Filter" />
+          <Property ID="Size" Value="L" />
+          <Property ID="StateCollection" Value="CoffeeMachineStates" />
+          <Property ID="NotificationCollection" Value="CoffeeNotifications" />
+          <Group ID="[0]">
+            <Property ID="Name" Value="OptionFilter" />
+          </Group>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="Unit_Grinder" />
+          <Property ID="Size" Value="M" />
+          <Property ID="StateCollection" Value="CoffeeMachineStates" />
+          <Property ID="NotificationCollection" Value="CoffeeNotifications" />
+          <Group ID="[0]">
+            <Property ID="Name" Value="OptionGrinder" />
+          </Group>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Name" Value="Unit_Start" />
+          <Property ID="Size" Value="M" />
+          <Property ID="StateCollection" Value="CoffeeMachineStates" />
+          <Property ID="NotificationCollection" Value="CoffeeNotifications" />
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Name" Value="Unit_End" />
+          <Property ID="Size" Value="L" />
+          <Property ID="StateCollection" Value="CoffeeMachineStates" />
+          <Property ID="NotificationCollection" Value="CoffeeNotifications" />
+        </Group>
+      </Group>
+      <Group ID="Modules">
+        <Group ID="[0]">
+          <Property ID="Name" Value="Start" />
+          <Property ID="Type" Value="Unit_Start" />
+          <Property ID="Grouping" Value="0" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="Water_Tank" />
+          <Property ID="Type" Value="Unit_Tank" />
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="Coffee_Tank" />
+          <Property ID="Type" Value="Unit_Tank" />
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Name" Value="Milk_Tank" />
+          <Property ID="Type" Value="Unit_Tank" />
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Name" Value="Filtering" />
+          <Property ID="Type" Value="Unit_Filter" />
+          <Property ID="Grouping" Value="0" />
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Name" Value="Sugar_Tank" />
+          <Property ID="Type" Value="Unit_Tank" />
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Name" Value="Coffee_Grinder" />
+          <Property ID="Type" Value="Unit_Grinder" />
+          <Property ID="Grouping" Value="0" />
+        </Group>
+        <Group ID="[7]">
+          <Property ID="Name" Value="End" />
+          <Property ID="Type" Value="Unit_End" />
+          <Property ID="Grouping" Value="0" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

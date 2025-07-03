@@ -1,0 +1,7 @@
+
+<Styles id="BuR_Theme_ABB_Light_LogoutButton" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!-- Styled -->
+	<Style id="default" xsi:type="widgets.brease.LogoutButton" fontName="Arial" fontSize="16px" textAlign="center" bold="true" borderStyle="solid" borderWidth="2px" cornerRadius="1000px" borderColor="rgba(0, 0, 0, 1)" disabledBorderColor="rgba(210, 210, 210, 1)" backColor="rgba(255, 255, 255, 1)" textColor="rgba(0, 0, 0, 1)" imageColor="rgba(0, 0, 0, 1)" disabledBackColor="rgba(240, 240, 240, 1)" disabledTextColor="rgba(110, 110, 110, 1)" disabledImageColor="rgba(110, 110, 110, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" mouseDownTextColor="rgba(255, 136, 0, 1)" mouseDownImageColor="rgba(255, 136, 0, 1)" mouseDownBorderColor="rgba(255, 136, 0, 1)" />
+
+</Styles>

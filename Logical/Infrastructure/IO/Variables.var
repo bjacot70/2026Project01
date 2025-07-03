@@ -1,0 +1,5 @@
+VAR
+	FileName : STRING[80] := ''; (*FileName of HWConfig file*)
+	MpIOImport_0 : MpIOImport;
+	ActiveConfiguration : STRING[80] := 'Configuration 1';
+END_VAR

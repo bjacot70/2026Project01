@@ -1,0 +1,17 @@
+
+.Icon-28 {
+    background-repeat: no-repeat;
+    background-size: 28px 28px;
+    background-position-x: 3px;
+    background-position-y: 4px;
+    width: 28px;
+    height: 28px;
+}
+
+.e-button.Button-Navigation {
+    width: 100%; /*The width differs for login and sidebar buttons*/
+    height: 48px;
+    background-color: var(--navigation-background-color) !important; /*important is needed else the color changes if dragging is tried*/
+    border: 0px;
+    box-shadow: none !important; /*else there are frames*/
+}
