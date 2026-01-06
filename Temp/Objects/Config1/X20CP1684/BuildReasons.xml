@@ -1,52 +1,1530 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
+  <Rule ID=".mappView_Clean_Media">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Data">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
+    <BuildReason>Target "brease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\transformations_copy._markerfile">
+    <BuildReason>Target "transformations_copy._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
+    <BuildReason>Target "serverdiagnostics._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\types\area._markerfile">
+    <BuildReason>Target "area._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\index.html">
+    <BuildReason>Target "index.html" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\favicon.ico">
+    <BuildReason>Target "favicon.ico" does not exist</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_visualization._markerfile">
     <BuildReason>Target "validate_visualization._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\iomap.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x20cp1684\cpu.sw" differs.
-</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\0_visulist.json">
+    <BuildReason>Target "0_visulist.json" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\content_sass._markerfile">
-    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\duplicatethemesfinder._markerfile">
+    <BuildReason>Target "duplicatethemesfinder._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\opcuacsmap\opcuacsmap.uar">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\x20cp1684\cpu.sw" differs.
-</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\duplicatestylessetsfinder._markerfile">
+    <BuildReason>Target "duplicatestylessetsfinder._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\type_sass._markerfile">
-    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\mappsafety.lic">
+    <BuildReason>Target "mappsafety.lic" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\dialog_sass._markerfile">
-    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\hd_ls1.vis">
+    <BuildReason>Target "hd_ls1.vis" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\mappsafety.vis">
-    <BuildReason>Prerequiste "c:\users\bjacot\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
+    <BuildReason>Target "mappsafety.vis" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\opcuacsmap\opcuacsmap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\includes\as_tempdecl\config1\globalcomponents\mpcomponents.var" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
+    <BuildReason>Target "duplicatestylesfinder._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\iat_media.job._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\iat_media.job" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\hd_ls1.json">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_visualization._markerfile" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\arconfig.br">
+    <BuildReason>ExternalCommand line differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\mappsafety.json">
-    <BuildReason>Prerequiste "c:\users\bjacot\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\hmi\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\safety\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\motion\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappio\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappalarmx\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mapprecipe\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\eventlog\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\robot\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\gnuinst\v11.3.0\6.0\i686-elf\include\bur\_bur_pvdef.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\udbdef.br">
+    <BuildReason>Prerequiste "$(AS_PATH)\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\tcdata\tcdata.imx">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpalarmx.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpalarmx\sg4\ia32\mpalarmx.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpbase.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpbase\sg4\ia32\mpbase.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpaxis.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpaxis\sg4\ia32\mpaxis.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mcbase.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mcbase\sg4\ia32\mcbase.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpsequence.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpsequence\sg4\ia32\mpsequence.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpaudit.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpaudit\sg4\ia32\mpaudit.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mprecipe.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mprecipe\sg4\ia32\mprecipe.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpuserx.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpuserx\sg4\ia32\mpuserx.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpreport.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpreport\sg4\ia32\mpreport.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpskyline.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpskyline\sg4\ia32\mpskyline.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpfile.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpfile\sg4\ia32\mpfile.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mppackml.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mppackml\sg4\ia32\mppackml.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpcodebox.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpcodebox\sg4\ia32\mpcodebox.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpcom.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpcom\sg4\ia32\mpcom.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpio.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpio\sg4\ia32\mpio.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mcaxis.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mcaxis\sg4\ia32\mcaxis.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mcacpax.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mcacpax\sg4\ia32\mcacpax.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mpserver.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mpserver\sg4\ia32\mpserver.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile">
+    <BuildReason>Target ".mappview_prerequisites._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\safety\safety.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\safety\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\hmi\hmi.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\hmi\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\motion\motion.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\motion\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappalarmx\mappalarmx.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappalarmx\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappio\mappio.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappio\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mapprecipe\mapprecipe.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mapprecipe\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\robot\robot.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\robot\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\eventlog\eventlog.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\eventlog\_bur_pvdef.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\type_sass._markerfile">
+    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\transformations\eventbinding\parametertypemappingmerged.xml">
+    <BuildReason>Target "parametertypemappingmerged.xml" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\common\alarmutils\alarmstateparser.js._markerfile">
+    <BuildReason>Target "alarmstateparser.js._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_navs._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_layouts._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\hmi.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\hmi\hmi.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\content_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\bindinglist_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validateeventbindings._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_themes._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_keywordsets._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_stylessets._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\hd_ls1.sessionvar">
+    <BuildReason>Target "hd_ls1.sessionvar" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\sfmp182_sessionvar.sessionvar">
+    <BuildReason>Target "sfmp182_sessionvar.sessionvar" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\k243ja3242dkakl3fj3dka423jfdk.sessionvar">
+    <BuildReason>Target "k243ja3242dkakl3fj3dka423jfdk.sessionvar" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\sfmp148_snippetlabel.snippet">
+    <BuildReason>Target "sfmp148_snippetlabel.snippet" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\server\sfmp148_snippetmessagebox.snippet">
+    <BuildReason>Target "sfmp148_snippetmessagebox.snippet" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\safety.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\safety\safety.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\motion.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\motion\motion.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappio.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappio\mappio.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\busyindicator\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\languageselector\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\contentcontrol\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\webviewer\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\tablewidget\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\alarmlist\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\tablecolumnwidget\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\alarmhistory\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\textpad\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappalarmx.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mappalarmx\mappalarmx.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\texteditorwidget\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\fileexplorer\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mapprecipe.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\mapprecipe\mapprecipe.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\textkeypad\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\eventlog.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\eventlog\eventlog.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\paper\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\table\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\tableitemimagelist\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\robot.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\robot\robot.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\assets\assets._markerfile">
+    <BuildReason>Target "assets._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_widgetsfinished._markerfile">
+    <BuildReason>Target ".mappview_widgetsfinished._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validatebindings._markerfile">
+    <BuildReason>Target "validatebindings._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\binding_trans._markerfile">
+    <BuildReason>Target "binding_trans._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\640369880.styles">
+    <BuildReason>Target "640369880.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-756802972.styles">
+    <BuildReason>Target "-756802972.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\eventbinding_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1521741702.styles">
+    <BuildReason>Target "1521741702.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2090387982.styles">
+    <BuildReason>Target "2090387982.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\837099940.styles">
+    <BuildReason>Target "837099940.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-799140402.styles">
+    <BuildReason>Target "-799140402.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\940050236.scss">
+    <BuildReason>Target "940050236.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\222707386.styles">
+    <BuildReason>Target "222707386.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1766863839.scss">
+    <BuildReason>Target "1766863839.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Target "duplicatebindingsfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1521741702.scss">
+    <BuildReason>Target "1521741702.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\640369880.scss">
+    <BuildReason>Target "640369880.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2090387982.scss">
+    <BuildReason>Target "2090387982.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-756802972.scss">
+    <BuildReason>Target "-756802972.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\837099940.scss">
+    <BuildReason>Target "837099940.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-799140402.scss">
+    <BuildReason>Target "-799140402.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\222707386.scss">
+    <BuildReason>Target "222707386.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1128088534.scss">
+    <BuildReason>Target "-1128088534.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-122711234.scss">
+    <BuildReason>Target "-122711234.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1074589770.styles">
+    <BuildReason>Target "-1074589770.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1201886219.styles">
+    <BuildReason>Target "1201886219.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1017992731.styles">
+    <BuildReason>Target "-1017992731.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1868837959.styles">
+    <BuildReason>Target "1868837959.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1869878925.styles">
+    <BuildReason>Target "-1869878925.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1856293274.styles">
+    <BuildReason>Target "-1856293274.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1401924631.styles">
+    <BuildReason>Target "1401924631.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1811096288.scss">
+    <BuildReason>Target "-1811096288.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1074589770.scss">
+    <BuildReason>Target "-1074589770.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-823327740.styles">
+    <BuildReason>Target "-823327740.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1201886219.scss">
+    <BuildReason>Target "1201886219.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\mappview\hd_ls1\dialogs\logindialog\logindialog_styles.scss">
+    <BuildReason>Target "logindialog_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\validate_pages._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogconnectdetails\sfmp19_dialogconnectdetails_styles.scss">
+    <BuildReason>Target "sfmp19_dialogconnectdetails_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransferbrowse\sfmp19_dialogtransferbrowse_styles.scss">
+    <BuildReason>Target "sfmp19_dialogtransferbrowse_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1017992731.scss">
+    <BuildReason>Target "-1017992731.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\tcdata\tcdata.s18d">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\tcdata\tcdata.imx" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1868837959.scss">
+    <BuildReason>Target "1868837959.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1869878925.scss">
+    <BuildReason>Target "-1869878925.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1856293274.scss">
+    <BuildReason>Target "-1856293274.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1401924631.scss">
+    <BuildReason>Target "1401924631.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-823327740.scss">
+    <BuildReason>Target "-823327740.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransfermsg\sfmp19_dialogtransfermsg_styles.scss">
+    <BuildReason>Target "sfmp19_dialogtransfermsg_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialoglogin\sfmp19_dialoglogin_styles.scss">
+    <BuildReason>Target "sfmp19_dialoglogin_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksn\sfmp19_dialogacksn_styles.scss">
+    <BuildReason>Target "sfmp19_dialogacksn_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeapp\sfmp19_dialogacksafeapp_styles.scss">
+    <BuildReason>Target "sfmp19_dialogacksafeapp_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusymsg\sfmp19_dialogbusymsg_styles.scss">
+    <BuildReason>Target "sfmp19_dialogbusymsg_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\hd_ls1.json">
+    <BuildReason>Target "hd_ls1.json" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusyconnect\sfmp19_dialogbusyconnect_styles.scss">
+    <BuildReason>Target "sfmp19_dialogbusyconnect_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusydisconnect\sfmp19_dialogbusydisconnect_styles.scss">
+    <BuildReason>Target "sfmp19_dialogbusydisconnect_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusybrowsefiles\sfmp19_dialogbusybrowsefiles_styles.scss">
+    <BuildReason>Target "sfmp19_dialogbusybrowsefiles_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusyinfo\sfmp19_dialogbusyinfo_styles.scss">
+    <BuildReason>Target "sfmp19_dialogbusyinfo_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogarsiminfo\sfmp19_dialogarsiminfo_styles.scss">
+    <BuildReason>Target "sfmp19_dialogarsiminfo_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogerrormsg\sfmp19_dialogerrormsg_styles.scss">
+    <BuildReason>Target "sfmp19_dialogerrormsg_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeop\sfmp19_dialogacksafeop_styles.scss">
+    <BuildReason>Target "sfmp19_dialogacksafeop_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogackoppara\sfmp19_dialogackoppara_styles.scss">
+    <BuildReason>Target "sfmp19_dialogackoppara_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogeditoppara\sfmp19_dialogeditoppara_styles.scss">
+    <BuildReason>Target "sfmp19_dialogeditoppara_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogprocess\sfmp19_dialogprocess_styles.scss">
+    <BuildReason>Target "sfmp19_dialogprocess_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogsdappludidinfo\sfmp19_dialogsdappludidinfo_styles.scss">
+    <BuildReason>Target "sfmp19_dialogsdappludidinfo_styles.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\content_sass._markerfile">
+    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\438019063.styles">
+    <BuildReason>Target "438019063.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1789793183.styles">
+    <BuildReason>Target "1789793183.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1063510781.styles">
+    <BuildReason>Target "1063510781.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-623109556.styles">
+    <BuildReason>Target "-623109556.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1139427544.styles">
+    <BuildReason>Target "1139427544.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1430858933.styles">
+    <BuildReason>Target "-1430858933.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\620319539.styles">
+    <BuildReason>Target "620319539.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1009819190.styles">
+    <BuildReason>Target "-1009819190.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\438019063.scss">
+    <BuildReason>Target "438019063.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1789793183.scss">
+    <BuildReason>Target "1789793183.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1361880463.styles">
+    <BuildReason>Target "1361880463.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2109190874.styles">
+    <BuildReason>Target "2109190874.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-42030956.styles">
+    <BuildReason>Target "-42030956.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\mappsafety.json">
+    <BuildReason>Target "mappsafety.json" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1063510781.scss">
+    <BuildReason>Target "1063510781.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\tcdata.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\tcdata\tcdata.s18d" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-623109556.scss">
+    <BuildReason>Target "-623109556.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1139427544.scss">
+    <BuildReason>Target "1139427544.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1430858933.scss">
+    <BuildReason>Target "-1430858933.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\620319539.scss">
+    <BuildReason>Target "620319539.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1009819190.scss">
+    <BuildReason>Target "-1009819190.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\dialog_sass._markerfile">
+    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-967200345.styles">
+    <BuildReason>Target "-967200345.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1361880463.scss">
+    <BuildReason>Target "1361880463.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2109190874.scss">
+    <BuildReason>Target "2109190874.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-42030956.scss">
+    <BuildReason>Target "-42030956.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1174876641.styles">
+    <BuildReason>Target "1174876641.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-855557429.styles">
+    <BuildReason>Target "-855557429.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1871872388.styles">
+    <BuildReason>Target "-1871872388.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-2025761552.scss">
+    <BuildReason>Target "-2025761552.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-967200345.scss">
+    <BuildReason>Target "-967200345.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\274660668.styles">
+    <BuildReason>Target "274660668.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\br.iat.concatfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-653721472.styles">
+    <BuildReason>Target "-653721472.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\115406441.styles">
+    <BuildReason>Target "115406441.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-614405977.styles">
+    <BuildReason>Target "-614405977.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1222127749.styles">
+    <BuildReason>Target "-1222127749.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-2083021227.styles">
+    <BuildReason>Target "-2083021227.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1174876641.scss">
+    <BuildReason>Target "1174876641.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-855557429.scss">
+    <BuildReason>Target "-855557429.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1871872388.scss">
+    <BuildReason>Target "-1871872388.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1392971742.styles">
+    <BuildReason>Target "-1392971742.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-886110589.scss">
+    <BuildReason>Target "-886110589.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1847281870.scss">
+    <BuildReason>Target "-1847281870.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-272728810.styles">
+    <BuildReason>Target "-272728810.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\274660668.scss">
+    <BuildReason>Target "274660668.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\115406441.scss">
+    <BuildReason>Target "115406441.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-653721472.scss">
+    <BuildReason>Target "-653721472.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-614405977.scss">
+    <BuildReason>Target "-614405977.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1222127749.scss">
+    <BuildReason>Target "-1222127749.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-2083021227.scss">
+    <BuildReason>Target "-2083021227.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1718862017.styles">
+    <BuildReason>Target "1718862017.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1741083478.styles">
+    <BuildReason>Target "-1741083478.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1392971742.scss">
+    <BuildReason>Target "-1392971742.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-35620688.styles">
+    <BuildReason>Target "-35620688.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-272728810.scss">
+    <BuildReason>Target "-272728810.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1471985771.styles">
+    <BuildReason>Target "1471985771.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1497944735.styles">
+    <BuildReason>Target "1497944735.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-77612794.styles">
+    <BuildReason>Target "-77612794.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1213362065.styles">
+    <BuildReason>Target "1213362065.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-174255275.styles">
+    <BuildReason>Target "-174255275.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1718862017.scss">
+    <BuildReason>Target "1718862017.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1741083478.scss">
+    <BuildReason>Target "-1741083478.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1432507977.scss">
+    <BuildReason>Target "1432507977.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-35620688.scss">
+    <BuildReason>Target "-35620688.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1052052955.styles">
+    <BuildReason>Target "-1052052955.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1455069071.styles">
+    <BuildReason>Target "-1455069071.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1525936082.styles">
+    <BuildReason>Target "-1525936082.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1210938195.styles">
+    <BuildReason>Target "-1210938195.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2133068339.styles">
+    <BuildReason>Target "2133068339.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1471985771.scss">
+    <BuildReason>Target "1471985771.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1497944735.scss">
+    <BuildReason>Target "1497944735.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1249728889.styles">
+    <BuildReason>Target "-1249728889.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-77612794.scss">
+    <BuildReason>Target "-77612794.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1552897310.styles">
+    <BuildReason>Target "1552897310.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1213362065.scss">
+    <BuildReason>Target "1213362065.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-174255275.scss">
+    <BuildReason>Target "-174255275.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1052052955.scss">
+    <BuildReason>Target "-1052052955.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1455069071.scss">
+    <BuildReason>Target "-1455069071.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1525936082.scss">
+    <BuildReason>Target "-1525936082.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1210938195.scss">
+    <BuildReason>Target "-1210938195.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2133068339.scss">
+    <BuildReason>Target "2133068339.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1249728889.scss">
+    <BuildReason>Target "-1249728889.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-942763583.scss">
+    <BuildReason>Target "-942763583.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-368314889.styles">
+    <BuildReason>Target "-368314889.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\983231272.styles">
+    <BuildReason>Target "983231272.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1035634828.styles">
+    <BuildReason>Target "-1035634828.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1552897310.scss">
+    <BuildReason>Target "1552897310.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\2087159702.scss">
+    <BuildReason>Target "2087159702.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1737644197.scss">
+    <BuildReason>Target "-1737644197.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1651196238.styles">
+    <BuildReason>Target "1651196238.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-990991933.styles">
+    <BuildReason>Target "-990991933.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1464841977.styles">
+    <BuildReason>Target "1464841977.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-368314889.scss">
+    <BuildReason>Target "-368314889.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\983231272.scss">
+    <BuildReason>Target "983231272.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1035634828.scss">
+    <BuildReason>Target "-1035634828.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1183928635.styles">
+    <BuildReason>Target "1183928635.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\742070800.styles">
+    <BuildReason>Target "742070800.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1264466308.styles">
+    <BuildReason>Target "-1264466308.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-385817589.styles">
+    <BuildReason>Target "-385817589.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-365806979.styles">
+    <BuildReason>Target "-365806979.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\664361218.styles">
+    <BuildReason>Target "664361218.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\112277032.scss">
+    <BuildReason>Target "112277032.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-917928771.styles">
+    <BuildReason>Target "-917928771.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1651196238.scss">
+    <BuildReason>Target "1651196238.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-990991933.scss">
+    <BuildReason>Target "-990991933.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1464841977.scss">
+    <BuildReason>Target "1464841977.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\3135137.styles">
+    <BuildReason>Target "3135137.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1404398648.styles">
+    <BuildReason>Target "1404398648.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1183928635.scss">
+    <BuildReason>Target "1183928635.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\742070800.scss">
+    <BuildReason>Target "742070800.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-1264466308.scss">
+    <BuildReason>Target "-1264466308.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-365806979.scss">
+    <BuildReason>Target "-365806979.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-385817589.scss">
+    <BuildReason>Target "-385817589.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\664361218.scss">
+    <BuildReason>Target "664361218.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1568228715.styles">
+    <BuildReason>Target "1568228715.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1815230618.styles">
+    <BuildReason>Target "1815230618.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\620549023.styles">
+    <BuildReason>Target "620549023.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-917928771.scss">
+    <BuildReason>Target "-917928771.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\3135137.scss">
+    <BuildReason>Target "3135137.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1404398648.scss">
+    <BuildReason>Target "1404398648.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-216431964.styles">
+    <BuildReason>Target "-216431964.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-995388862.styles">
+    <BuildReason>Target "-995388862.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1568228715.scss">
+    <BuildReason>Target "1568228715.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-636893877.styles">
+    <BuildReason>Target "-636893877.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1579618725.styles">
+    <BuildReason>Target "1579618725.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1815230618.scss">
+    <BuildReason>Target "1815230618.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\620549023.scss">
+    <BuildReason>Target "620549023.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1150005320.styles">
+    <BuildReason>Target "-1150005320.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1510910926.styles">
+    <BuildReason>Target "1510910926.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\395165664.styles">
+    <BuildReason>Target "395165664.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\453656538.styles">
+    <BuildReason>Target "453656538.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-17147588.styles">
+    <BuildReason>Target "-17147588.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\477065402.styles">
+    <BuildReason>Target "477065402.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1188019169.styles">
+    <BuildReason>Target "1188019169.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-216431964.scss">
+    <BuildReason>Target "-216431964.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-995388862.scss">
+    <BuildReason>Target "-995388862.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\-636893877.scss">
+    <BuildReason>Target "-636893877.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_dark\1383365566\1579618725.scss">
+    <BuildReason>Target "1579618725.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1150005320.scss">
+    <BuildReason>Target "-1150005320.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1510910926.scss">
+    <BuildReason>Target "1510910926.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-695844948.scss">
+    <BuildReason>Target "-695844948.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\395165664.scss">
+    <BuildReason>Target "395165664.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\636163618.styles">
+    <BuildReason>Target "636163618.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\453656538.scss">
+    <BuildReason>Target "453656538.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-17147588.scss">
+    <BuildReason>Target "-17147588.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\477065402.scss">
+    <BuildReason>Target "477065402.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1889462939.scss">
+    <BuildReason>Target "-1889462939.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1856532474.scss">
+    <BuildReason>Target "1856532474.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\95656470.scss">
+    <BuildReason>Target "95656470.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1188019169.scss">
+    <BuildReason>Target "1188019169.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\636163618.scss">
+    <BuildReason>Target "636163618.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\573633234.styles">
+    <BuildReason>Target "573633234.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1298355547.styles">
+    <BuildReason>Target "-1298355547.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1127373051.styles">
+    <BuildReason>Target "1127373051.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\bur_theme_abb_dark.sasssources._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\217207073.styles">
+    <BuildReason>Target "217207073.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2050012033.styles">
+    <BuildReason>Target "2050012033.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-446876210.styles">
+    <BuildReason>Target "-446876210.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\833440517.styles">
+    <BuildReason>Target "833440517.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\68287288.scss">
+    <BuildReason>Target "68287288.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2000302052.styles">
+    <BuildReason>Target "-2000302052.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-845691891.styles">
+    <BuildReason>Target "-845691891.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1184358145.styles">
+    <BuildReason>Target "1184358145.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1866930793.styles">
+    <BuildReason>Target "-1866930793.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-392909764.styles">
+    <BuildReason>Target "-392909764.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1464057884.styles">
+    <BuildReason>Target "1464057884.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\573633234.scss">
+    <BuildReason>Target "573633234.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1298355547.scss">
+    <BuildReason>Target "-1298355547.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1127373051.scss">
+    <BuildReason>Target "1127373051.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\217207073.scss">
+    <BuildReason>Target "217207073.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2050012033.scss">
+    <BuildReason>Target "2050012033.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-446876210.scss">
+    <BuildReason>Target "-446876210.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\833440517.scss">
+    <BuildReason>Target "833440517.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2000302052.scss">
+    <BuildReason>Target "-2000302052.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-402098483.styles">
+    <BuildReason>Target "-402098483.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-845691891.scss">
+    <BuildReason>Target "-845691891.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1184358145.scss">
+    <BuildReason>Target "1184358145.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1866930793.scss">
+    <BuildReason>Target "-1866930793.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-392909764.scss">
+    <BuildReason>Target "-392909764.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1464057884.scss">
+    <BuildReason>Target "1464057884.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2081754399.styles">
+    <BuildReason>Target "-2081754399.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-402098483.scss">
+    <BuildReason>Target "-402098483.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-768573578.styles">
+    <BuildReason>Target "-768573578.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1764133959.styles">
+    <BuildReason>Target "-1764133959.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1107730082.styles">
+    <BuildReason>Target "1107730082.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-418495944.styles">
+    <BuildReason>Target "-418495944.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\792620321.styles">
+    <BuildReason>Target "792620321.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1851392529.styles">
+    <BuildReason>Target "-1851392529.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1660124361.styles">
+    <BuildReason>Target "1660124361.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2081754399.scss">
+    <BuildReason>Target "-2081754399.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\350371660.styles">
+    <BuildReason>Target "350371660.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-560928696.scss">
+    <BuildReason>Target "-560928696.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\893925028.styles">
+    <BuildReason>Target "893925028.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2091496756.styles">
+    <BuildReason>Target "2091496756.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\726161339.styles">
+    <BuildReason>Target "726161339.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1643215591.styles">
+    <BuildReason>Target "-1643215591.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\700501017.styles">
+    <BuildReason>Target "700501017.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-768573578.scss">
+    <BuildReason>Target "-768573578.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1764133959.scss">
+    <BuildReason>Target "-1764133959.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-418495944.scss">
+    <BuildReason>Target "-418495944.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1107730082.scss">
+    <BuildReason>Target "1107730082.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1851392529.scss">
+    <BuildReason>Target "-1851392529.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1660124361.scss">
+    <BuildReason>Target "1660124361.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\792620321.scss">
+    <BuildReason>Target "792620321.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\350371660.scss">
+    <BuildReason>Target "350371660.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\893925028.scss">
+    <BuildReason>Target "893925028.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-953875613.styles">
+    <BuildReason>Target "-953875613.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2091496756.scss">
+    <BuildReason>Target "2091496756.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\726161339.scss">
+    <BuildReason>Target "726161339.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1643215591.scss">
+    <BuildReason>Target "-1643215591.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\700501017.scss">
+    <BuildReason>Target "700501017.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-959798086.styles">
+    <BuildReason>Target "-959798086.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\3774993.scss">
+    <BuildReason>Target "3774993.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1097060378.scss">
+    <BuildReason>Target "-1097060378.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-953875613.scss">
+    <BuildReason>Target "-953875613.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1970462317.styles">
+    <BuildReason>Target "-1970462317.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1501198370.styles">
+    <BuildReason>Target "-1501198370.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1169629565.styles">
+    <BuildReason>Target "-1169629565.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-802080910.styles">
+    <BuildReason>Target "-802080910.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1434878516.styles">
+    <BuildReason>Target "-1434878516.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-959798086.scss">
+    <BuildReason>Target "-959798086.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1913073029.styles">
+    <BuildReason>Target "1913073029.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1764138007.styles">
+    <BuildReason>Target "-1764138007.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-609852026.styles">
+    <BuildReason>Target "-609852026.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\111377499.styles">
+    <BuildReason>Target "111377499.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1429140127.styles">
+    <BuildReason>Target "1429140127.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\259104671.scss">
+    <BuildReason>Target "259104671.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1683352663.styles">
+    <BuildReason>Target "1683352663.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1970462317.scss">
+    <BuildReason>Target "-1970462317.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1501198370.scss">
+    <BuildReason>Target "-1501198370.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1562815643.styles">
+    <BuildReason>Target "1562815643.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1169629565.scss">
+    <BuildReason>Target "-1169629565.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-802080910.scss">
+    <BuildReason>Target "-802080910.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1434878516.scss">
+    <BuildReason>Target "-1434878516.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1913073029.scss">
+    <BuildReason>Target "1913073029.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1764138007.scss">
+    <BuildReason>Target "-1764138007.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\979642242.styles">
+    <BuildReason>Target "979642242.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-609852026.scss">
+    <BuildReason>Target "-609852026.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-710858577.styles">
+    <BuildReason>Target "-710858577.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\111377499.scss">
+    <BuildReason>Target "111377499.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1429140127.scss">
+    <BuildReason>Target "1429140127.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1683352663.scss">
+    <BuildReason>Target "1683352663.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-819688415.styles">
+    <BuildReason>Target "-819688415.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1562815643.scss">
+    <BuildReason>Target "1562815643.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1530080925.styles">
+    <BuildReason>Target "1530080925.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\979642242.scss">
+    <BuildReason>Target "979642242.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-710858577.scss">
+    <BuildReason>Target "-710858577.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1605477422.styles">
+    <BuildReason>Target "1605477422.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1875701209.scss">
+    <BuildReason>Target "-1875701209.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-785470711.styles">
+    <BuildReason>Target "-785470711.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1262144312.styles">
+    <BuildReason>Target "-1262144312.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1756458196.styles">
+    <BuildReason>Target "-1756458196.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\169684310.scss">
+    <BuildReason>Target "169684310.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1048809411.scss">
+    <BuildReason>Target "-1048809411.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-819688415.scss">
+    <BuildReason>Target "-819688415.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2046785382.styles">
+    <BuildReason>Target "2046785382.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1190186059.styles">
+    <BuildReason>Target "-1190186059.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\514541491.styles">
+    <BuildReason>Target "514541491.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1530080925.scss">
+    <BuildReason>Target "1530080925.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-554289099.styles">
+    <BuildReason>Target "-554289099.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1605477422.scss">
+    <BuildReason>Target "1605477422.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\386770696.styles">
+    <BuildReason>Target "386770696.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-785470711.scss">
+    <BuildReason>Target "-785470711.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1262144312.scss">
+    <BuildReason>Target "-1262144312.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1756458196.scss">
+    <BuildReason>Target "-1756458196.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1165295952.styles">
+    <BuildReason>Target "1165295952.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2046785382.scss">
+    <BuildReason>Target "2046785382.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1190186059.scss">
+    <BuildReason>Target "-1190186059.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1322112339.styles">
+    <BuildReason>Target "-1322112339.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\514541491.scss">
+    <BuildReason>Target "514541491.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2074765053.styles">
+    <BuildReason>Target "-2074765053.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-554289099.scss">
+    <BuildReason>Target "-554289099.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-665190918.styles">
+    <BuildReason>Target "-665190918.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1396958124.scss">
+    <BuildReason>Target "-1396958124.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2048511679.styles">
+    <BuildReason>Target "2048511679.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\386770696.scss">
+    <BuildReason>Target "386770696.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1165295952.scss">
+    <BuildReason>Target "1165295952.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1595605707.styles">
+    <BuildReason>Target "1595605707.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\141236260.styles">
+    <BuildReason>Target "141236260.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-1322112339.scss">
+    <BuildReason>Target "-1322112339.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1603111469.styles">
+    <BuildReason>Target "1603111469.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-2074765053.scss">
+    <BuildReason>Target "-2074765053.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-169633174.styles">
+    <BuildReason>Target "-169633174.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\436698205.styles">
+    <BuildReason>Target "436698205.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-665190918.scss">
+    <BuildReason>Target "-665190918.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\2048511679.scss">
+    <BuildReason>Target "2048511679.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-691862532.styles">
+    <BuildReason>Target "-691862532.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-976592522.styles">
+    <BuildReason>Target "-976592522.styles" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-1360764237.scss">
+    <BuildReason>Target "-1360764237.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1595605707.scss">
+    <BuildReason>Target "1595605707.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-324591887.scss">
+    <BuildReason>Target "-324591887.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\1573131073.scss">
+    <BuildReason>Target "1573131073.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\141236260.scss">
+    <BuildReason>Target "141236260.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\1603111469.scss">
+    <BuildReason>Target "1603111469.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\1004761169.scss">
+    <BuildReason>Target "1004761169.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-169633174.scss">
+    <BuildReason>Target "-169633174.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\436698205.scss">
+    <BuildReason>Target "436698205.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-1805217693.scss">
+    <BuildReason>Target "-1805217693.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-691862532.scss">
+    <BuildReason>Target "-691862532.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\bur_theme_abb_light\-383952694\-976592522.scss">
+    <BuildReason>Target "-976592522.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\1271440911.scss">
+    <BuildReason>Target "1271440911.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\225416788.scss">
+    <BuildReason>Target "225416788.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-1171148918.scss">
+    <BuildReason>Target "-1171148918.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\950664115.scss">
+    <BuildReason>Target "950664115.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-2033708095.scss">
+    <BuildReason>Target "-2033708095.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
+    <BuildReason>Target "grunt.breaserelease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\sysconf.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\asfw.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\bur_theme_abb_light.sasssources._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\sfmp14_burthemeflat1.sasssources._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\ashwd.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
+    <BuildReason>Target "grunt.themescsso._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
+    <BuildReason>Target "grunt.breasecsso._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID=".mappView_Build">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
-  <Rule ID=".mappView_IntegrationBuild">
+  <Rule ID=".mappView_FullBuild">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp1684\transfer.lst">
-    <BuildReason>Prerequisite "$(AS_PROJECT_PATH)\temp\objects\config1\x20cp1684\testprogc.br" removed.
+    <BuildReason>ExternalCommand line differs.
 </BuildReason>
   </Rule>
 </BuildReasons>

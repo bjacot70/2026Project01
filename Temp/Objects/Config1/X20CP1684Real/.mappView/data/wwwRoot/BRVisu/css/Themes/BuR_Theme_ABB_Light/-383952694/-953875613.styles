@@ -1,9 +1,0 @@
-
-<Styles id="BuR_Theme_ABB_Light_MotionKeyPad" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
-	<!-- Unstyled -->
-	<Style id="default" xsi:type="widgets.brease.MotionKeyPad" fontName="Arial" backColor="rgba(255, 255, 255, 1)" mouseDownTextColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 136, 0, 1)" textColor="rgba(0, 0, 0, 1)" />
-	
-	<!-- Cannot style yet due to Enter/delete icon being an SVG with predefined filled color -->
-	
-</Styles>

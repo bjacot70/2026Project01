@@ -85,7 +85,6 @@
       <Parameter ID="CycleTime" Value="800" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="mappView_Config1" />
-    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="TimerDeviceType" Value="EPLX2X" />
     <Parameter ID="TimerDevice" Value="X20CP1684.IF3" />
     <Parameter ID="IdleTaskClass" Value="8" />

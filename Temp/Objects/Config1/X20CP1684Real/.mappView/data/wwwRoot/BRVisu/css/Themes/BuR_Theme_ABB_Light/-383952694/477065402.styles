@@ -1,7 +1,0 @@
-
-<Styles id="BuR_Theme_ABB_Light_BasicSlider" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
-	<!-- Styled -->
-	<Style id="default" xsi:type="widgets.brease.BasicSlider" backColor="transparent" borderStyle="none" thumbColor="rgba(255, 136, 0, 1)" trackColor="rgba(169, 169, 169, 1)" fillColor="transparent" disabledThumbColor="rgba(255, 196, 128, 1)" disabledTrackColor="rgba(210, 210, 210, 1)" valueDisplayBackColor="rgba(169, 169, 169, 1)" disabledFillColor="transparent" />
-
-</Styles>

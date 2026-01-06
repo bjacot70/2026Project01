@@ -54,6 +54,79 @@
     <Parameter ID="EPL_Chained" Value="off" />
     <Parameter ID="EnableDNA" Value="off" />
   </Module>
+  <Module ID="IF3.ST2" Hardware="8D1A22.AI2000000-1">
+    <Parameter ID="HardwareModuleName" Value="8D1A22.AI2000000-1" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EnableDNA" Value="off" />
+    <Parameter ID="PDMConfig" Value="SingleAxis" />
+    <Channel ID="CyclicParameterRequest_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012020" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="12" Type="UDINT" />
+    </Channel>
+    <Channel ID="CyclicDataToDrive_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00022020" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="20" Type="UDINT" />
+    </Channel>
+    <Channel ID="CyclicParameterResponse_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="12" Type="UDINT" />
+    </Channel>
+    <Channel ID="CyclicStatusBitsResponse_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00022030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="4" Type="UDINT" />
+    </Channel>
+    <Channel ID="CyclicMonitorData_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00032030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="16" Type="UDINT" />
+    </Channel>
+    <Channel ID="CycUserFromDrive_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00042030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="20" Type="UDINT" />
+    </Channel>
+    <Channel ID="MA1CYCSEND_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00052030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="8" Type="UDINT" />
+    </Channel>
+    <Channel ID="MA2CYCSEND_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00062030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="8" Type="UDINT" />
+    </Channel>
+    <Channel ID="MA3CYCSEND_AX_1">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00072030" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Value="8" Type="UDINT" />
+    </Channel>
+  </Module>
   <Module ID="IF6.X2X" Hardware="X2X">
     <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
     <Parameter ID="Synchron" Value="off" />
@@ -254,4 +327,4 @@
     <Parameter ID="StatusInfo" Value="on" />
     <Parameter ID="DigitalOutputsPacked" Value="off" />
   </Module>
-</IOCFG>  
+</IOCFG>

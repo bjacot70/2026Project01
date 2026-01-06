@@ -4,3 +4,4 @@
 06-01-2026 09:31:14 - WorkingDirectory: C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Simulation\Config1\X20CP1684\
 06-01-2026 09:31:14 - COMMAND_COLDSTART
 06-01-2026 09:31:17 - Version: 6.0.2
+06-01-2026 09:58:02 - COMMAND_TERMINATE

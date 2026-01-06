@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="6.3.1.32"?>
+<?AutomationStudio Version="6.5.0.306"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
     Name="Cyclic#1" />
@@ -15,11 +15,11 @@
       Source="HMI"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\HMI\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\HMI\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\HMI\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\HMI\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\HMI\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\HMI\Variables.var" />
     </Task>
     <Task
       Name="Safety"
@@ -27,11 +27,11 @@
       Source="Safety"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\Safety\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\Safety\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Safety\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\Safety\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Safety\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\Safety\Variables.var" />
     </Task>
     <Task
       Name="motion"
@@ -39,11 +39,11 @@
       Source="motion"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\motion\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\motion\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\motion\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\motion\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\motion\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\motion\Variables.var" />
     </Task>
     <Task
       Name="mappIO"
@@ -51,11 +51,11 @@
       Source="mappIO"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappIO\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\mappIO\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappIO\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappIO\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappIO\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappIO\Variables.var" />
     </Task>
     <Task
       Name="mappAlarmX"
@@ -63,11 +63,11 @@
       Source="mappAlarmX"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappAlarmX\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\mappAlarmX\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappAlarmX\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappAlarmX\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappAlarmX\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappAlarmX\Variables.var" />
     </Task>
     <Task
       Name="mappRecipe"
@@ -75,11 +75,11 @@
       Source="mappRecipe"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\mappRecipe\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\mappRecipe\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappRecipe\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappRecipe\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\mappRecipe\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\mappRecipe\Variables.var" />
     </Task>
     <Task
       Name="EventLog"
@@ -87,13 +87,13 @@
       Source="EventLog"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\EventLog\EventLog.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\EventLog\EventLog.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\EventLog\EventLog.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\EventLog\EventLog.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\EventLog\EventLog.fun" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\EventLog\EventLog.fun" />
     </Task>
     <Task
       Name="Robot"
@@ -101,11 +101,11 @@
       Source="Robot"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Temp\Objects\Config1\X20CP1684\Robot\Main.st.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Temp\Objects\Config1\X20CP1684\Robot\Main.st.var" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Robot\Types.typ" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\Robot\Types.typ" />
       <File
-        Path="C:\Projects\BR\AS\6\Desk\baseProject\Logical\Robot\Variables.var" />
+        Path="C:\Projects\BR\AS\6\Desk\AS6BaseProjectwGitHub\Logical\Robot\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

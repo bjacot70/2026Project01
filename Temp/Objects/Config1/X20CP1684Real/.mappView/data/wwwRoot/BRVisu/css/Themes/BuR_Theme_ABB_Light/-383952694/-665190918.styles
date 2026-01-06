@@ -1,7 +1,0 @@
-
-<Styles id="BuR_Theme_ABB_Light_TextPicker" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
-	<!-- Styled -->
-	<Style id="default" xsi:type="widgets.brease.TextPicker" fontName="Arial" fontSize="14px" bold="false" cornerRadius="5px" borderWidth="2px" borderStyle="solid" markerHeight="2px" backColor="rgba(240, 240, 240, 1)" borderColor="rgba(240, 240, 240, 1)" markerColor="rgba(255, 136, 0, 1)" itemTextColor="rgba(110, 110, 110, 1)" itemActiveTextColor="rgba(0, 0, 0, 1)" itemCornerRadius="0px" itemBorderStyle="none" itemBorderColor="rgba(210, 210, 210, 1)" itemBorderWidth="2px" itemBackColor="rgba(240, 240, 240, 1)" itemActiveBackColor="rgba(255, 255, 255, 1)" disabledBackColor="rgba(240, 240, 240, 1)" disabledBorderColor="rgba(210, 210, 210, 1)" disabledMarkerColor="rgba(255, 196, 128, 1)" disabledItemTextColor="rgba(110, 110, 110, 1)" disabledItemActiveTextColor="rgba(110, 110, 110, 1)" disabledItemBorderColor="rgba(210, 210, 210, 1)" disabledItemBackColor="rgba(169, 169, 169, 1)" disabledItemActiveBackColor="rgba(240, 240, 240, 1)" />
-	
-</Styles>
